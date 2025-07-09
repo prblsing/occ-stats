@@ -1,0 +1,35 @@
+/* css/players.css */
+
+/* — PLAYERS GRID — */
+#players-grid.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+/* — EACH PLAYER CARD — */
+#players-grid .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* — AVATAR — */
+.player-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+}
+
+/* — FILTER BAR — */
+.filter-bar {
+  justify-content: center;   /* center the search + sort controls */
+  margin: 1.5rem 0;           /* vertical breathing room */
+}
+
+/* (relies on globals.css for .filter-bar input/select styling) */

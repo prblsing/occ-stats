@@ -1,0 +1,8022 @@
+[
+  {
+    "uuid": "ae30464b-2a05-489d-a4aa-07e998f4eac4",
+    "name": "Vinesh Raj",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 17,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vinesh_raj.png",
+    "bio": null
+  },
+  {
+    "uuid": "69f764e2-1007-4893-8fb1-f3156f6a8eb5",
+    "name": "Sumit Dureja",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 33,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sumit_dureja.png",
+    "bio": null
+  },
+  {
+    "uuid": "566c9d63-6935-48a1-b119-982b2149a5fc",
+    "name": "Prakash Singh Unyani",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 16,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/prakash_singh_unyani.png",
+    "bio": null
+  },
+  {
+    "uuid": "fb9ef572-0052-4ca3-9ada-9e754db1f329",
+    "name": "Yogesh Saini",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 35,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/yogesh_saini.png",
+    "bio": null
+  },
+  {
+    "uuid": "49eaef47-baf1-4792-a34d-a558106c990d",
+    "name": "Roopesh Sharma",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 10,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/roopesh_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "87918308-e3c4-472f-af3b-4d0d8408ab30",
+    "name": "Chandra Shekhar",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 13,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/chandra_shekhar.png",
+    "bio": null
+  },
+  {
+    "uuid": "0a29459e-d53a-4e6d-a458-3b618be7d3a1",
+    "name": "Manish Badhoutiya",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 2,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/manish_badhoutiya.png",
+    "bio": null
+  },
+  {
+    "uuid": "c5ce3797-a7c8-4ee8-aa9c-40d373d9bc22",
+    "name": "Kumar Shanu Uhg Uw",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 11,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/kumar_shanu_uhg_uw.png",
+    "bio": null
+  },
+  {
+    "uuid": "2eae23cc-1f9a-4636-9c00-fe943a82e213",
+    "name": "Sharadvicky",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sharadvicky.png",
+    "bio": null
+  },
+  {
+    "uuid": "83fd0935-50b3-4c94-b2c7-ba15caa5a157",
+    "name": "Jitu",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 46,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 31,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 2
+    },
+    "image": "images/jitu.png",
+    "bio": null
+  },
+  {
+    "uuid": "9017ef5e-54ae-4015-99eb-e4023a38808f",
+    "name": "Vikas Singh",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 36,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vikas_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "ca814402-5af1-4741-804f-5ca411426ad9",
+    "name": "Satyadev Sain",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 21,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 11,
+      "overs": 3.3
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 2,
+      "mvp1": 1,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/satyadev_sain.png",
+    "bio": null
+  },
+  {
+    "uuid": "2f7ab05b-e6c4-4829-a7b9-9f816c32d36c",
+    "name": "Sanjay D Nodiyal",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sanjay_d_nodiyal.png",
+    "bio": null
+  },
+  {
+    "uuid": "99417925-3b84-4549-97d6-7f46e875eb02",
+    "name": "Subhanshu Verma",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 16,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/subhanshu_verma.png",
+    "bio": null
+  },
+  {
+    "uuid": "9e6e6758-3678-4ed8-8735-5ca81a2f94ae",
+    "name": "Imran Khan",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/imran_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "b11aec1e-7172-4758-b66f-842fb0728ef2",
+    "name": "Shahnoor Alam",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 8,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shahnoor_alam.png",
+    "bio": null
+  },
+  {
+    "uuid": "6c997bb7-1463-4658-b735-df8d09ffced6",
+    "name": "Shiv Agrawal",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 11,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shiv_agrawal.png",
+    "bio": null
+  },
+  {
+    "uuid": "2fbbb7cf-5049-4849-86a0-58073a074d7d",
+    "name": "Sachin Bagwari",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 17,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sachin_bagwari.png",
+    "bio": null
+  },
+  {
+    "uuid": "12709d17-70e5-4b01-b781-b7fcdc0aeaa6",
+    "name": "Yogesh",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/yogesh.png",
+    "bio": null
+  },
+  {
+    "uuid": "0fc73a26-f6d9-4a3b-aecf-a73a439d3637",
+    "name": "Pranshu",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 33,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pranshu.png",
+    "bio": null
+  },
+  {
+    "uuid": "94c9fa50-3d80-4b19-a6b9-d45f9bc221ec",
+    "name": "Anant",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 29,
+    "best_bowling_figures": {
+      "wickets": 5,
+      "runs": 22,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/anant.png",
+    "bio": null
+  },
+  {
+    "uuid": "e4f51a3f-9a75-4e13-ab8d-0b586eebc512",
+    "name": "Arjun Chauhan",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 16,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/arjun_chauhan.png",
+    "bio": null
+  },
+  {
+    "uuid": "e864aa59-7243-49f2-a61e-d8472678df6a",
+    "name": "Mohammad Amjad",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohammad_amjad.png",
+    "bio": null
+  },
+  {
+    "uuid": "2ead9512-c9ef-4a62-97de-cdb73d783ca3",
+    "name": "Rakesh Sati",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 32,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 22,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rakesh_sati.png",
+    "bio": null
+  },
+  {
+    "uuid": "ef86ddfa-a3ab-4b3b-93b6-30aa0c269986",
+    "name": "Nishant Yadav",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 2,
+      "overs": 0.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nishant_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "3c608f40-14c7-4a73-a7a6-256d576ba3c3",
+    "name": "Amey Panke",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 16,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amey_panke.png",
+    "bio": null
+  },
+  {
+    "uuid": "10851828-62f8-4090-82d2-b99b80eb47d5",
+    "name": "Nitin Jauhari",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 11,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nitin_jauhari.png",
+    "bio": null
+  },
+  {
+    "uuid": "1f234b43-4039-42a4-a4be-4184a967deeb",
+    "name": "Oga Cricket Rx Brijesh Prabhat",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/oga_cricket_rx_brijesh_prabhat.png",
+    "bio": null
+  },
+  {
+    "uuid": "15023c75-e7ea-48a1-9018-ef735e6a7e33",
+    "name": "Raj Kumar",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 36,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 10,
+      "overs": 2.4
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/raj_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "50ecab76-a8dd-44e9-a16e-c356d7b5d6bb",
+    "name": "Ankit Bhatnagar",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankit_bhatnagar.png",
+    "bio": null
+  },
+  {
+    "uuid": "5a70a8a9-bbe4-47ad-920c-6725f4eecd89",
+    "name": "Autir Wani",
+    "teams": [
+      "Elite Lions",
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 28,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 17,
+      "overs": 3.1
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 2,
+      "mvp3": 0
+    },
+    "image": "images/autir_wani.png",
+    "bio": null
+  },
+  {
+    "uuid": "d870188b-f115-423d-81ca-43c02ebd041a",
+    "name": "Aman Sharma",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 88,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 14,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 2,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 2,
+      "mvp3": 0
+    },
+    "image": "images/aman_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "37884fcc-df6c-4cd1-a833-3b9ec0b021d3",
+    "name": "Manish Rawat",
+    "teams": [
+      "Super Smashers",
+      "Turbo Chargers"
+    ],
+    "best_score": 42,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 21,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manish_rawat.png",
+    "bio": null
+  },
+  {
+    "uuid": "f18d86a9-72d7-4063-a94d-b91dffd95610",
+    "name": "Rahul Sharma",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 27,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "0080b2f0-2a84-4e95-af1f-3c0d91539c24",
+    "name": "Kumar Gaurav Kapoor",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 74,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/kumar_gaurav_kapoor.png",
+    "bio": null
+  },
+  {
+    "uuid": "b81fdf2a-2a5e-4605-9d52-496839193b25",
+    "name": "Rajiv Jain",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rajiv_jain.png",
+    "bio": null
+  },
+  {
+    "uuid": "671f0a0c-fc13-44f4-842c-47bcdf7740f8",
+    "name": "Anmol",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 41,
+    "best_bowling_figures": {
+      "wickets": 6,
+      "runs": 12,
+      "overs": 3.3
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/anmol.png",
+    "bio": null
+  },
+  {
+    "uuid": "8a72a909-459a-4152-9dfd-9f04f3b7be48",
+    "name": "Deepak Negi",
+    "teams": [
+      "Rampage Rhinos",
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 70,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 7,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/deepak_negi.png",
+    "bio": null
+  },
+  {
+    "uuid": "018eb0c2-2a72-4006-bd52-25e8b2fd5145",
+    "name": "Ankit Rana",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 32,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/ankit_rana.png",
+    "bio": null
+  },
+  {
+    "uuid": "d598ed87-2eec-404d-87b5-31d50849cc74",
+    "name": "Sumit Kumar",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sumit_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "fcbfab94-8876-4ba5-9cee-cfd37d6ec0d9",
+    "name": "Ashish Pandey",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 23,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ashish_pandey.png",
+    "bio": null
+  },
+  {
+    "uuid": "8ad1fdef-a013-468e-a8a0-0a4207f36f15",
+    "name": "Saurav Kumar Sharma",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 25,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 32,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/saurav_kumar_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "76e7c318-cebe-4d28-b7e2-6c6764541ced",
+    "name": "Kritik",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 95,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 9,
+      "overs": 0.3
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 2,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/kritik.png",
+    "bio": null
+  },
+  {
+    "uuid": "c7fbc753-189e-48b0-8c67-42947aa8ff38",
+    "name": "Vikas Dixit",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vikas_dixit.png",
+    "bio": null
+  },
+  {
+    "uuid": "d75157ab-310c-4fd0-94e6-ece72cc202e8",
+    "name": "Parvinder Kumar Optum",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/parvinder_kumar_optum.png",
+    "bio": null
+  },
+  {
+    "uuid": "85205699-f246-43e7-addc-1f29dbcdd832",
+    "name": "Rajiv Gupta",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 7,
+      "overs": 0.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rajiv_gupta.png",
+    "bio": null
+  },
+  {
+    "uuid": "463743f7-5e9f-4af8-9f2d-8a2486c7413d",
+    "name": "Luckysingh Bhandari",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/luckysingh_bhandari.png",
+    "bio": null
+  },
+  {
+    "uuid": "f99a4a34-a732-4dd9-b1d0-2fae220f9666",
+    "name": "Prasant Tyagi",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 30,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/prasant_tyagi.png",
+    "bio": null
+  },
+  {
+    "uuid": "9cbeac4b-1d57-4006-ba86-51714fbc335a",
+    "name": "Ashu Pandit",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 30,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ashu_pandit.png",
+    "bio": null
+  },
+  {
+    "uuid": "a282b16c-2a53-4fa2-bb18-5b2641d726a9",
+    "name": "Priyank Sharma",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 60,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 15,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 2,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/priyank_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "0f8c3d37-4cf7-49f5-a195-834cdb4fd508",
+    "name": "Puneet Sharma",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 29,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/puneet_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "f406a621-79d4-4d8d-be9c-c677fa4a4e57",
+    "name": "Farrukh Nadeem",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 38,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 17,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 2,
+      "mvp3": 2
+    },
+    "image": "images/farrukh_nadeem.png",
+    "bio": null
+  },
+  {
+    "uuid": "1f65f654-30b5-4287-a3d0-6db6b0d98e13",
+    "name": "Shamsuddin Shams",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 29,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 12,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 2,
+      "mvp3": 1
+    },
+    "image": "images/shamsuddin_shams.png",
+    "bio": null
+  },
+  {
+    "uuid": "a62d8b58-49e4-4753-9274-62daae52831e",
+    "name": "Pradeep Prajapati",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 10,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 20,
+      "overs": 2.4
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pradeep_prajapati.png",
+    "bio": null
+  },
+  {
+    "uuid": "64262344-6887-4021-9a8c-26db4b4d1ccc",
+    "name": "Manish Pokhriyal",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 106,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/manish_pokhriyal.png",
+    "bio": null
+  },
+  {
+    "uuid": "06cc8664-2503-488f-94dc-afcf5f3efe4d",
+    "name": "Vimalssoptum",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vimalssoptum.png",
+    "bio": null
+  },
+  {
+    "uuid": "2dc94bb6-8766-4f24-b9c1-44303eb106fc",
+    "name": "Mohammad Ahmad",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 2,
+      "overs": 0.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohammad_ahmad.png",
+    "bio": null
+  },
+  {
+    "uuid": "eed1343d-88bb-4d4d-ae20-c86c55ce3451",
+    "name": "Ashish Anand",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 27,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ashish_anand.png",
+    "bio": null
+  },
+  {
+    "uuid": "121b0017-6b78-4787-88a9-13aa8ae9b1c3",
+    "name": "Mohd Faizan",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohd_faizan.png",
+    "bio": null
+  },
+  {
+    "uuid": "881ec4ec-21df-4da0-8c6a-3966ec8cb116",
+    "name": "Bhupendra Patel",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/bhupendra_patel.png",
+    "bio": null
+  },
+  {
+    "uuid": "03fcfe92-d4ad-4253-a050-04e24e3708d0",
+    "name": "Irtiqa Kausar",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/irtiqa_kausar.png",
+    "bio": null
+  },
+  {
+    "uuid": "c1e02a82-88e9-4252-89b7-4155d5f3eead",
+    "name": "Ashutosh Lnu",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 28,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ashutosh_lnu.png",
+    "bio": null
+  },
+  {
+    "uuid": "110c20b4-a910-4e10-8e4b-c2e8641cc9b8",
+    "name": "Amit Yadav",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amit_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "834428ea-8f25-4ff2-92b2-54fdddfbad12",
+    "name": "Mandeep Bajaj",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 21,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 28,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mandeep_bajaj.png",
+    "bio": null
+  },
+  {
+    "uuid": "0685aedd-0565-418b-aa79-d10e3aa381da",
+    "name": "Abhishek Bhardwaj Uhgpis",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 0,
+      "overs": 0.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/abhishek_bhardwaj_uhgpis.png",
+    "bio": null
+  },
+  {
+    "uuid": "2fe26168-59ba-439b-8fa6-b13871bd5ba7",
+    "name": "Mohammad Imran",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 38,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohammad_imran.png",
+    "bio": null
+  },
+  {
+    "uuid": "c5e0d96b-69f0-4363-8103-b2d9d5a15128",
+    "name": "Dinesh Ferocious Fighters Optum Cricket",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dinesh_ferocious_fighters_optum_cricket.png",
+    "bio": null
+  },
+  {
+    "uuid": "785e95aa-2de1-4766-aff7-38916f33d9b2",
+    "name": "Shivam",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shivam.png",
+    "bio": null
+  },
+  {
+    "uuid": "16271c62-67b6-4fa8-9a6d-68ab87ccfd3a",
+    "name": "Rahulpaul",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 36,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahulpaul.png",
+    "bio": null
+  },
+  {
+    "uuid": "0aae1489-b9c9-458a-a302-94a6ef1b8e55",
+    "name": "Dheeraj Mishra",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 102,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 13,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dheeraj_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "809827fc-9e02-4a9c-8c2d-fc7050cd722f",
+    "name": "Arjun Singh Tanwar",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/arjun_singh_tanwar.png",
+    "bio": null
+  },
+  {
+    "uuid": "d688d92e-6cbc-4892-9c86-6ebf195197bb",
+    "name": "Mohit",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohit.png",
+    "bio": null
+  },
+  {
+    "uuid": "333b36bf-f65a-4e71-90ec-1b63a819cc34",
+    "name": "Rishabh",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 17,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rishabh.png",
+    "bio": null
+  },
+  {
+    "uuid": "32e3b9b3-3901-448f-b9f0-0e3165f79c0c",
+    "name": "Harish (munna)",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 55,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 25,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 2,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/harish_munna.png",
+    "bio": null
+  },
+  {
+    "uuid": "14df7cde-0ba1-4475-929b-5e43acb6031f",
+    "name": "Satendra Singh",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/satendra_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "aae1b511-6b5a-4c5f-9f8d-7c19272bc22e",
+    "name": "Tarun Gulati",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 34,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/tarun_gulati.png",
+    "bio": null
+  },
+  {
+    "uuid": "0c5a8b00-1da9-4180-b247-a81ec0f9ec90",
+    "name": "Lucky",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 18,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/lucky.png",
+    "bio": null
+  },
+  {
+    "uuid": "22ac7514-7176-4e2e-86ad-04ec4240e1a7",
+    "name": "Parvez Musharraf",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 11,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/parvez_musharraf.png",
+    "bio": null
+  },
+  {
+    "uuid": "c1e80618-caa9-44a2-954d-ef47f22668b5",
+    "name": "Sandeep Kumar Singh",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sandeep_kumar_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "74c67c0e-e646-4dde-a34c-c281c3edf387",
+    "name": "Ankur Pandey",
+    "teams": [
+      "Elite Lions",
+      "Furious Flames"
+    ],
+    "best_score": 121,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 13,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 3,
+      "best_batsman": 3,
+      "best_bowler": 0,
+      "mvp1": 3,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/ankur_pandey.png",
+    "bio": null
+  },
+  {
+    "uuid": "e3b01d37-98f2-4e95-a9dd-166e82ca0a12",
+    "name": "Junaid Ahmad Khan",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 21,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 46,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/junaid_ahmad_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "b69b0095-154e-4b06-bb70-d5d5c5cbdbac",
+    "name": "Vishal",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vishal.png",
+    "bio": null
+  },
+  {
+    "uuid": "942d8357-8a03-4ad3-bf33-eb18bddd2d63",
+    "name": "Vinay Kumar",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 19,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vinay_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "3fdf6ab0-2b88-4f3e-b751-c4e223ddf17a",
+    "name": "Harish Thakur",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 14,
+      "overs": 1.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/harish_thakur.png",
+    "bio": null
+  },
+  {
+    "uuid": "be61345b-6264-4ba0-9f25-c275b6576fa4",
+    "name": "Brij",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 18,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/brij.png",
+    "bio": null
+  },
+  {
+    "uuid": "2e92c6a7-d403-487b-a2d9-d108b0f31094",
+    "name": "Shane Aalam",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 40,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 26,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shane_aalam.png",
+    "bio": null
+  },
+  {
+    "uuid": "c100cd79-8fd0-4059-b31b-f6730b9f6fa6",
+    "name": "Vikas Asthana",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 20,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 24,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vikas_asthana.png",
+    "bio": null
+  },
+  {
+    "uuid": "820572c5-f3e8-40c6-b37e-11adcff87ac9",
+    "name": "Praveen Tiwari",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 11,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/praveen_tiwari.png",
+    "bio": null
+  },
+  {
+    "uuid": "da27e15c-171f-44e0-9e37-1f17d3cac432",
+    "name": "Ankur Choudhary",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 7,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankur_choudhary.png",
+    "bio": null
+  },
+  {
+    "uuid": "490b8820-91ab-4b07-ba9a-df36a4b2be76",
+    "name": "Rajesh Verma",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rajesh_verma.png",
+    "bio": null
+  },
+  {
+    "uuid": "44dc83cd-9968-47ce-b24d-3868c9dbd376",
+    "name": "P W",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 36,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 23,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/p_w.png",
+    "bio": null
+  },
+  {
+    "uuid": "8cca7f09-0c0e-4537-b5fc-52dae4819376",
+    "name": "Inder Rai",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/inder_rai.png",
+    "bio": null
+  },
+  {
+    "uuid": "3e2707a9-397c-4719-913e-9716d4206c2e",
+    "name": "Manish Jain",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 41,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manish_jain.png",
+    "bio": null
+  },
+  {
+    "uuid": "2fb42f90-b087-40b0-9121-259589d4581c",
+    "name": "Abhay Pratap",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 20,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/abhay_pratap.png",
+    "bio": null
+  },
+  {
+    "uuid": "df2f9c2f-9e7a-4aff-866d-c2dd151605b5",
+    "name": "Harsh Mishra",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 17,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/harsh_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "6938c96b-d5d4-4314-ba8a-cc72b7f715ad",
+    "name": "Oga Cricket Bala Krishna",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 24,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/oga_cricket_bala_krishna.png",
+    "bio": null
+  },
+  {
+    "uuid": "77ef7df5-56a7-4305-a349-a2aad136d536",
+    "name": "Sanjeev Meena",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 31,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 12,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sanjeev_meena.png",
+    "bio": null
+  },
+  {
+    "uuid": "e4f3b4bd-50a3-4669-acd6-6f0a2babdb4c",
+    "name": "Rinku Kashyap",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 27,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 22,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/rinku_kashyap.png",
+    "bio": null
+  },
+  {
+    "uuid": "b5a3faea-2de6-42da-a09b-c763dd0742ec",
+    "name": "Shahrukh Khan",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shahrukh_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "e278e443-e639-4ef7-9567-b94d04452376",
+    "name": "Dev",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 26,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 7,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dev.png",
+    "bio": null
+  },
+  {
+    "uuid": "8ab39976-d615-41d3-9684-07fff417d292",
+    "name": "Ajay Bhardwaj",
+    "teams": [
+      "Elite Lions",
+      "Furious Flames"
+    ],
+    "best_score": 11,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 26,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ajay_bhardwaj.png",
+    "bio": null
+  },
+  {
+    "uuid": "27fd9c11-d113-401f-ba43-a32fe2c2e8e2",
+    "name": "Vishal Gupta",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 14,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vishal_gupta.png",
+    "bio": null
+  },
+  {
+    "uuid": "7f50c218-202f-4e05-adaa-1258bc897376",
+    "name": "Chetan Sharma",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 11,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/chetan_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "db0e6da2-5b02-482f-bd49-6a41d370bad5",
+    "name": "Vineet Chauhan",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 19,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vineet_chauhan.png",
+    "bio": null
+  },
+  {
+    "uuid": "a34e4b5d-c169-44e9-95e9-361ba2ce8682",
+    "name": "Ravi Kant Yadav",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 10,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ravi_kant_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "7022b774-0377-49b3-b33b-744a28c46dfc",
+    "name": "Shyam Vir Singh",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shyam_vir_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "275d799e-5377-435b-b9f3-66c58cb6dda1",
+    "name": "Rahul Raj",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_raj.png",
+    "bio": null
+  },
+  {
+    "uuid": "0e357471-597d-41ac-971a-bd09a64e018e",
+    "name": "Brijesh Singh",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/brijesh_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "7040da2e-9bb7-4f33-90d5-2ba08853763d",
+    "name": "Brijesh Kumar",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 54,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 21,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/brijesh_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "834dffb7-79a8-41ff-ae6c-8c478d545546",
+    "name": "Manish Sharma",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manish_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "3b8bcbee-2abd-48ae-875d-0ce0e82778f6",
+    "name": "Sandeep Kumar Sharma",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sandeep_kumar_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "a4ad0374-3ba5-4ced-ac13-d22a4cda31b9",
+    "name": "Manish Singh",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manish_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "530fcb87-8b10-438f-9e79-1986b503f625",
+    "name": "Vimal Chauhan",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vimal_chauhan.png",
+    "bio": null
+  },
+  {
+    "uuid": "2ac8a08e-37a9-416f-813e-7d2c6a518065",
+    "name": "Nitin",
+    "teams": [
+      "Rampage Rhinos",
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 32,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nitin.png",
+    "bio": null
+  },
+  {
+    "uuid": "ceb5248e-1107-4c2e-9094-cd2576d7286b",
+    "name": "Amandeep Singh",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 5,
+      "overs": 1.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/amandeep_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "0b1a1438-9684-458d-910a-ab165a087cee",
+    "name": "Rajeev Sinha",
+    "teams": [
+      "Thundering Thunderbolts",
+      "Ultimate Warriors"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 25,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rajeev_sinha.png",
+    "bio": null
+  },
+  {
+    "uuid": "9217ad33-b467-40c0-bfae-37e58f27b6e8",
+    "name": "Hiran Basu",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 12,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/hiran_basu.png",
+    "bio": null
+  },
+  {
+    "uuid": "57bbdc4c-d58c-4e0c-a557-d7fcc9ea20c7",
+    "name": "Vikram Saxena",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 25,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vikram_saxena.png",
+    "bio": null
+  },
+  {
+    "uuid": "85f37736-f936-4305-bfa1-679ad5ac46a4",
+    "name": "Shubham Singh",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 31,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shubham_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "f35ae8a3-aeb7-498c-ae5d-fc43f8580350",
+    "name": "Zuned Ahmed",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/zuned_ahmed.png",
+    "bio": null
+  },
+  {
+    "uuid": "a8c8c3c6-caab-49a4-b5fa-5c6627bd1fa6",
+    "name": "Syed Khalid Ahmed",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 18,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/syed_khalid_ahmed.png",
+    "bio": null
+  },
+  {
+    "uuid": "983f7df0-4bd6-4a10-a202-fea6eb544161",
+    "name": "Jitendra Kumar",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/jitendra_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "724343f7-fc6a-41c5-ba0e-bb3d2cd168e0",
+    "name": "Lav Maheshwari",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/lav_maheshwari.png",
+    "bio": null
+  },
+  {
+    "uuid": "ce2f3fca-a773-418c-ac01-fb9d3540dd35",
+    "name": "Gaurav",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 12,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/gaurav.png",
+    "bio": null
+  },
+  {
+    "uuid": "d8e0188c-9837-4a05-b4fb-4b5dfb443bd9",
+    "name": "Debi Prasad Panigrahi",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 35,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 11,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/debi_prasad_panigrahi.png",
+    "bio": null
+  },
+  {
+    "uuid": "57c0e203-b415-4f83-8cde-0a70c791282f",
+    "name": "Sidd",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 25,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sidd.png",
+    "bio": null
+  },
+  {
+    "uuid": "e23b91ad-7abe-4221-b924-4c5c5a6d258a",
+    "name": "Mayank Michigan",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 11,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mayank_michigan.png",
+    "bio": null
+  },
+  {
+    "uuid": "2b9ad758-47e2-406f-980c-8e284ecb041d",
+    "name": "Bhupender Rawal",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 26,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/bhupender_rawal.png",
+    "bio": null
+  },
+  {
+    "uuid": "c0eac2e5-6367-471b-88e4-f6e7fba26354",
+    "name": "Mayank Gupta",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mayank_gupta.png",
+    "bio": null
+  },
+  {
+    "uuid": "5d92f707-2075-471a-b967-2d92629e1c8c",
+    "name": "Vijay Yadav",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 54,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 4,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/vijay_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "cb5b3d1d-0659-42f6-b5bb-c235be595c37",
+    "name": "Sanju",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 30,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 9,
+      "overs": 2.5
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 2,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/sanju.png",
+    "bio": null
+  },
+  {
+    "uuid": "a4ea7b58-df9d-4fea-9816-e9a267a3b7ae",
+    "name": "Vinod Kumar",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 37,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vinod_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "0ed917d4-8445-490d-a5c3-fcee9e3670c6",
+    "name": "Vikas Pal",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 14,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 30,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/vikas_pal.png",
+    "bio": null
+  },
+  {
+    "uuid": "34ef602a-b1ca-48e7-8bb2-bc3eb1b65e9e",
+    "name": "Vinay Saini",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 48,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 13,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vinay_saini.png",
+    "bio": null
+  },
+  {
+    "uuid": "9c51c5e4-fc06-4404-9d84-2d045e8fb047",
+    "name": "Naveen",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 22,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/naveen.png",
+    "bio": null
+  },
+  {
+    "uuid": "5913df92-06b4-4be1-b363-080b555dc997",
+    "name": "Akshay Chauhan",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akshay_chauhan.png",
+    "bio": null
+  },
+  {
+    "uuid": "e317e36d-e0d0-4301-8a44-a211e770d9b4",
+    "name": "Gaurav Kumar",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/gaurav_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "aeb5b4c1-3411-46ee-80e1-ab32c118d473",
+    "name": "Nafees Khan",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nafees_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "ef8cb0bd-00c5-4105-9454-3b83d37fde40",
+    "name": "Rahul Papneja",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 29,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 8,
+      "overs": 0.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_papneja.png",
+    "bio": null
+  },
+  {
+    "uuid": "b0ded219-e61f-4aad-9fb2-4956666545c2",
+    "name": "Roshan Mishra",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 0,
+      "overs": 0.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/roshan_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "0afe35bd-0f93-49a4-b01e-bd9667f84a9a",
+    "name": "Harshit Gupta",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/harshit_gupta.png",
+    "bio": null
+  },
+  {
+    "uuid": "8c04bde7-6c12-4595-a896-6fb4d16700f4",
+    "name": "Om Prakash Pandey",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/om_prakash_pandey.png",
+    "bio": null
+  },
+  {
+    "uuid": "25b5ad4c-9c8e-44f9-9a6a-3357021fa8a1",
+    "name": "Ishit Soni",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ishit_soni.png",
+    "bio": null
+  },
+  {
+    "uuid": "5044baa5-9dd2-4028-9671-bb1db6603ffe",
+    "name": "Sandeep Soman",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 11,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sandeep_soman.png",
+    "bio": null
+  },
+  {
+    "uuid": "ab7b2971-2f4a-493f-8978-dcf1901a5721",
+    "name": "Shashi",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 36,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 22,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shashi.png",
+    "bio": null
+  },
+  {
+    "uuid": "73e9a23d-c3a8-4f71-83b6-22daa58fb662",
+    "name": "Amardeep",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amardeep.png",
+    "bio": null
+  },
+  {
+    "uuid": "5badee61-461d-4897-b594-0b05090bae15",
+    "name": "Rohit Ramani",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 23,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rohit_ramani.png",
+    "bio": null
+  },
+  {
+    "uuid": "4579d9c1-05d1-4671-95ae-0e4f5c314b02",
+    "name": "Abhinav Kamboj",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 17,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 19,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/abhinav_kamboj.png",
+    "bio": null
+  },
+  {
+    "uuid": "4efdacc8-18a6-4fac-8c4c-4b254d4be2f5",
+    "name": "Anil",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 46,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 18,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/anil.png",
+    "bio": null
+  },
+  {
+    "uuid": "0f11538a-dd71-4745-b076-aaf72c1483ac",
+    "name": "Rajatrk",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 35,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 18,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rajatrk.png",
+    "bio": null
+  },
+  {
+    "uuid": "e5ffb2b7-ac6b-48a1-bc5f-ecf93131ab70",
+    "name": "Kunal Chatterjee",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 55,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 49,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/kunal_chatterjee.png",
+    "bio": null
+  },
+  {
+    "uuid": "c7d1f417-4794-4ad2-aca3-bd2db9b9559c",
+    "name": "Sandeep Verma",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 26,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 31,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sandeep_verma.png",
+    "bio": null
+  },
+  {
+    "uuid": "5cc9c22e-f000-44bd-ab61-90bf0c9eff3a",
+    "name": "Mohd Furqan",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohd_furqan.png",
+    "bio": null
+  },
+  {
+    "uuid": "38c93e99-7542-45ad-857e-222fd7bcfee2",
+    "name": "Amar Rawat",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 10,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amar_rawat.png",
+    "bio": null
+  },
+  {
+    "uuid": "2c085a85-a760-463c-a164-22089bef9722",
+    "name": "Rahul Tiwari",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 21,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_tiwari.png",
+    "bio": null
+  },
+  {
+    "uuid": "a1b1e2a6-df4f-49ea-9cbf-489a535f07d0",
+    "name": "Mangal Yadav",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mangal_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "4816c69c-7c40-452e-bbdf-4db9bcf0dde1",
+    "name": "Sanjay Sharma Optum",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sanjay_sharma_optum.png",
+    "bio": null
+  },
+  {
+    "uuid": "ab4f1179-10e8-4598-8b9e-9b73f120e6dc",
+    "name": "Manish Kumar Yadav",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 7,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manish_kumar_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "6c0d1a0d-e1cc-491c-972a-4ddf6ac462d5",
+    "name": "Bhuvnesh",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/bhuvnesh.png",
+    "bio": null
+  },
+  {
+    "uuid": "dd1655d0-6cc6-4bf6-867f-448661a30b16",
+    "name": "Sam 08",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 90,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 27,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 2,
+      "mvp3": 0
+    },
+    "image": "images/sam_08.png",
+    "bio": null
+  },
+  {
+    "uuid": "525269e9-2716-47e4-a880-b155ed2d0e2e",
+    "name": "Aryan Bhartti",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 22,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/aryan_bhartti.png",
+    "bio": null
+  },
+  {
+    "uuid": "c2d35150-03d3-4d5f-a0e5-337202844a50",
+    "name": "Jatin Rawat",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/jatin_rawat.png",
+    "bio": null
+  },
+  {
+    "uuid": "95a7436d-45c8-4d6c-b61b-6f3669f03232",
+    "name": "Jay",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 44,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 17,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/jay.png",
+    "bio": null
+  },
+  {
+    "uuid": "0ee3fda4-b2b9-415f-91d0-aa18040c69d6",
+    "name": "Deepansh Goswami",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 28,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 27,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/deepansh_goswami.png",
+    "bio": null
+  },
+  {
+    "uuid": "bc18c65f-d8b3-4eba-ade6-18f87770a0cf",
+    "name": "P Choudhary (pc)",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 17,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 17,
+      "overs": 2.1
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/p_choudhary_pc.png",
+    "bio": null
+  },
+  {
+    "uuid": "cacbb8bd-1e0e-4fb0-a1a5-eaa24d92fa55",
+    "name": "Abhinav Pal",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 26,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 9,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/abhinav_pal.png",
+    "bio": null
+  },
+  {
+    "uuid": "74b39439-3c8e-43aa-ac5a-a00eee04219f",
+    "name": "Puneet",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 67,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 29,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/puneet.png",
+    "bio": null
+  },
+  {
+    "uuid": "d2cbc290-d64c-4160-9df1-3b1eff512893",
+    "name": "Satyam Dwivedi",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/satyam_dwivedi.png",
+    "bio": null
+  },
+  {
+    "uuid": "e1a8dad4-cfef-4293-96fb-e0ff36122421",
+    "name": "Chauhan Rahul",
+    "teams": [
+      "Stellar Stunners",
+      "Elite Lions"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/chauhan_rahul.png",
+    "bio": null
+  },
+  {
+    "uuid": "b573b77e-d338-40ea-abfd-ea45b032a538",
+    "name": "Nikhil Sharma",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 6,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nikhil_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "a460c431-0ef4-421c-906a-a70356d41c7b",
+    "name": "Aman Rana",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 11,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/aman_rana.png",
+    "bio": null
+  },
+  {
+    "uuid": "08bec952-42e5-4ee9-8565-e5429e67bea9",
+    "name": "Pramod Dorbi",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 25,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pramod_dorbi.png",
+    "bio": null
+  },
+  {
+    "uuid": "4e0080d8-fe40-485c-ad17-e690e189511e",
+    "name": "Sanjeev Dagur",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 4,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sanjeev_dagur.png",
+    "bio": null
+  },
+  {
+    "uuid": "37af19ae-615a-45c3-b1de-c7e4dcb7c2eb",
+    "name": "Kunal Siddhu",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 22,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 27,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/kunal_siddhu.png",
+    "bio": null
+  },
+  {
+    "uuid": "3b7432e1-eb45-445f-9f5e-7d4247df9f5b",
+    "name": "Rahul Kumar",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 27,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "ae94e6c0-0d2e-414f-82df-48521fc7cb83",
+    "name": "Adarsh Singh",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/adarsh_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "b55d59da-b02d-463e-b31b-ab85f9497286",
+    "name": "Sachin Barua",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 22,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/sachin_barua.png",
+    "bio": null
+  },
+  {
+    "uuid": "c05a4fea-dce6-496a-a3f8-128a30b70f59",
+    "name": "Alok Ray",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 17,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/alok_ray.png",
+    "bio": null
+  },
+  {
+    "uuid": "83b850ce-2768-494d-bdba-84b4fa586565",
+    "name": "Ravi",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 10,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ravi.png",
+    "bio": null
+  },
+  {
+    "uuid": "108f8f9a-de89-49f1-a549-4c2985fc58c1",
+    "name": "Hemant Baghel",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 31,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 23,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/hemant_baghel.png",
+    "bio": null
+  },
+  {
+    "uuid": "4ea01f93-78b3-419c-a4f5-deeb3700dbca",
+    "name": "Utkarsh Tyagi Cricket With Tyagi",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 74,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 23,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/utkarsh_tyagi_cricket_with_tyagi.png",
+    "bio": null
+  },
+  {
+    "uuid": "8c810b42-7856-4a48-860a-bf200cfa13bf",
+    "name": "Upendra Baliyan",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 18,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/upendra_baliyan.png",
+    "bio": null
+  },
+  {
+    "uuid": "48af6752-f394-46e8-b896-7f459d6ec46f",
+    "name": "Rajnish Kumar",
+    "teams": [
+      "Supreme Strikers",
+      "Phoenix Kings"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 19,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rajnish_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "b0cce169-0de5-4a68-825d-ba28d87170c1",
+    "name": "Amar Kandoi",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 23,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amar_kandoi.png",
+    "bio": null
+  },
+  {
+    "uuid": "96159405-2c0b-4e47-8d67-1f9878754159",
+    "name": "Satyam Porwal",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 25,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/satyam_porwal.png",
+    "bio": null
+  },
+  {
+    "uuid": "c571f32d-f6e8-4c56-a59e-6edd202f8803",
+    "name": "Shankar Chand",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 22,
+      "overs": 2.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shankar_chand.png",
+    "bio": null
+  },
+  {
+    "uuid": "30a8083f-9cf5-4fd9-b117-10ada2da9e6b",
+    "name": "Vijay Mishra",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 11,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 27,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vijay_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "995ad016-f104-4bb6-b099-dfc60b24ee30",
+    "name": "Ravi Mathur",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 25,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 20,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/ravi_mathur.png",
+    "bio": null
+  },
+  {
+    "uuid": "f30b814a-8e59-472e-aced-bfa03825683d",
+    "name": "Shiv Shankar Das",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 23,
+      "overs": 1.4
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shiv_shankar_das.png",
+    "bio": null
+  },
+  {
+    "uuid": "5b8227f0-ab53-48d7-a906-be8f49a8b42f",
+    "name": "Manoj Kumar",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 18,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manoj_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "2d9e93b2-bb84-45c4-b16c-3a06f804e00b",
+    "name": "Dinkar",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dinkar.png",
+    "bio": null
+  },
+  {
+    "uuid": "1d12df04-6aff-4e15-8846-ead0a906b293",
+    "name": "Ajay Gaur",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ajay_gaur.png",
+    "bio": null
+  },
+  {
+    "uuid": "29964339-a521-40ad-9cd4-6a3a0ba7d359",
+    "name": "Ankit Chauhan",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankit_chauhan.png",
+    "bio": null
+  },
+  {
+    "uuid": "c339570c-5def-49d6-9f70-1b3defa4ed91",
+    "name": "Yashwant Optum",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/yashwant_optum.png",
+    "bio": null
+  },
+  {
+    "uuid": "41b1a677-89a1-4915-806b-068d21114968",
+    "name": "Wani",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 23,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/wani.png",
+    "bio": null
+  },
+  {
+    "uuid": "a1698b38-5cea-4abb-85bf-967f1d5d02e3",
+    "name": "Shubham Ruhela",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shubham_ruhela.png",
+    "bio": null
+  },
+  {
+    "uuid": "097f2184-2310-4fb3-b117-737cc21f4099",
+    "name": "Pushkar",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 22,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pushkar.png",
+    "bio": null
+  },
+  {
+    "uuid": "c248e24d-46f2-4593-b3d1-cece6ae196bd",
+    "name": "Akash Verma",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 16,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 26,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/akash_verma.png",
+    "bio": null
+  },
+  {
+    "uuid": "f8adf433-38f5-49ec-a9ee-c57cf10c7856",
+    "name": "Karan Ar",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 56,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 30,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/karan_ar.png",
+    "bio": null
+  },
+  {
+    "uuid": "496f478d-7941-49bf-96db-9874d87e2279",
+    "name": "Sunil Kumar Chaudhary",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 16,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sunil_kumar_chaudhary.png",
+    "bio": null
+  },
+  {
+    "uuid": "22ee4cac-7d4d-4e9a-9fed-05639d4fe65d",
+    "name": "Nitesh Srivastava",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nitesh_srivastava.png",
+    "bio": null
+  },
+  {
+    "uuid": "b9efba68-198e-4582-b032-f1ccbf3e258d",
+    "name": "Vivek Chaudhary",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 29,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vivek_chaudhary.png",
+    "bio": null
+  },
+  {
+    "uuid": "95613496-81e3-4fa0-8aad-92b64f912e4d",
+    "name": "Dharmender Kumar",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 5,
+      "runs": 26,
+      "overs": 3.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dharmender_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "fda3fcb9-fc26-43df-9525-5637d092e880",
+    "name": "Ankur",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 36,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankur.png",
+    "bio": null
+  },
+  {
+    "uuid": "298ed84c-d087-470f-9927-906d2d4a61f9",
+    "name": "Tanmay Singh",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 10,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/tanmay_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "a8b079eb-87c1-4fa7-9bb3-0894662cca06",
+    "name": "Agastya Rawat",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 71,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/agastya_rawat.png",
+    "bio": null
+  },
+  {
+    "uuid": "8a74303f-4f2a-48e2-afdb-e84bb6cc0f95",
+    "name": "Ram",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 7,
+      "runs": 13,
+      "overs": 3.5
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ram.png",
+    "bio": null
+  },
+  {
+    "uuid": "130ef388-a382-4fab-bc9d-e85c201bddbf",
+    "name": "Manoj Singh",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 4,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manoj_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "13d0f85c-0a3d-4ad7-9762-7c151ca02375",
+    "name": "Akhil Agarwal",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 20,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 22,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/akhil_agarwal.png",
+    "bio": null
+  },
+  {
+    "uuid": "257a453c-aa06-4123-b30d-80a4f2f4d2d9",
+    "name": "Kanishk Sethi",
+    "teams": [
+      "Thundering Thunderbolts",
+      "Ultimate Warriors"
+    ],
+    "best_score": 92,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 11,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 2,
+      "best_bowler": 1,
+      "mvp1": 2,
+      "mvp2": 1,
+      "mvp3": 2
+    },
+    "image": "images/kanishk_sethi.png",
+    "bio": null
+  },
+  {
+    "uuid": "3781f7a4-4b5d-40a6-92e6-ecacc5f3ece0",
+    "name": "Jai Ram Jat",
+    "teams": [
+      "Thundering Thunderbolts",
+      "Ultimate Warriors"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 14,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/jai_ram_jat.png",
+    "bio": null
+  },
+  {
+    "uuid": "c7d006f0-d3ad-4545-ad7c-6d8ceb07b71b",
+    "name": "Mayank Bisht",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 34,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mayank_bisht.png",
+    "bio": null
+  },
+  {
+    "uuid": "2f57fb0b-2e25-4e63-8194-d77cdc6966af",
+    "name": "Puneet Kumar Mishra",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 3,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/puneet_kumar_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "f8cc858d-2d0d-434d-846f-2b92e82a8d82",
+    "name": "Akash Gupta",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 26,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akash_gupta.png",
+    "bio": null
+  },
+  {
+    "uuid": "0533e223-792a-40c8-baef-a969507f86df",
+    "name": "Gaurav Sharma",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 11,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/gaurav_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "e00ce1f6-4264-4a30-a8fa-6d32cb5bb98f",
+    "name": "Naveen Mishra",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 14,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/naveen_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "0315b9d3-aee9-405f-bd67-e7d6bb8114a6",
+    "name": "Avinash Mishra",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 10,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 9,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/avinash_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "c978b3d6-07c4-41f9-94d5-e00c539afe35",
+    "name": "Kumar Raja",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/kumar_raja.png",
+    "bio": null
+  },
+  {
+    "uuid": "9020b601-9959-4655-ab3e-5e0f8ff8a50f",
+    "name": "Mayank Wadhwa",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mayank_wadhwa.png",
+    "bio": null
+  },
+  {
+    "uuid": "8d409e88-c737-4dc9-8490-35cb782e08de",
+    "name": "Chandrabhan Yadav",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 65,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/chandrabhan_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "6131dc87-05f1-4dd2-861d-6ee438eb1da6",
+    "name": "Deepak K Thakur",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/deepak_k_thakur.png",
+    "bio": null
+  },
+  {
+    "uuid": "3a2db513-e02c-4501-b635-da7869f0cbed",
+    "name": "Vibhas Kumar",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 10,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vibhas_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "00d56a93-6b70-4066-ac4b-f85e43e8b929",
+    "name": "Padam",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 14,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 5,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/padam.png",
+    "bio": null
+  },
+  {
+    "uuid": "e36e8cc4-a3a6-47af-be71-cf104922c91a",
+    "name": "Rahul Shankar",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_shankar.png",
+    "bio": null
+  },
+  {
+    "uuid": "4d164a71-d061-4dbb-ac8c-4c80c7b4b103",
+    "name": "Surya",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 19,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/surya.png",
+    "bio": null
+  },
+  {
+    "uuid": "daabfd3b-0e2a-4e22-9c9d-1c9e28feafd1",
+    "name": "Vivek Kumar",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 6,
+      "overs": 0.1
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vivek_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "3b59d267-f0d8-4073-b488-e5f5394e1c0d",
+    "name": "Rukhsar",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 4,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rukhsar.png",
+    "bio": null
+  },
+  {
+    "uuid": "83775eb3-dab9-4f9b-8437-4a68c917be8b",
+    "name": "Deepak Chawla",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 41,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 14,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 2,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/deepak_chawla.png",
+    "bio": null
+  },
+  {
+    "uuid": "436381cd-9f82-4bb4-b67b-4009543d3383",
+    "name": "Muzaffer",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 10,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 28,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/muzaffer.png",
+    "bio": null
+  },
+  {
+    "uuid": "d06fd4c9-a094-4d15-b6b4-dcf85b701b56",
+    "name": "Brij Chaubey Optum Dd",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 1,
+      "overs": 0.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/brij_chaubey_optum_dd.png",
+    "bio": null
+  },
+  {
+    "uuid": "38f1bb99-12e3-42fa-8fcb-71ece0c4a7c8",
+    "name": "Sanjip Kumar",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sanjip_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "c0becbe9-00b5-4a10-a829-8adb2b336538",
+    "name": "Vinay",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vinay.png",
+    "bio": null
+  },
+  {
+    "uuid": "ed8beae6-2c28-4c92-a253-2d33f6c475bd",
+    "name": "Dheeraj Kohli",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 18,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dheeraj_kohli.png",
+    "bio": null
+  },
+  {
+    "uuid": "24007ca2-1c2d-4724-a595-ef1c1095143d",
+    "name": "Dharam",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 39,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dharam.png",
+    "bio": null
+  },
+  {
+    "uuid": "d9133858-b20f-4138-9bc3-6413279cdae0",
+    "name": "Shubham Sharma",
+    "teams": [
+      "Elite Lions",
+      "Ultimate Warriors"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 2,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shubham_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "e688d466-98d3-49bb-9801-f9e34f0fc4c4",
+    "name": "Karamveer Singh",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 65,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 24,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/karamveer_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "f7d3547f-06c9-4605-88b6-66a8533fe32e",
+    "name": "Abhishek Tripathi",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 75,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 9,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 2,
+      "best_bowler": 0,
+      "mvp1": 2,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/abhishek_tripathi.png",
+    "bio": null
+  },
+  {
+    "uuid": "71325a8b-99c6-422b-b16a-e44786e2edc4",
+    "name": "Prabal Singh",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 16,
+      "overs": 0.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/prabal_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "2c67ed02-99d7-4327-a3c7-ad17dcda54d2",
+    "name": "Vipin",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vipin.png",
+    "bio": null
+  },
+  {
+    "uuid": "b2911da3-5061-4263-a780-c63408637dbd",
+    "name": "Dushyant Yadav",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dushyant_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "4fd3d94e-6611-46de-8340-6e3eab5b2ed4",
+    "name": "Najam Mehdi",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 21,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 28,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/najam_mehdi.png",
+    "bio": null
+  },
+  {
+    "uuid": "2b324faf-7256-4d65-8078-49d8c924ebbe",
+    "name": "Yogesh Surana",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 34,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/yogesh_surana.png",
+    "bio": null
+  },
+  {
+    "uuid": "357a6aa5-ffad-49e0-91ec-6a872cad7373",
+    "name": "Rahul Gaur",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 19,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 27,
+      "overs": 3.5
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rahul_gaur.png",
+    "bio": null
+  },
+  {
+    "uuid": "417577a5-1f92-4d44-9a00-f4ade73f67c1",
+    "name": "Mohsin Khan",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohsin_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "ebcf3721-6036-4b39-bc0f-02dd8e01a0a9",
+    "name": "Akshay Rajput",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akshay_rajput.png",
+    "bio": null
+  },
+  {
+    "uuid": "73e65e8e-7268-4194-84f5-d8b3405356f1",
+    "name": "Ajay Singh",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 27,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ajay_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "53ae257b-e78a-430f-aae4-eba9ac3b72e2",
+    "name": "Shivam Kumar",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 24,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 14,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/shivam_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "64c3d7a7-0228-4c14-a612-8838718eeecc",
+    "name": "Shishir Tiwari",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shishir_tiwari.png",
+    "bio": null
+  },
+  {
+    "uuid": "26655c31-a14c-430e-ac89-bd92e62f14a5",
+    "name": "Manish Kumar",
+    "teams": [
+      "Ultimate Warriors"
+    ],
+    "best_score": 19,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 30,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manish_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "968327f4-0b5a-43a8-a275-aa4232eb69e6",
+    "name": "Mukesh Kumar",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mukesh_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "eda5988e-29bf-492a-a156-175582c83195",
+    "name": "Mayank Saxena",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mayank_saxena.png",
+    "bio": null
+  },
+  {
+    "uuid": "deffb8e3-062f-43be-96c3-6a258e7db753",
+    "name": "Hitesh Hitesj",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/hitesh_hitesj.png",
+    "bio": null
+  },
+  {
+    "uuid": "a3619ddc-30b0-4d73-9356-453c5dfdbcfb",
+    "name": "Akshay Kumar",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 14,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akshay_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "e91a0c6c-3aa0-423d-9ac6-38e04c870580",
+    "name": "Vipin Kumar",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 11,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/vipin_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "c6f3f5ae-6c54-4d07-84e4-f97042ed78c1",
+    "name": "Hasim Khan",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 23,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/hasim_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "03cabf14-073a-444a-b0ba-24103876ce3d",
+    "name": "Inder",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 10,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/inder.png",
+    "bio": null
+  },
+  {
+    "uuid": "0629e5b5-5ea6-49b3-8da8-a8e8401d685c",
+    "name": "Gaurav Negi",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/gaurav_negi.png",
+    "bio": null
+  },
+  {
+    "uuid": "cad31cd9-18d4-4a20-82f6-66452d0fd24e",
+    "name": "Dev Tiwari",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 19,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 10,
+      "overs": 3.3
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dev_tiwari.png",
+    "bio": null
+  },
+  {
+    "uuid": "1003c2fd-db96-42b5-af36-f70154ce4c8b",
+    "name": "Amit Kumar Verma",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 29,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 7,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amit_kumar_verma.png",
+    "bio": null
+  },
+  {
+    "uuid": "55b08d5d-3193-4a2a-96a2-3b89dfe35950",
+    "name": "Ravindra Verma",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 0,
+      "overs": 0.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ravindra_verma.png",
+    "bio": null
+  },
+  {
+    "uuid": "6add4fa0-f393-4bc4-969b-d7c76e4f0bf5",
+    "name": "Neelesh Pandey",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 0,
+      "overs": 0.1
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/neelesh_pandey.png",
+    "bio": null
+  },
+  {
+    "uuid": "1522e5ee-c3ad-4e8e-a672-bade4ad4a582",
+    "name": "Nitesh",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 19,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nitesh.png",
+    "bio": null
+  },
+  {
+    "uuid": "4ec6271a-5cdd-47c7-a352-acecaedf290d",
+    "name": "Saransh Pandey",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 15,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/saransh_pandey.png",
+    "bio": null
+  },
+  {
+    "uuid": "d9dccfd6-cc12-4548-adf5-0cd8f32ddb90",
+    "name": "Deepak Singh",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 27,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/deepak_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "36006711-d286-4754-9ad0-9e06b3d9cd0a",
+    "name": "Prakash Singh Saijari",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/prakash_singh_saijari.png",
+    "bio": null
+  },
+  {
+    "uuid": "fad302a5-aeb3-46ba-b340-9930f4ed0a92",
+    "name": "Satya Rawat",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/satya_rawat.png",
+    "bio": null
+  },
+  {
+    "uuid": "d8b57b0d-38fb-4ca9-8879-3989be3f32f8",
+    "name": "Vaseem Ali",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vaseem_ali.png",
+    "bio": null
+  },
+  {
+    "uuid": "e9669701-39eb-41e6-bd94-7824a5c996eb",
+    "name": "Atul Sanoria",
+    "teams": [
+      "Thunder Strikers",
+      "Elite Lions",
+      "Ultimate Warriors"
+    ],
+    "best_score": 23,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/atul_sanoria.png",
+    "bio": null
+  },
+  {
+    "uuid": "488ec32c-87c1-4f63-84cd-d511fc1e1bec",
+    "name": "Gourav Banga",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 11,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/gourav_banga.png",
+    "bio": null
+  },
+  {
+    "uuid": "ba297714-0217-4830-b157-1bfe0c13083a",
+    "name": "Nishant Chaudhary",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nishant_chaudhary.png",
+    "bio": null
+  },
+  {
+    "uuid": "f3166352-1818-4ee3-9a0b-708ef120a113",
+    "name": "Mayank Khare",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 12,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mayank_khare.png",
+    "bio": null
+  },
+  {
+    "uuid": "b70750dc-ab2d-4c36-b686-bcb1428bd889",
+    "name": "Varun Iyer",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 14,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 18,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/varun_iyer.png",
+    "bio": null
+  },
+  {
+    "uuid": "fb7155e4-4eb6-4b42-b4fd-5388e8d3af82",
+    "name": "Vishal Bhandari",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 23,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vishal_bhandari.png",
+    "bio": null
+  },
+  {
+    "uuid": "e8b5151e-e28e-44e2-9009-79fe2d569f6e",
+    "name": "Javed Alam",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 18,
+      "overs": 2.3
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/javed_alam.png",
+    "bio": null
+  },
+  {
+    "uuid": "ea9373f2-7cc1-4139-821b-ad2b843f4b62",
+    "name": "Amit Saxena",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/amit_saxena.png",
+    "bio": null
+  },
+  {
+    "uuid": "4a4e0b3d-337b-47dd-85f3-1df31000b3bb",
+    "name": "Prabhakar Chaudhary",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 12,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/prabhakar_chaudhary.png",
+    "bio": null
+  },
+  {
+    "uuid": "004d9d32-4cd9-4bf9-a2e5-66cbbb8dc77e",
+    "name": "Sandeep",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 43,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 17,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/sandeep.png",
+    "bio": null
+  },
+  {
+    "uuid": "6371e6fd-f39d-4269-8c78-97de177a1a32",
+    "name": "Rohit Sawhney",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 24,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/rohit_sawhney.png",
+    "bio": null
+  },
+  {
+    "uuid": "470696e8-5242-4f49-8892-7a3a82e1344e",
+    "name": "Rahul Singh",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 60,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 2,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/rahul_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "ee37909a-b149-4572-9eb5-70364d13c1c1",
+    "name": "Pramod Kumar Mishra",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pramod_kumar_mishra.png",
+    "bio": null
+  },
+  {
+    "uuid": "39acec83-cd66-4188-88ab-a376915f7469",
+    "name": "Nishant Rajput",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 48,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/nishant_rajput.png",
+    "bio": null
+  },
+  {
+    "uuid": "1458d44d-5c05-4c4f-9a74-9c38f7c8119d",
+    "name": "Swet Kamal",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 19,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/swet_kamal.png",
+    "bio": null
+  },
+  {
+    "uuid": "20d329ee-f4ac-4b82-bbaa-70bb9e2d3c0c",
+    "name": "Riyaz Shaikh",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 19,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/riyaz_shaikh.png",
+    "bio": null
+  },
+  {
+    "uuid": "df817ee8-6c0d-43ae-a37a-0c6f1c596ce6",
+    "name": "Anuj Parmar",
+    "teams": [
+      "Phoenix Kings"
+    ],
+    "best_score": 9,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 37,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/anuj_parmar.png",
+    "bio": null
+  },
+  {
+    "uuid": "138e7b9d-0d35-43f3-8417-3bf7520c1f5e",
+    "name": "Deepak Mandal",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/deepak_mandal.png",
+    "bio": null
+  },
+  {
+    "uuid": "5b9d968e-06f6-408e-ba95-1c9544f6407e",
+    "name": "Vimal Kumar",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 25,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 8,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/vimal_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "526e861f-d963-4fd6-a64a-b8fd7e4bb75f",
+    "name": "Abhishek Kumar",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 18,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/abhishek_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "adea8dd7-28ae-4341-94fe-27c2fe59ed35",
+    "name": "Amit",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 16,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 15,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/amit.png",
+    "bio": null
+  },
+  {
+    "uuid": "e2baeb43-0ae2-49da-bb57-f0ab2d00b64e",
+    "name": "Sarthak Singh",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 48,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 1,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sarthak_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "e3604096-7dd1-43f3-b170-2fbf670d98d2",
+    "name": "Prashant Chouhan",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 38,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 18,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 2
+    },
+    "image": "images/prashant_chouhan.png",
+    "bio": null
+  },
+  {
+    "uuid": "5ef2284a-b77c-4558-be4d-fd5aa6835eda",
+    "name": "Sanjeet Singh",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 103,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 13,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 1,
+      "best_bowler": 2,
+      "mvp1": 1,
+      "mvp2": 3,
+      "mvp3": 0
+    },
+    "image": "images/sanjeet_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "ebf5e26a-5ad5-45bb-a141-87210aa5083c",
+    "name": "Dharmendra Bhardwaj",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 20,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 46,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dharmendra_bhardwaj.png",
+    "bio": null
+  },
+  {
+    "uuid": "77787b8d-8f17-45e9-a341-5698a96b527b",
+    "name": "Har Lal Dhabad",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/har_lal_dhabad.png",
+    "bio": null
+  },
+  {
+    "uuid": "d2b915b4-bd42-491b-b0f4-8579f38070ed",
+    "name": "Jitendra Singh",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/jitendra_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "a519529c-5f8d-4aad-854a-91e9a6523399",
+    "name": "Uttam Yadav",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 6,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/uttam_yadav.png",
+    "bio": null
+  },
+  {
+    "uuid": "4aa97be8-6118-420a-a0bf-e41af440055e",
+    "name": "Vikas",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 80,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 7,
+      "overs": 2.2
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 2,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vikas.png",
+    "bio": null
+  },
+  {
+    "uuid": "e3497ef5-abea-4f14-8d59-80c7497e513b",
+    "name": "Vipul Rana",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 20,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vipul_rana.png",
+    "bio": null
+  },
+  {
+    "uuid": "e964eda9-4d9e-4a72-94c6-e7c8f4befa0f",
+    "name": "Ishan Khan",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 25,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ishan_khan.png",
+    "bio": null
+  },
+  {
+    "uuid": "d54bd8fd-3bfe-4644-bacd-5e35b687ac2b",
+    "name": "Dinesh Aryan",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 60,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 26,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 2,
+      "mvp3": 0
+    },
+    "image": "images/dinesh_aryan.png",
+    "bio": null
+  },
+  {
+    "uuid": "74cb9942-2540-4cc1-9bb2-fb954022d1cd",
+    "name": "Md Imran",
+    "teams": [
+      "Invincible Knights"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/md_imran.png",
+    "bio": null
+  },
+  {
+    "uuid": "8bfcd67e-af06-497d-992b-74d629b90b23",
+    "name": "Ashu Dewri",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 27,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ashu_dewri.png",
+    "bio": null
+  },
+  {
+    "uuid": "2567c8bd-f768-4e57-922e-17def81c9197",
+    "name": "Shantanu Kumar",
+    "teams": [
+      "Elite Lions"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 12,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shantanu_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "ee1aec04-7903-44b3-9b80-2a784250b69c",
+    "name": "Jagdish Negi",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 18,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 23,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/jagdish_negi.png",
+    "bio": null
+  },
+  {
+    "uuid": "d24b5ea4-d4dd-421c-a096-e4ee611a6019",
+    "name": "Pankaj Singh",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 13,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pankaj_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "b1df4e22-841e-4dc7-979f-cfbc0a6b18af",
+    "name": "Shah Faisal",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 12,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shah_faisal.png",
+    "bio": null
+  },
+  {
+    "uuid": "bb48c213-60c0-4e21-8d2d-7db5bbe7d399",
+    "name": "Sudhir Vimal",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 6,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 22,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sudhir_vimal.png",
+    "bio": null
+  },
+  {
+    "uuid": "6274044a-c3b9-407f-9c8b-2757f06b7dbc",
+    "name": "Mohammad Irshad",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 47,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohammad_irshad.png",
+    "bio": null
+  },
+  {
+    "uuid": "b4afe5c0-3e70-4a61-bbed-6ef27aa1b9d0",
+    "name": "Ramit Bajpai",
+    "teams": [
+      "Savage Scorpions"
+    ],
+    "best_score": 73,
+    "best_bowling_figures": {
+      "wickets": 6,
+      "runs": 28,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 1,
+      "best_bowler": 2,
+      "mvp1": 2,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/ramit_bajpai.png",
+    "bio": null
+  },
+  {
+    "uuid": "cf0e27b8-568e-4a2f-a179-5514eca7fd94",
+    "name": "Shiv Sharma Uhg Uw",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 24,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shiv_sharma_uhg_uw.png",
+    "bio": null
+  },
+  {
+    "uuid": "741daf42-e197-4413-958d-440160f07b36",
+    "name": "Sohit Kumar",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 11,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 24,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sohit_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "89d31c73-9dd0-4565-83a5-ee2ba29cde5f",
+    "name": "Akash Prajapati",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akash_prajapati.png",
+    "bio": null
+  },
+  {
+    "uuid": "6123347c-a22b-40aa-96ba-bc83c9232388",
+    "name": "Anil Satyawali",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 0,
+      "overs": 0.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/anil_satyawali.png",
+    "bio": null
+  },
+  {
+    "uuid": "c1906ebb-88cd-4545-81d1-15404f78a34c",
+    "name": "Dhruv Virmani",
+    "teams": [
+      "Thunder Strikers"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 2,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dhruv_virmani.png",
+    "bio": null
+  },
+  {
+    "uuid": "6b7f6e25-b63c-4a9d-b3b7-fd1e2a77c867",
+    "name": "Mohd Sharique",
+    "teams": [
+      "Fierce Falcons"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohd_sharique.png",
+    "bio": null
+  },
+  {
+    "uuid": "45317ac4-56ae-4551-ae13-a8e3f4329d11",
+    "name": "Puneet Bhardwaj",
+    "teams": [
+      "Rampage Rhinos"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 8,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/puneet_bhardwaj.png",
+    "bio": null
+  },
+  {
+    "uuid": "7a434a97-460a-450f-9c97-4a92d53946df",
+    "name": "Akash",
+    "teams": [
+      "Super Smashers",
+      "Dynamic Daredevils"
+    ],
+    "best_score": 35,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 23,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akash.png",
+    "bio": null
+  },
+  {
+    "uuid": "38eba503-817d-4b67-a837-db6fe8d5b1f3",
+    "name": "Rahil Kapoor",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 1,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 26,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 2
+    },
+    "image": "images/rahil_kapoor.png",
+    "bio": null
+  },
+  {
+    "uuid": "e355b764-f19d-4bf0-b1db-9e663d0679a5",
+    "name": "Aditya",
+    "teams": [
+      "Unstoppable Warriors"
+    ],
+    "best_score": 25,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/aditya.png",
+    "bio": null
+  },
+  {
+    "uuid": "a89e69a6-ed7b-4f8f-b652-35acd5f4c67b",
+    "name": "Ankit",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 7,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 18,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankit.png",
+    "bio": null
+  },
+  {
+    "uuid": "c36d018c-3c34-4ef1-a0de-f29b3f167cf5",
+    "name": "Pankaj Batra",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 3,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pankaj_batra.png",
+    "bio": null
+  },
+  {
+    "uuid": "da1a9d38-4a47-4282-a09e-64303630c8cb",
+    "name": "Vijay S Rawat",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vijay_s_rawat.png",
+    "bio": null
+  },
+  {
+    "uuid": "02e09757-383d-41f7-8cd9-6f1b241eca62",
+    "name": "Ankur Pal",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 18,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 11,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 0
+    },
+    "image": "images/ankur_pal.png",
+    "bio": null
+  },
+  {
+    "uuid": "7667d6eb-98e3-43ee-bfa1-dd1499ceb642",
+    "name": "Harry",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 28,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/harry.png",
+    "bio": null
+  },
+  {
+    "uuid": "e242fd52-ec6b-46e0-a047-e8fc7cb68aba",
+    "name": "Vinesh Raj Singh Baghal",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 15,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 20,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/vinesh_raj_singh_baghal.png",
+    "bio": null
+  },
+  {
+    "uuid": "feb61ba9-de19-4e96-8829-d70eb5206295",
+    "name": "Randheer Singh",
+    "teams": [
+      "Ferocious Fighters"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 11,
+      "overs": 1.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/randheer_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "bb6e640f-ac05-4577-94d8-bf0e5812dbdd",
+    "name": "Ankit Jari",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 23,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankit_jari.png",
+    "bio": null
+  },
+  {
+    "uuid": "d60f1e5e-8256-419b-bf3a-3d2445ad7b57",
+    "name": "Ravindra Nitwal",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 41,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 12,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 2,
+      "mvp1": 0,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/ravindra_nitwal.png",
+    "bio": null
+  },
+  {
+    "uuid": "21b77ad9-c0ec-4199-b04d-8b106fbd9e2f",
+    "name": "Dilip",
+    "teams": [
+      "Blazing Batsman"
+    ],
+    "best_score": 14,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 20,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dilip.png",
+    "bio": null
+  },
+  {
+    "uuid": "08ce4d03-2ada-4449-a1aa-4330b808eb85",
+    "name": "Ankur Patni",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ankur_patni.png",
+    "bio": null
+  },
+  {
+    "uuid": "9551ce1b-146d-43c1-80cd-b029e3fe5df6",
+    "name": "Akash Saraf",
+    "teams": [
+      "Lighting Bolts"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/akash_saraf.png",
+    "bio": null
+  },
+  {
+    "uuid": "92f49c9c-3aab-48db-b2de-1e334ec8043f",
+    "name": "Priyadarshi Ranjan",
+    "teams": [
+      "Stellar Stunners"
+    ],
+    "best_score": 2,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/priyadarshi_ranjan.png",
+    "bio": null
+  },
+  {
+    "uuid": "d8b0b667-be8f-44e7-9361-e0d270bc2e36",
+    "name": "Manoj Sikdar",
+    "teams": [
+      "Furious Flames"
+    ],
+    "best_score": 25,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/manoj_sikdar.png",
+    "bio": null
+  },
+  {
+    "uuid": "df94085a-8ef5-4129-8575-68be6083e50b",
+    "name": "Girish Bhardwaj",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 18,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/girish_bhardwaj.png",
+    "bio": null
+  },
+  {
+    "uuid": "dd53bc29-bfbe-4ea3-9639-1c70118e0528",
+    "name": "Sanjeev Sharma",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 51,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 17,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 2
+    },
+    "image": "images/sanjeev_sharma.png",
+    "bio": null
+  },
+  {
+    "uuid": "b3c09ed9-74e8-4c02-819a-f71c66f4c2a5",
+    "name": "Gourav Banathia",
+    "teams": [
+      "Thundering Thunderbolts",
+      "Ultimate Warriors"
+    ],
+    "best_score": 128,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 24,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 3,
+      "best_bowler": 1,
+      "mvp1": 3,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/gourav_banathia.png",
+    "bio": null
+  },
+  {
+    "uuid": "0987ee39-ff9e-4e6a-9152-a0978dbe0398",
+    "name": "Shiva Guhar",
+    "teams": [
+      "Forceful Falcons Optum"
+    ],
+    "best_score": 8,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 13,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shiva_guhar.png",
+    "bio": null
+  },
+  {
+    "uuid": "43b3ef67-a14c-4270-add3-233b5dbeeadb",
+    "name": "Ashu Bst",
+    "teams": [
+      "Super Smashers"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 5,
+      "overs": 2.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/ashu_bst.png",
+    "bio": null
+  },
+  {
+    "uuid": "adacbbfd-1bc7-4b0f-9d54-7dc07d989df1",
+    "name": "Shreyaskar Nath Tripathi",
+    "teams": [
+      "Dominant Daredevils"
+    ],
+    "best_score": 13,
+    "best_bowling_figures": {
+      "wickets": 5,
+      "runs": 32,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 1,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/shreyaskar_nath_tripathi.png",
+    "bio": null
+  },
+  {
+    "uuid": "e9bcc1f3-332a-4823-ba07-715799eb0268",
+    "name": "Atul Thakur",
+    "teams": [
+      "Dynamic Daredevils"
+    ],
+    "best_score": 102,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 10,
+      "overs": 3.4
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 2,
+      "best_bowler": 1,
+      "mvp1": 2,
+      "mvp2": 1,
+      "mvp3": 1
+    },
+    "image": "images/atul_thakur.png",
+    "bio": null
+  },
+  {
+    "uuid": "e47b6a6b-1185-4f14-8710-4c4d22c80a40",
+    "name": "Akhilesh",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 4,
+      "runs": 7,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 1,
+      "best_batsman": 0,
+      "best_bowler": 2,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 1
+    },
+    "image": "images/akhilesh.png",
+    "bio": null
+  },
+  {
+    "uuid": "bffd56fd-6f15-4d07-bc78-9a1330329cf7",
+    "name": "Pramod Kumar",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/pramod_kumar.png",
+    "bio": null
+  },
+  {
+    "uuid": "b69bad36-33df-4afe-b77c-e1315a21761a",
+    "name": "Sachin Laluanagla",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/sachin_laluanagla.png",
+    "bio": null
+  },
+  {
+    "uuid": "25ba27d3-1db6-447d-a0b6-32d0c541a925",
+    "name": "Ritesh Tiwari Optum Turbo Chargers",
+    "teams": [
+      "Turbo Chargers"
+    ],
+    "best_score": 0,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/ritesh_tiwari_optum_turbo_chargers.png",
+    "bio": null
+  },
+  {
+    "uuid": "b1fcb58e-6429-462d-96fb-06ff6be308b0",
+    "name": "Gaurav Singh Tomar",
+    "teams": [
+      "Fearless Fighters"
+    ],
+    "best_score": 77,
+    "best_bowling_figures": {
+      "wickets": 2,
+      "runs": 18,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 2,
+      "best_batsman": 3,
+      "best_bowler": 1,
+      "mvp1": 2,
+      "mvp2": 2,
+      "mvp3": 1
+    },
+    "image": "images/gaurav_singh_tomar.png",
+    "bio": null
+  },
+  {
+    "uuid": "b88190c0-ad07-4ed3-9f11-52029b37e14e",
+    "name": "Jagdish Singh Negi",
+    "teams": [
+      "Speedy Spartans"
+    ],
+    "best_score": 43,
+    "best_bowling_figures": {
+      "wickets": 1,
+      "runs": 12,
+      "overs": 3.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/jagdish_singh_negi.png",
+    "bio": null
+  },
+  {
+    "uuid": "2e1a55b1-3a8f-46c2-bdb7-fa4733483b67",
+    "name": "Abhishek Kumar Singh",
+    "teams": [
+      "Thundering Thunderbolts"
+    ],
+    "best_score": 23,
+    "best_bowling_figures": {
+      "wickets": 3,
+      "runs": 24,
+      "overs": 4.0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 1,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/abhishek_kumar_singh.png",
+    "bio": null
+  },
+  {
+    "uuid": "8709919d-f100-431a-a9b0-118281eacfbe",
+    "name": "Dilshad Ahmed",
+    "teams": [
+      "Rising Stars OCC"
+    ],
+    "best_score": 4,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/dilshad_ahmed.png",
+    "bio": null
+  },
+  {
+    "uuid": "1b720a2f-2657-4a9a-ba0c-c80e554e991e",
+    "name": "Mohammad Azhar",
+    "teams": [
+      "Supreme Strikers"
+    ],
+    "best_score": 5,
+    "best_bowling_figures": {
+      "wickets": 0,
+      "runs": 999,
+      "overs": 0
+    },
+    "awards": {
+      "player_of_match": 0,
+      "best_batsman": 0,
+      "best_bowler": 0,
+      "mvp1": 0,
+      "mvp2": 0,
+      "mvp3": 0
+    },
+    "image": "images/mohammad_azhar.png",
+    "bio": null
+  }
+]

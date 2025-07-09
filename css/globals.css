@@ -1,0 +1,255 @@
+/* css/globals.css */
+
+/* — VARIABLES & RESET — */
+:root {
+  /* Optum-style theme */
+  --bg: #f8f9fa;
+  --text: #2e3b4e;
+  --primary: #2e3b4e;
+  --accent: #ff6600;
+  --card-bg: #ffffff;
+  --transition: 0.3s ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* — LAYOUT — */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#content,
+.coming-soon {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* — NAVBAR — */
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+}
+
+.navbar .logo {
+  flex: 0 0 auto;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.navbar .nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  z-index: 1;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.navbar .nav-links a:hover {
+  color: var(--accent);
+}
+
+.navbar .nav-links a.active {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+.navbar select {
+  margin-left: auto;
+  align-self: center;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--text);
+  border-radius: 4px;
+  background: var(--card-bg);
+  color: var(--text);
+}
+
+/* — HERO / HEADINGS — */
+.hero {
+  background: var(--accent);
+  text-align: center;
+  padding: 2rem;
+}
+.hero-small {
+  background: var(--primary);
+  text-align: center;
+  padding: 1rem;
+}
+h1 {
+  font-weight: 700;
+}
+
+/* — GENERIC CARDS — */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card.clickable {
+  cursor: pointer;
+}
+
+/* — FILTER BAR (players & matches) — */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-bar input,
+.filter-bar select {
+  padding: 0.5rem;
+  border: 1px solid var(--text);
+  border-radius: 4px;
+}
+
+/* — MODAL (common) — */
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 80vw;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.5rem; right: 0.75rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #999;
+  transition: color var(--transition);
+}
+
+.modal-close:hover {
+  color: var(--accent);
+}
+
+/* — Request Update button (in any modal) — */
+#request-update-btn {
+  display: block;
+  margin: 1.5rem auto 0;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity var(--transition);
+}
+#request-update-btn:hover {
+  opacity: 0.85;
+}
+
+/* — Uniform filter controls in Players page (and others) — */
+.filter-bar input,
+.filter-bar select {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  min-width: 180px;
+  /* same height */
+  height: 2.5rem;
+}
+
+/* — Update Form File Input — */
+#update-form input[type="file"] {
+  display: block;
+  margin: 0.75rem auto;
+  font-size: 1rem;
+}
+
+/* — Update Form Submit Button — */
+#update-form #submit-update {
+  display: block;
+  margin: 1rem auto 0;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity var(--transition);
+}
+#update-form #submit-update:hover {
+  opacity: 0.85;
+}
+
+/* Ensure the Coming Soon message is always centered and big */
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+}

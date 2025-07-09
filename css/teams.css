@@ -1,0 +1,111 @@
+/* css/teams.css */
+
+/* — GRID: exactly 4 cards wide — */
+#teams-grid.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+/* — CARD LAYOUT: icon left, info right — */
+#teams-grid .card {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+  cursor: pointer;
+  background: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform var(--transition);
+}
+#teams-grid .card:hover {
+  transform: translateY(-4px);
+}
+
+/* — TEAM ICON ON LEFT — */
+#teams-grid .card .team-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+/* — STATS COLUMN — */
+#teams-grid .card .card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* — MODAL CLOSE (only one) — */
+#team-modal .modal-content .close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* — MODAL BODY LAYOUT: two columns — */
+#team-modal .modal-content .modal-team-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+}
+
+/* — LARGE ICON IN MODAL — */
+#team-modal .modal-content .team-icon-large {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* — DETAILS COLUMN IN MODAL — */
+#team-modal .modal-content .team-details {
+  flex: 1;
+  line-height: 1.4;
+}
+
+/* — MEMBER LIST IN MODAL — */
+#team-modal .modal-content .team-members {
+  margin: 1.5rem 0;
+  line-height: 1.4;
+}
+
+/* — REQUEST UPDATE BUTTON & FORM — */
+#team-modal .modal-content .modal-button {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity var(--transition);
+  margin: 1rem auto 0;
+}
+#team-modal .modal-content .modal-button:hover {
+  opacity: 0.85;
+}
+#team-update-form {
+  text-align: center;
+  margin-top: 1rem;
+}
+#team-update-form textarea {
+  width: 90%;
+  max-width: 500px;
+  height: 80px;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+#team-update-form input[type="file"] {
+  margin-bottom: 0.75rem;
+}

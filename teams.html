@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>🏏 OCC Teams</title>
+  <link rel="stylesheet" href="css/globals.css"/>
+<link rel="stylesheet" href="css/teams.css"/>
+
+  <style>
+  /* only on teams page: make the card icons larger */
+  #teams-grid .team-icon {
+    width: 100px !important;
+    height: 100px !important;
+  }
+</style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">Optum Cricket Championship (OCC)</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-item" data-page="summary">Summary</a></li>
+    <li><a href="players.html" class="nav-item" data-page="players">Players</a></li>
+    <li><a href="teams.html"   class="nav-item" data-page="teams">Teams</a></li>
+    <li><a href="matches.html" class="nav-item" data-page="matches">Matches</a></li>
+  </ul>
+
+  <select id="year-select">
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+  </select>
+</nav>
+
+
+  <header class="hero">
+    <h1><span id="hero-year">2024</span> OCC Team Details</h1>
+  </header>
+
+  <div id="content">
+    <section id="teams-grid" class="card-grid"></section>
+  </div>
+
+  <div id="coming" class="coming-soon" style="display:none;"></div>
+
+  <footer>
+    © <span id="footer-year"></span> OCC Tournament. Organised by U-Sports Noida.
+  </footer>
+
+  <script src="js/app.js"></script>
+<script src="js/teams.js"></script>
+
+  <script src="js/app.js"></script>
+<script src="js/teams.js"></script>
+
+
+<!-- Team Details Modal -->
+<div id="team-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+</body>
+</html>

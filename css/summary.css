@@ -1,0 +1,79 @@
+/* --- STAT CARDS --- */
+#summary-cards.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+}
+#summary-cards .card {
+  background: var(--card-bg, #fff);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 1.25rem 1rem;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1.07rem;
+  margin-bottom: 0.2rem;
+  color: #263142;
+  letter-spacing: 0.01em;
+}
+.card .stat-main {
+  font-size: 2rem;
+  font-family: "Roboto Mono", monospace;
+  color: #ea4335;
+}
+.card .stat-detail {
+  font-size: 1rem;
+  color: #607080;
+  font-family: "Roboto Mono", monospace;
+}
+.card .stat-subtle {
+  font-size: 0.96rem;
+  color: #888;
+  font-style: italic;
+  margin-left: 3px;
+}
+.card .highlight {
+  color: #ea4335;
+  font-weight: bold;
+}
+
+/* --- CHARTS/GRID LAYOUT --- */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin: 2.5rem 2.5rem 0 2.5rem;  /* top, right, bottom, left */
+}
+
+.chart-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1.4rem 1rem 1.5rem 1rem;
+  min-width: 0;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@media (max-width: 950px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1.5rem 0.7rem 0 0.7rem;
+  }
+}

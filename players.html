@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Optum Cricket Championship (OCC) – Players</title>
+
+  <!-- Shared globals + players-only CSS -->
+  <link rel="stylesheet" href="css/globals.css"/>
+  <link rel="stylesheet" href="css/players.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Optum Cricket Championship (OCC)</div>
+    <ul class="nav-links">
+      <li><a href="index.html"  class="nav-item" data-page="summary">Summary</a></li>
+      <li><a href="players.html" class="nav-item" data-page="players">Players</a></li>
+      <li><a href="teams.html"   class="nav-item" data-page="teams">Teams</a></li>
+      <li><a href="matches.html" class="nav-item" data-page="matches">Matches</a></li>
+    </ul>
+    <select id="year-select">
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+    </select>
+  </nav>
+
+  <header class="hero">
+    <h1><span id="hero-year">2024</span> OCC Player Details</h1>
+  </header>
+
+  <div id="content">
+    <div class="filter-bar">
+      <input
+        type="text"
+        id="player-search"
+        placeholder="🔍 Search players…"
+      />
+      <select id="player-sort">
+        <option value="name">Sort by Name</option>
+        <option value="best_score">Sort by Best Score</option>
+        <option value="best_bowling">Sort by Best Bowling Figure</option>
+        <option value="pom">Sort by PoMs</option>
+      </select>
+      <select id="team-filter">
+        <option value="">All Teams</option>
+      </select>
+    </div>
+
+    <!-- grid for player cards -->
+    <section id="players-grid" class="card-grid"></section>
+
+    <div id="coming" class="coming-soon" style="display:none;"></div>
+  </div>
+
+  <!-- Player details modal -->
+  <div id="player-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    © <span id="footer-year"></span> OCC Noida. Organised by U-Sports Noida.
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/players.js"></script>
+
+</body>
+</html>

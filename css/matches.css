@@ -1,0 +1,274 @@
+/* css/matches.css */
+
+/* — FILTER BAR — */
+.filter-bar {
+  justify-content: center;      /* center the stage selector */
+  margin: 1.5rem 0;             /* vertical breathing room */
+}
+
+/* — TIMELINE CONTAINER — */
+.timeline-container {
+  padding: 0 2rem;              /* horizontal padding */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;                    /* space between date groups */
+}
+
+/* — DATE HEADINGS — */
+.timeline-container h3 {
+  margin: 1rem 0 0.5rem;
+  color: var(--text);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* — MATCH CARDS — */
+.timeline-node {
+  background: var(--card-bg);
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform var(--transition);
+}
+.timeline-node:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+/* — TIME ELEMENT — */
+.timeline-node time {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+/* — STAGE COLOR CLASSES — */
+.league  { border-left: 4px solid #808080; background-color: rgba(211,211,211,0.1); }
+.super6  { border-left: 4px solid #daa520; background-color: rgba(255,255,224,0.1); }
+.semi    { border-left: 4px solid #4682b4; background-color: rgba(173,216,230,0.1); }
+.elim    { border-left: 4px solid #4682b4; background-color: rgba(173,216,230,0.1); }
+.final   { border-left: 4px solid #32cd32; background-color: rgba(144,238,144,0.1); }
+
+/* — HOVER EFFECTS — */
+.league:hover  { background-color: rgba(211,211,211,0.2); }
+.super6:hover  { background-color: rgba(255,255,224,0.2); }
+.semi:hover,
+.elim:hover   { background-color: rgba(173,216,230,0.2); }
+.final:hover   { background-color: rgba(144,238,144,0.2); }
+
+.modal-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.mo-icon { width: 24px; vertical-align: middle; margin-right: .5rem; }
+.mo-right span { margin-left: 1rem; }
+
+.modal-teams {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.team-block {
+  flex: 1;
+  text-align: center;
+}
+.team-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: .5rem;
+}
+.awards p {
+  margin: .25rem 0;
+}
+.modal-winner {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+/* Overview split left/right */
+.modal-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mo-icon {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: .5rem;
+}
+.mo-right span {
+  margin-left: 1rem;
+}
+
+/* Teams side-by-side */
+.modal-teams {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.team-block {
+  flex: 1;
+  text-align: center;
+}
+.team-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: .5rem;
+}
+
+/* Award lines */
+.awards p {
+  margin: .25rem 0;
+  font-size: 0.9rem;
+}
+
+/* Centered winner line */
+.modal-winner {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Inline update form */
+.update-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+.update-form textarea {
+  width: 90%;
+  padding: .5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.update-form input[type="file"] {
+  margin-top: .5rem;
+}
+
+/* HEADER */
+.modal-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.mo-left .mo-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: .75rem;
+}
+.mo-left strong {
+  font-size: 1.25rem;
+}
+.mo-right .mo-margin {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* AWARDS */
+.award-list {
+  text-align: center;
+  margin: 1rem 0;
+}
+.award-list p {
+  margin: .25rem 0;
+  font-size: 1rem;
+}
+
+/* — POPUP LAYOUT ADDITIONS — */
+
+/* 1) HEADER: date/time/loc left, trophy right */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.mh-left {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+.mh-item {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+.mh-right {
+  /* if you want a smiley instead of an <img>: */
+  font-size: 2rem;
+}
+.mh-right .mh-trophy {
+  width: 48px;
+  height: 48px;
+}
+
+/* 2) TEAMS + AWARDS PANELS */
+.modal-teams-awards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+.team-panel {
+  flex: 1;
+  text-align: center;
+}
+.team-logo {
+  width: 100px;   /* bump this up if you want even larger */
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: .5rem;
+}
+.team-awards p {
+  margin: .25rem 0;
+  font-size: .9rem;
+}
+
+/* 3) SEPARATOR UNDER TEAMS */
+.modal-separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+/* 4) CENTERED WINNER */
+.modal-winner {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* 5) UPDATE FORM */
+.update-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+}
+.update-form textarea {
+  width: 90%;
+  padding: .5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.update-form input[type="file"] {
+  margin-top: .5rem;
+}
+
