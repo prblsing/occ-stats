@@ -1,6 +1,3 @@
-// js/teams.js
-// depends on fetchData() from js/app.js
-
 async function renderTeams() {
   const teams   = await fetchData('teams.json');
   const players = await fetchData('players.json');
