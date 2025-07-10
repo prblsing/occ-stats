@@ -170,7 +170,7 @@ function showTeamModal(team, players) {
 
     const title = encodeURIComponent(`Team Data Update: ${team.name}`);
     window.open(
-      `https://github.com/YOUR_ORG/YOUR_REPO/issues/new?title=${title}&body=${issueBody}`,
+      `https://github.com/prblsing/occ-stats/issues/new?title=${title}&body=${issueBody}`,
       '_blank'
     );
     modal.style.display = 'none';
