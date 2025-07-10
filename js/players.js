@@ -178,7 +178,7 @@ function showPlayerModal(player, record, teamsList, allMatches) {
     if (file) bodyText += encodeURIComponent(`\n\n_Attachment:_ ${file.name}`);
     const title = encodeURIComponent(`Player Data Update: ${player.name}`);
     window.open(
-      `https://github.com/YOUR_ORG/YOUR_REPO/issues/new?title=${title}&body=${bodyText}`,
+      `https://github.com/prblsing/occ-stats/issues/new?title=${title}&body=${issueBody}`,
       '_blank'
     );
     modal.style.display = 'none';
