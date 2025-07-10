@@ -241,7 +241,6 @@ h1 {
   opacity: 0.85;
 }
 
-/* Ensure the Coming Soon message is always centered and big */
 .coming-soon {
   display: flex;
   flex-direction: column;
