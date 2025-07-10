@@ -29,10 +29,6 @@ function getStageClass(stage) {
   return colors[stage] || "league";
 }
 
-/**
- * Render all matches into the #timeline container, grouped by date,
- * filtered by year & stage.
- */
 async function renderMatches() {
   // 1) Fetch all data
   const matches     = await fetchData('match_summaries.json');
@@ -108,11 +104,6 @@ async function renderMatches() {
 
 /**
  * Populate and show the Match Details modal.
- * Uses `playerStats` to figure out which team each awardee played for.
- */
-/**
- * Populate and show the Match Details modal.
- * Header: big icon left, margin right. Awards listed centrally beneath.
  */
 function showMatchModal(match, players, teams, playerStats) {
   const modal = document.getElementById('match-modal');
