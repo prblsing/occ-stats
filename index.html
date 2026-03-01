@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OCC Stats</title>
+  <title>OCC Stats • Summary</title>
 
+  <!-- New theme -->
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/layout.css" />
+
+  <!-- (Optional) keep your old css if needed; ideally remove later -->
+  <!-- <link rel="stylesheet" href="css/styles.css" /> -->
 </head>
 
 <body>
-  <!-- Top bar -->
+  <!-- Header -->
   <header class="topbar">
     <div class="container">
       <div class="topbar-inner">
@@ -18,39 +22,42 @@
           <img src="images/occ-logo.png" alt="OCC logo" />
           <div class="title">
             <strong>Optum Cricket Championship</strong>
-            <span>OCC Noida • U-Sports</span>
+            <span>Powered by Engage! Noida</span>
           </div>
         </a>
 
+        <!-- Desktop nav (USES your existing nav highlight logic) -->
         <nav class="nav" aria-label="Primary">
-          <a class="active" href="index.html">Summary</a>
-          <a href="players.html">Players</a>
-          <a href="teams.html">Teams</a>
-          <a href="matches.html">Matches</a>
+          <a class="nav-item" data-page="summary" href="index.html">Summary</a>
+          <a class="nav-item" data-page="players" href="players.html">Players</a>
+          <a class="nav-item" data-page="teams" href="teams.html">Teams</a>
+          <a class="nav-item" data-page="matches" href="matches.html">Matches</a>
         </nav>
 
+        <!-- Mobile menu button -->
         <button class="btn menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Open menu">
           ☰ Menu
         </button>
       </div>
 
+      <!-- Mobile drawer -->
       <div class="drawer" data-drawer>
-        <a class="active" href="index.html">Summary</a>
-        <a href="players.html">Players</a>
-        <a href="teams.html">Teams</a>
-        <a href="matches.html">Matches</a>
+        <a class="nav-item" data-page="summary" href="index.html">Summary</a>
+        <a class="nav-item" data-page="players" href="players.html">Players</a>
+        <a class="nav-item" data-page="teams" href="teams.html">Teams</a>
+        <a class="nav-item" data-page="matches" href="matches.html">Matches</a>
       </div>
     </div>
   </header>
 
-  <!-- Hero -->
   <main class="container">
+    <!-- Hero -->
     <section class="hero">
-      <div class="badge">🏏 Season Stats • 2024 & 2025</div>
-      <h1>OCC Tournament Overview</h1>
+      <div class="badge">🏏 OCC • Stats & Insights</div>
+      <h1>Quiz, Stats, Rankings — one place</h1>
       <p>
-        Clean, fast, mobile-first stats for OCC. Use Players/Teams/Matches to drill down.
-        (We’ll wire dynamic season switching next.)
+        Modern, mobile-first OCC dashboard. We’ll wire live data cards after the theme rollout
+        (Players → Teams → Matches).
       </p>
 
       <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
@@ -59,28 +66,28 @@
       </div>
     </section>
 
-    <!-- Content cards -->
+    <!-- Cards -->
     <section class="grid cols-3" style="margin-top: 14px;">
       <article class="card">
         <div class="card-body">
-          <h3 style="margin:0 0 6px;">Top 5 Run-Scorers</h3>
-          <p style="margin:0 0 10px; color: var(--muted);">Season leaders (auto-filled later).</p>
+          <h3 style="margin:0 0 6px;">Top Run-Scorers</h3>
+          <p style="margin:0 0 10px; color: var(--muted);">Auto-filled from JSON next step.</p>
           <div style="color: var(--muted); font-size: 14px;">Coming from your data…</div>
         </div>
       </article>
 
       <article class="card">
         <div class="card-body">
-          <h3 style="margin:0 0 6px;">Top 5 Wicket-Takers</h3>
-          <p style="margin:0 0 10px; color: var(--muted);">Strike bowlers & consistency.</p>
+          <h3 style="margin:0 0 6px;">Top Wicket-Takers</h3>
+          <p style="margin:0 0 10px; color: var(--muted);">Auto-filled from JSON next step.</p>
           <div style="color: var(--muted); font-size: 14px;">Coming from your data…</div>
         </div>
       </article>
 
       <article class="card">
         <div class="card-body">
-          <h3 style="margin:0 0 6px;">Quick Links</h3>
-          <p style="margin:0 0 12px; color: var(--muted);">Jump straight to key views.</p>
+          <h3 style="margin:0 0 6px;">Quick Actions</h3>
+          <p style="margin:0 0 12px; color: var(--muted);">Jump to key views.</p>
           <div style="display:flex; flex-direction:column; gap:10px;">
             <a class="btn" href="teams.html">Teams</a>
             <a class="btn" href="players.html">Players</a>
@@ -91,10 +98,11 @@
     </section>
 
     <footer class="footer">
-      © OCC Noida. Organised by U-Sports Noida.
+      © OCC Noida • U-Sports presents OCC
     </footer>
   </main>
 
+  <!-- Your existing app.js (now includes menu toggle) -->
   <script src="js/app.js"></script>
 </body>
 </html>
