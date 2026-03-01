@@ -1,13 +1,11 @@
-/* css/layout.css */
-
-/* Top header */
+/* App Shell (Header / Drawer / Footer) */
 .topbar{
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(38,59,102,0.78);
-  backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
+  background: rgba(38,59,102,.78);
+  backdrop-filter: blur(10px);
 }
 
 .topbar-inner{
@@ -22,7 +20,7 @@
   display:flex;
   align-items:center;
   gap: 12px;
-  min-width: 220px;
+  min-width: 240px;
 }
 .brand img{
   width: 42px;
@@ -34,10 +32,16 @@
   flex-direction: column;
   line-height: 1.15;
 }
-.brand .title strong{ font-size: 14px; letter-spacing: 0.3px; }
-.brand .title span{ font-size: 12px; color: var(--muted); }
+.brand .title strong{
+  font-size: 14px;
+  letter-spacing: .3px;
+}
+.brand .title span{
+  font-size: 12px;
+  color: var(--muted);
+}
 
-/* Nav */
+/* Desktop nav */
 .nav{
   display:none;
   align-items:center;
@@ -48,30 +52,27 @@
   border-radius: 12px;
   border: 1px solid transparent;
   color: var(--muted);
-  font-weight: 700;
+  font-weight: 850;
 }
 .nav a:hover{
   color: var(--text);
-  background: rgba(255,255,255,0.06);
-  border-color: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,.06);
+  border-color: rgba(255,255,255,.08);
 }
-/* Your app.js adds .active */
 .nav a.active{
   color: var(--text);
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.10);
+  background: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.10);
 }
 
-/* Mobile menu button */
-.menu-btn{
-  display:inline-flex;
-}
-@media (min-width: 860px){
+/* Mobile */
+.menu-btn{ display:inline-flex; }
+@media (min-width: 900px){
   .nav{ display:flex; }
   .menu-btn{ display:none; }
 }
 
-/* Mobile drawer */
+/* Drawer */
 .drawer{
   display:none;
   border-top: 1px solid var(--border);
@@ -80,16 +81,26 @@
 .drawer a{
   display:block;
   padding: 14px 10px;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,.06);
   color: var(--muted);
-  font-weight: 800;
+  font-weight: 900;
 }
-.drawer a:hover{ color: var(--text); background: rgba(255,255,255,0.05); }
+.drawer a:hover{
+  color: var(--text);
+  background: rgba(255,255,255,.05);
+}
 .drawer a.active{ color: var(--text); }
 
-/* Hero: now dynamic sizing (less wasted space) */
+/* Page layout */
+.page{
+  padding: clamp(14px, 2.2vw, 24px) 0 clamp(10px, 1.5vw, 18px);
+}
+
 .hero{
-  padding: clamp(14px, 2.2vw, 24px) 0 clamp(10px, 1.4vw, 16px);
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: var(--s-4);
 }
 
 .hero-top{
@@ -100,30 +111,21 @@
   flex-wrap: wrap;
 }
 
-.hero-actions{
-  display:flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
 .hero h1{
-  margin: clamp(10px, 1.8vw, 16px) 0 8px;
-  font-size: clamp(26px, 2.6vw, 38px);
-  letter-spacing: 0.2px;
-  line-height: 1.15;
+  font-size: clamp(26px, 2.6vw, 40px);
+  line-height: 1.12;
+  letter-spacing: .2px;
 }
 
 .hero p{
-  margin: 0;
+  max-width: 80ch;
   color: var(--muted);
-  max-width: 78ch;
 }
 
-/* Footer */
 .footer{
+  margin-top: var(--s-6);
   padding: 20px 0;
+  border-top: 1px solid rgba(255,255,255,.08);
   color: var(--muted);
-  border-top: 1px solid rgba(255,255,255,0.08);
-  margin-top: 22px;
   font-size: 13px;
 }
