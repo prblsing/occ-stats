@@ -1,62 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>🏏 Optum Cricket Championship (OCC)</title>
-  <link rel="stylesheet" href="css/globals.css"/>
-  <link rel="stylesheet" href="css/summary.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"/>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OCC Stats</title>
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
 </head>
+
 <body>
-<nav class="navbar">
-  <div class="logo">Optum Cricket Championship (OCC)</div>
-  <ul class="nav-links">
-    <li><a href="index.html" class="nav-item" data-page="summary">Summary</a></li>
-    <li><a href="players.html" class="nav-item" data-page="players">Players</a></li>
-    <li><a href="teams.html"   class="nav-item" data-page="teams">Teams</a></li>
-    <li><a href="matches.html" class="nav-item" data-page="matches">Matches</a></li>
-  </ul>
-  <select id="year-select">
-    <option value="2024">2024</option>
-    <option value="2025">2025</option>
-  </select>
-</nav>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">
+          <img src="images/occ-logo.png" alt="OCC logo" />
+          <div class="title">
+            <strong>Optum Cricket Championship</strong>
+            <span>OCC Noida • U-Sports</span>
+          </div>
+        </a>
 
-<header class="hero">
-  <h1><span id="hero-year">2024</span> OCC Tournament Overview</h1>
-</header>
+        <nav class="nav" aria-label="Primary">
+          <a class="active" href="index.html">Summary</a>
+          <a href="players.html">Players</a>
+          <a href="teams.html">Teams</a>
+          <a href="matches.html">Matches</a>
+        </nav>
 
-<!-- visible only for supported year -->
-<div id="content">
-  <main>
-    <section id="summary-cards" class="card-grid"></section>
-
-    <section id="charts" class="charts-grid">
-      <div class="chart-container">
-        <h3>Top 5 Run-Scorers</h3>
-        <canvas id="top-runs-chart"></canvas>
+        <button class="btn menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Open menu">
+          ☰ Menu
+        </button>
       </div>
-      <div class="chart-container">
-        <h3>Top 5 Wicket-Takers</h3>
-        <canvas id="top-wickets-chart"></canvas>
+
+      <div class="drawer" data-drawer>
+        <a class="active" href="index.html">Summary</a>
+        <a href="players.html">Players</a>
+        <a href="teams.html">Teams</a>
+        <a href="matches.html">Matches</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="container">
+    <section class="hero">
+      <div class="badge">🏏 Season Stats • 2024 & 2025</div>
+      <h1>OCC Tournament Overview</h1>
+      <p>
+        Clean, fast, mobile-first stats for OCC. Use Players/Teams/Matches to drill down.
+        (We’ll wire dynamic season switching next.)
+      </p>
+
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn primary" href="players.html">Explore Players</a>
+        <a class="btn" href="matches.html">View Matches</a>
       </div>
     </section>
+
+    <!-- Content cards -->
+    <section class="grid cols-3" style="margin-top: 14px;">
+      <article class="card">
+        <div class="card-body">
+          <h3 style="margin:0 0 6px;">Top 5 Run-Scorers</h3>
+          <p style="margin:0 0 10px; color: var(--muted);">Season leaders (auto-filled later).</p>
+          <div style="color: var(--muted); font-size: 14px;">Coming from your data…</div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h3 style="margin:0 0 6px;">Top 5 Wicket-Takers</h3>
+          <p style="margin:0 0 10px; color: var(--muted);">Strike bowlers & consistency.</p>
+          <div style="color: var(--muted); font-size: 14px;">Coming from your data…</div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h3 style="margin:0 0 6px;">Quick Links</h3>
+          <p style="margin:0 0 12px; color: var(--muted);">Jump straight to key views.</p>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <a class="btn" href="teams.html">Teams</a>
+            <a class="btn" href="players.html">Players</a>
+            <a class="btn" href="matches.html">Matches</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      © OCC Noida. Organised by U-Sports Noida.
+    </footer>
   </main>
-</div>
 
-<!-- shown when year≠2024 -->
-<div id="coming" class="coming-soon" style="display:none; text-align:center;">
-  <img src="images/trophy.png" style="width:60px; margin-bottom:1rem;" alt="Trophy"/><br/>
-  <span id="coming-text" style="font-size:1.5rem; font-weight:600;"></span>
-</div>
-
-<footer>
-  © <span id="footer-year"></span> OCC Noida. Organised by U-Sports Noida.
-</footer>
-
-<script src="js/app.js"></script>
-<script src="js/summary.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
