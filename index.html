@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OCC Stats • Summary</title>
+  <title>OCC • Summary</title>
 
-  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/layout.css" />
 </head>
 
 <body>
-  <!-- Header -->
   <header class="topbar">
     <div class="container">
       <div class="topbar-inner">
@@ -22,37 +23,38 @@
           </div>
         </a>
 
-        <!-- Desktop nav (your app.js highlights .nav-item[data-page]) -->
         <nav class="nav" aria-label="Primary">
           <a class="nav-item" data-page="summary" href="index.html">Summary</a>
           <a class="nav-item" data-page="players" href="players.html">Players</a>
           <a class="nav-item" data-page="teams" href="teams.html">Teams</a>
           <a class="nav-item" data-page="matches" href="matches.html">Matches</a>
+          <a class="nav-item" data-page="records" href="records.html">Records</a>
+          <a class="nav-item" data-page="history" href="history.html">History</a>
+          <a class="nav-item" data-page="auction" href="auction.html">Auction</a>
         </nav>
 
-        <!-- Mobile menu button -->
         <button class="btn menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Open menu">
           ☰ Menu
         </button>
       </div>
 
-      <!-- Mobile drawer -->
       <div class="drawer" data-drawer>
         <a class="nav-item" data-page="summary" href="index.html">Summary</a>
         <a class="nav-item" data-page="players" href="players.html">Players</a>
         <a class="nav-item" data-page="teams" href="teams.html">Teams</a>
         <a class="nav-item" data-page="matches" href="matches.html">Matches</a>
+        <a class="nav-item" data-page="records" href="records.html">Records</a>
+        <a class="nav-item" data-page="history" href="history.html">History</a>
+        <a class="nav-item" data-page="auction" href="auction.html">Auction</a>
       </div>
     </div>
   </header>
 
-  <main class="container">
-    <!-- Hero -->
+  <main class="container page">
     <section class="hero">
       <div class="hero-top">
         <div class="badge">🏏 OCC • Stats & Insights</div>
-
-        <div class="hero-actions">
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
           <a class="btn primary" href="players.html">Explore Players</a>
           <a class="btn" href="matches.html">View Matches</a>
         </div>
@@ -60,62 +62,53 @@
 
       <h1>Quiz, Stats, Rankings — one place</h1>
       <p>
-        Modern, mobile-first OCC dashboard. We’ll wire live data cards after the theme rollout
-        (Players → Teams → Matches).
+        IPL-style portal for OCC: profiles, teams, fixtures, points table, records, history and auction.
+        We’ll build one component at a time.
       </p>
     </section>
 
-    <!-- Dashboard grid (AUTO-FIT columns; no cols-3 hardcoding) -->
-    <section class="grid auto" style="margin-top: var(--space-4);">
+    <section class="grid auto">
       <article class="card">
         <div class="card-body">
           <div class="card-head">
-            <h3>Top Run-Scorers</h3>
-            <span class="pill">Top 5</span>
+            <div class="card-title">Top Run-Scorers</div>
+            <span class="pill">Season</span>
           </div>
-          <p class="muted">Auto-filled from JSON next step.</p>
-
-          <!-- Placeholder list that doesn't look empty -->
-          <ol class="mini-list">
-            <li><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">4</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">5</span><span class="name">—</span><span class="val">—</span></li>
-          </ol>
+          <p class="muted">Component placeholder (will be data-driven).</p>
+          <ul class="list">
+            <li class="list-row"><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
+            <li class="list-row"><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
+            <li class="list-row"><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
+          </ul>
         </div>
       </article>
 
       <article class="card">
         <div class="card-body">
           <div class="card-head">
-            <h3>Top Wicket-Takers</h3>
-            <span class="pill">Top 5</span>
+            <div class="card-title">Top Wicket-Takers</div>
+            <span class="pill">Season</span>
           </div>
-          <p class="muted">Auto-filled from JSON next step.</p>
-
-          <ol class="mini-list">
-            <li><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">4</span><span class="name">—</span><span class="val">—</span></li>
-            <li><span class="rank">5</span><span class="name">—</span><span class="val">—</span></li>
-          </ol>
+          <p class="muted">Component placeholder (will be data-driven).</p>
+          <ul class="list">
+            <li class="list-row"><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
+            <li class="list-row"><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
+            <li class="list-row"><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
+          </ul>
         </div>
       </article>
 
       <article class="card">
         <div class="card-body">
           <div class="card-head">
-            <h3>Quick Actions</h3>
-            <span class="pill">Links</span>
+            <div class="card-title">Quick Links</div>
+            <span class="pill">Portal</span>
           </div>
-          <p class="muted">Jump to key views.</p>
-
-          <div class="stack">
-            <a class="btn" href="teams.html">Teams</a>
-            <a class="btn" href="players.html">Players</a>
-            <a class="btn" href="matches.html">Matches</a>
+          <p class="muted">Go to the core areas.</p>
+          <div style="display:flex; flex-direction:column; gap:10px; margin-top:12px;">
+            <a class="btn" href="records.html">Records</a>
+            <a class="btn" href="history.html">History</a>
+            <a class="btn" href="auction.html">Auction</a>
           </div>
         </div>
       </article>
