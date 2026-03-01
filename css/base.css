@@ -7,11 +7,16 @@ body{
   color:var(--text);
   line-height:1.55;
 
-  /* cinematic but clean */
+  /* Footer to bottom: app layout */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Light background with a gentle glow */
   background:
-    radial-gradient(900px 520px at 20% 0%, var(--bg-2), var(--bg-1)),
-    radial-gradient(900px 520px at 85% 25%, rgba(214,152,94,.18), transparent 60%),
-    linear-gradient(180deg, var(--bg-1), var(--bg-0));
+    radial-gradient(1100px 520px at 20% -10%, rgba(38,59,102,.12), transparent 60%),
+    radial-gradient(900px 520px at 90% 10%, rgba(214,152,94,.12), transparent 62%),
+    linear-gradient(180deg, var(--page-bg-2), var(--page-bg));
 }
 
 a{ color:inherit; text-decoration:none; }
@@ -22,11 +27,16 @@ img{ max-width:100%; display:block; }
   margin:0 auto;
 }
 
+main{
+  /* This ensures footer sits at bottom even with little content */
+  flex: 1;
+}
+
 h1,h2,h3{ margin:0; }
 p{ margin:0; }
 
 :focus-visible{
-  outline: 2px solid rgba(231,177,122,.75);
+  outline: 2px solid rgba(231,177,122,.8);
   outline-offset: 3px;
   border-radius: 10px;
 }
