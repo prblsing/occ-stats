@@ -1,0 +1,88 @@
+/* css/theme.css */
+:root{
+  /* Colors picked to match your banner */
+  --bg: #263B66;          /* deep navy */
+  --bg-2: #2B4575;        /* slightly lighter navy */
+  --card: rgba(255,255,255,0.06);
+  --card-2: rgba(255,255,255,0.09);
+  --border: rgba(255,255,255,0.12);
+
+  --text: #F0F8F9;        /* off-white */
+  --muted: rgba(240,248,249,0.72);
+
+  --accent: #D6985E;      /* OCC orange */
+  --accent-2: #E7B17A;
+
+  --shadow: 0 12px 30px rgba(0,0,0,0.25);
+
+  --radius: 16px;
+  --radius-lg: 22px;
+
+  --container: 1120px;
+}
+
+/* Base reset */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  background: radial-gradient(1200px 600px at 20% 0%, var(--bg-2), var(--bg));
+  color: var(--text);
+  line-height: 1.55;
+}
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+.container{
+  width: min(var(--container), calc(100% - 32px));
+  margin: 0 auto;
+}
+
+/* Utilities */
+.badge{
+  display:inline-flex; align-items:center; gap:8px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover{ background: rgba(255,255,255,0.09); }
+.btn.primary{
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border: none;
+  color: #1a2540;
+}
+.btn.primary:hover{ filter: brightness(1.02); }
+
+/* Cards + grids */
+.card{
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+.card .card-body{ padding: 18px; }
+
+.grid{
+  display:grid;
+  gap: 14px;
+}
+@media (min-width: 860px){
+  .grid.cols-3{ grid-template-columns: repeat(3, 1fr); }
+  .grid.cols-2{ grid-template-columns: repeat(2, 1fr); }
+}
