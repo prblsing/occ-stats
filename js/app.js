@@ -11,8 +11,9 @@ async function fetchData(file) {
   return cache[file];
 }
 
-// Nav-highlight logic on every page
+// App shell behaviors
 document.addEventListener('DOMContentLoaded', () => {
+  // Nav highlight
   const file = window.location.pathname.split('/').pop();
   const page = (!file || file === 'index.html')
     ? 'summary'
@@ -21,32 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.nav-item').forEach(a => {
     if (a.dataset.page === page) a.classList.add('active');
   });
-});
 
-// coming soon
-function showComingSoon(year, extraMsg) {
-  const contentDiv = document.getElementById('content');
-  const comingDiv = document.getElementById('coming');
-  if (contentDiv) contentDiv.style.display = 'none';
-  if (comingDiv) {
-    comingDiv.style.display = 'flex';
-    comingDiv.innerHTML = `
-      <img src="images/trophy.svg" style="width:150px; margin-bottom:1.5rem;" alt="Trophy"/>
-      <div>🚧 ${year} championship is coming soon.<br>${extraMsg || 'Please check back later!'}</div>
-    `;
-  }
-}
-
-// --- UI: mobile menu toggle (safe to keep with existing code) ---
-document.addEventListener('DOMContentLoaded', () => {
+  // Mobile menu toggle
   const btn = document.querySelector('[data-menu-btn]');
   const drawer = document.querySelector('[data-drawer]');
-
-  if (!btn || !drawer) return;
-
-  btn.addEventListener('click', () => {
-    drawer.classList.toggle('open');
-    const expanded = drawer.classList.contains('open');
-    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-  });
+  if (btn && drawer) {
+    btn.addEventListener('click', () => {
+      drawer.classList.toggle('open');
+      const expanded = drawer.classList.contains('open');
+      btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    });
+  }
 });
