@@ -37,3 +37,16 @@ function showComingSoon(year, extraMsg) {
   }
 }
 
+// --- UI: mobile menu toggle (safe to keep with existing code) ---
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.querySelector('[data-menu-btn]');
+  const drawer = document.querySelector('[data-drawer]');
+
+  if (!btn || !drawer) return;
+
+  btn.addEventListener('click', () => {
+    drawer.classList.toggle('open');
+    const expanded = drawer.classList.contains('open');
+    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  });
+});
