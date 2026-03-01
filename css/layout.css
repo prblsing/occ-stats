@@ -1,0 +1,114 @@
+/* css/layout.css */
+
+/* Top header */
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(38,59,102,0.78);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar-inner{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 0;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+  min-width: 220px;
+}
+.brand img{
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+.brand .title{
+  display:flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.brand .title strong{ font-size: 14px; letter-spacing: 0.4px; }
+.brand .title span{ font-size: 12px; color: var(--muted); }
+
+/* Nav */
+.nav{
+  display:none;
+  align-items:center;
+  gap: 10px;
+}
+.nav a{
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  color: var(--muted);
+  font-weight: 600;
+}
+.nav a:hover{
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.08);
+}
+.nav a.active{
+  color: var(--text);
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.10);
+}
+
+/* Mobile menu button */
+.menu-btn{
+  display:inline-flex;
+}
+@media (min-width: 860px){
+  .nav{ display:flex; }
+  .menu-btn{ display:none; }
+}
+
+/* Mobile drawer */
+.drawer{
+  display:none;
+  border-top: 1px solid var(--border);
+}
+.drawer.open{ display:block; }
+.drawer a{
+  display:block;
+  padding: 14px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  color: var(--muted);
+  font-weight: 700;
+}
+.drawer a:hover{ color: var(--text); background: rgba(255,255,255,0.05); }
+
+/* Hero */
+.hero{
+  padding: 22px 0 14px;
+}
+.hero h1{
+  margin: 10px 0 8px;
+  font-size: 28px;
+  letter-spacing: 0.2px;
+}
+.hero p{
+  margin: 0;
+  color: var(--muted);
+  max-width: 70ch;
+}
+@media (min-width: 860px){
+  .hero{ padding: 28px 0 18px; }
+  .hero h1{ font-size: 36px; }
+}
+
+/* Footer */
+.footer{
+  padding: 24px 0;
+  color: var(--muted);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: 26px;
+  font-size: 13px;
+}
