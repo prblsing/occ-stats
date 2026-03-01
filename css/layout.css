@@ -1,11 +1,16 @@
-/* App Shell (Header / Drawer / Footer) */
+/* Header */
 .topbar{
   position: sticky;
   top: 0;
   z-index: 50;
-  border-bottom: 1px solid var(--border);
-  background: rgba(38,59,102,.78);
+
+  border-bottom: 1px solid rgba(255,255,255,.14);
+  background: rgba(38,59,102,.92);
   backdrop-filter: blur(10px);
+}
+
+.topbar *{
+  color: rgba(240,248,249,.92); /* header text stays light */
 }
 
 .topbar-inner{
@@ -20,25 +25,30 @@
   display:flex;
   align-items:center;
   gap: 12px;
-  min-width: 240px;
+  min-width: 260px;
 }
+
+/* Bigger logo */
 .brand img{
-  width: 42px;
-  height: 42px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
 }
+
 .brand .title{
   display:flex;
   flex-direction: column;
-  line-height: 1.15;
+  line-height: 1.12;
 }
 .brand .title strong{
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: .3px;
+  font-weight: 900;
 }
 .brand .title span{
   font-size: 12px;
-  color: var(--muted);
+  color: rgba(240,248,249,.72);
+  font-weight: 700;
 }
 
 /* Desktop nav */
@@ -47,26 +57,34 @@
   align-items:center;
   gap: 8px;
 }
+
 .nav a{
   padding: 10px 12px;
   border-radius: 12px;
   border: 1px solid transparent;
-  color: var(--muted);
-  font-weight: 850;
+  color: rgba(240,248,249,.75);
+  font-weight: 900;
 }
 .nav a:hover{
-  color: var(--text);
-  background: rgba(255,255,255,.06);
-  border-color: rgba(255,255,255,.08);
-}
-.nav a.active{
-  color: var(--text);
+  color: rgba(240,248,249,.95);
   background: rgba(255,255,255,.08);
   border-color: rgba(255,255,255,.10);
 }
+.nav a.active{
+  color: rgba(240,248,249,.98);
+  background: rgba(255,255,255,.12);
+  border-color: rgba(255,255,255,.14);
+}
 
 /* Mobile */
-.menu-btn{ display:inline-flex; }
+.menu-btn{
+  display:inline-flex;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: none;
+}
+.menu-btn:hover{ background: rgba(255,255,255,.12); }
+
 @media (min-width: 900px){
   .nav{ display:flex; }
   .menu-btn{ display:none; }
@@ -75,21 +93,21 @@
 /* Drawer */
 .drawer{
   display:none;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(255,255,255,.14);
 }
 .drawer.open{ display:block; }
 .drawer a{
   display:block;
   padding: 14px 10px;
-  border-bottom: 1px solid rgba(255,255,255,.06);
-  color: var(--muted);
-  font-weight: 900;
+  border-bottom: 1px solid rgba(255,255,255,.10);
+  color: rgba(240,248,249,.78);
+  font-weight: 950;
 }
 .drawer a:hover{
-  color: var(--text);
-  background: rgba(255,255,255,.05);
+  color: rgba(240,248,249,.98);
+  background: rgba(255,255,255,.08);
 }
-.drawer a.active{ color: var(--text); }
+.drawer a.active{ color: rgba(240,248,249,.98); }
 
 /* Page layout */
 .page{
@@ -115,17 +133,19 @@
   font-size: clamp(26px, 2.6vw, 40px);
   line-height: 1.12;
   letter-spacing: .2px;
+  color: rgba(11,18,32,.92);
 }
 
 .hero p{
-  max-width: 80ch;
+  max-width: 86ch;
   color: var(--muted);
 }
 
+/* Footer at bottom (handled by base.css flex layout) */
 .footer{
   margin-top: var(--s-6);
-  padding: 20px 0;
-  border-top: 1px solid rgba(255,255,255,.08);
-  color: var(--muted);
+  padding: 18px 0;
+  border-top: 1px solid rgba(11,18,32,.12);
+  color: rgba(11,18,32,.62);
   font-size: 13px;
 }
