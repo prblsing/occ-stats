@@ -5,12 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>OCC Stats • Summary</title>
 
-  <!-- New theme -->
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/layout.css" />
-
-  <!-- (Optional) keep your old css if needed; ideally remove later -->
-  <!-- <link rel="stylesheet" href="css/styles.css" /> -->
 </head>
 
 <body>
@@ -26,7 +22,7 @@
           </div>
         </a>
 
-        <!-- Desktop nav (USES your existing nav highlight logic) -->
+        <!-- Desktop nav (your app.js highlights .nav-item[data-page]) -->
         <nav class="nav" aria-label="Primary">
           <a class="nav-item" data-page="summary" href="index.html">Summary</a>
           <a class="nav-item" data-page="players" href="players.html">Players</a>
@@ -53,42 +49,70 @@
   <main class="container">
     <!-- Hero -->
     <section class="hero">
-      <div class="badge">🏏 OCC • Stats & Insights</div>
+      <div class="hero-top">
+        <div class="badge">🏏 OCC • Stats & Insights</div>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="players.html">Explore Players</a>
+          <a class="btn" href="matches.html">View Matches</a>
+        </div>
+      </div>
+
       <h1>Quiz, Stats, Rankings — one place</h1>
       <p>
         Modern, mobile-first OCC dashboard. We’ll wire live data cards after the theme rollout
         (Players → Teams → Matches).
       </p>
-
-      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
-        <a class="btn primary" href="players.html">Explore Players</a>
-        <a class="btn" href="matches.html">View Matches</a>
-      </div>
     </section>
 
-    <!-- Cards -->
-    <section class="grid cols-3" style="margin-top: 14px;">
+    <!-- Dashboard grid (AUTO-FIT columns; no cols-3 hardcoding) -->
+    <section class="grid auto" style="margin-top: var(--space-4);">
       <article class="card">
         <div class="card-body">
-          <h3 style="margin:0 0 6px;">Top Run-Scorers</h3>
-          <p style="margin:0 0 10px; color: var(--muted);">Auto-filled from JSON next step.</p>
-          <div style="color: var(--muted); font-size: 14px;">Coming from your data…</div>
+          <div class="card-head">
+            <h3>Top Run-Scorers</h3>
+            <span class="pill">Top 5</span>
+          </div>
+          <p class="muted">Auto-filled from JSON next step.</p>
+
+          <!-- Placeholder list that doesn't look empty -->
+          <ol class="mini-list">
+            <li><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">4</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">5</span><span class="name">—</span><span class="val">—</span></li>
+          </ol>
         </div>
       </article>
 
       <article class="card">
         <div class="card-body">
-          <h3 style="margin:0 0 6px;">Top Wicket-Takers</h3>
-          <p style="margin:0 0 10px; color: var(--muted);">Auto-filled from JSON next step.</p>
-          <div style="color: var(--muted); font-size: 14px;">Coming from your data…</div>
+          <div class="card-head">
+            <h3>Top Wicket-Takers</h3>
+            <span class="pill">Top 5</span>
+          </div>
+          <p class="muted">Auto-filled from JSON next step.</p>
+
+          <ol class="mini-list">
+            <li><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">4</span><span class="name">—</span><span class="val">—</span></li>
+            <li><span class="rank">5</span><span class="name">—</span><span class="val">—</span></li>
+          </ol>
         </div>
       </article>
 
       <article class="card">
         <div class="card-body">
-          <h3 style="margin:0 0 6px;">Quick Actions</h3>
-          <p style="margin:0 0 12px; color: var(--muted);">Jump to key views.</p>
-          <div style="display:flex; flex-direction:column; gap:10px;">
+          <div class="card-head">
+            <h3>Quick Actions</h3>
+            <span class="pill">Links</span>
+          </div>
+          <p class="muted">Jump to key views.</p>
+
+          <div class="stack">
             <a class="btn" href="teams.html">Teams</a>
             <a class="btn" href="players.html">Players</a>
             <a class="btn" href="matches.html">Matches</a>
@@ -102,7 +126,6 @@
     </footer>
   </main>
 
-  <!-- Your existing app.js (now includes menu toggle) -->
   <script src="js/app.js"></script>
 </body>
 </html>
