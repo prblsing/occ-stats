@@ -1,130 +1,1028 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OCC Cricket — Home</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏏</text></svg>" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OCC – Optum Cricket Championship</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy-dark: #0b1629;
+  --navy:      #132040;
+  --navy-mid:  #1a2d5a;
+  --navy-card: #162038;
+  --orange:    #e8820c;
+  --orange-lt: #f5a73b;
+  --orange-dim:#7a3e00;
+  --white:     #ffffff;
+  --muted:     #7a9ac8;
+  --muted2:    #4a6a9a;
+  --border:    rgba(255,255,255,0.07);
+  --green:     #22c55e;
+  --red:       #ef4444;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--navy-dark);color:var(--white);min-height:100vh;overflow-x:hidden}
+
+/* ── NAV ── */
+nav{position:sticky;top:0;z-index:100;background:rgba(11,22,41,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:56px}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo svg{width:34px;height:34px}
+.nav-logo-text{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:1px;color:var(--white);line-height:1}
+.nav-logo-text span{color:var(--orange)}
+.nav-links{display:flex;gap:2px}
+.nav-link{background:none;border:none;color:var(--muted);font-family:'DM Sans',sans-serif;font-size:13px;padding:6px 12px;border-radius:6px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.nav-link:hover{color:var(--white);background:rgba(255,255,255,0.06)}
+.nav-link.active{color:var(--orange-lt);background:rgba(232,130,12,0.1)}
+.nav-year-pill{display:flex;align-items:center;gap:6px}
+.year-sel{background:var(--navy-card);border:1px solid rgba(232,130,12,0.3);color:var(--orange-lt);font-family:'DM Mono',monospace;font-size:12px;padding:5px 10px;border-radius:6px;cursor:pointer;outline:none}
+.year-sel option{background:var(--navy-dark)}
+
+/* ── PAGES ── */
+.page{display:none;animation:fadeUp .25s ease}
+.page.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── HERO ── */
+.hero{background:linear-gradient(160deg,var(--navy-dark) 0%,var(--navy-mid) 55%,#0d2a4a 100%);padding:60px 24px 48px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 70% 40%,rgba(232,130,12,.07),transparent)}
+.hero-badge{display:inline-block;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:3px;color:var(--orange-lt);text-transform:uppercase;margin-bottom:14px}
+.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,8vw,80px);line-height:.95;letter-spacing:2px;margin-bottom:12px}
+.hero h1 em{color:var(--orange);font-style:normal}
+.hero-sub{font-size:14px;color:var(--muted);margin-bottom:28px;letter-spacing:.5px}
+.hero-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn-pri{background:var(--orange);color:#fff;padding:10px 24px;border-radius:8px;border:none;font-size:13px;font-weight:500;cursor:pointer;font-family:'DM Sans',sans-serif;transition:background .15s}
+.btn-pri:hover{background:var(--orange-lt)}
+.btn-sec{background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);color:var(--white);padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.btn-sec:hover{background:rgba(255,255,255,0.12)}
+.hero-rule{height:1px;background:linear-gradient(to right,transparent,var(--orange),transparent);margin:0}
+
+/* ── CONTAINER ── */
+.container{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* ── SECTION ── */
+.section{padding:28px 0}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:1px;color:var(--white)}
+.section-badge{font-family:'DM Mono',monospace;font-size:10px;color:var(--orange-lt);background:rgba(232,130,12,0.12);padding:3px 8px;border-radius:4px;letter-spacing:1px}
+
+/* ── CHAMPION BANNER ── */
+.champion-banner{background:linear-gradient(135deg,rgba(232,130,12,.12),rgba(232,130,12,.04));border:1px solid rgba(232,130,12,.25);border-radius:10px;padding:12px 16px;margin-bottom:16px;display:flex;align-items:center;gap:10px;font-size:13px;color:var(--orange-lt)}
+.champion-trophy{font-size:20px}
+
+/* ── GRID ── */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:640px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
+@media(max-width:480px){.nav-links{display:none}}
+
+/* ── CARDS ── */
+.card{background:var(--navy-card);border:1px solid var(--border);border-radius:10px;padding:14px}
+.card-label{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}
+.stat-card{background:var(--navy-card);border:1px solid var(--border);border-radius:10px;padding:14px;border-left:2px solid var(--orange)}
+.stat-val{font-family:'Bebas Neue',sans-serif;font-size:34px;color:var(--orange-lt);line-height:1}
+.stat-unit{font-size:12px;color:var(--muted);margin-left:2px}
+.stat-player{font-size:13px;color:var(--white);margin-top:3px;font-weight:500}
+.stat-team{font-size:11px;color:var(--muted)}
+
+/* ── MATCH CARD ── */
+.match-card{background:var(--navy-card);border:1px solid var(--border);border-radius:10px;padding:14px}
+.match-status{display:inline-block;font-size:10px;padding:2px 8px;border-radius:4px;margin-bottom:10px;font-family:'DM Mono',monospace;font-weight:500;letter-spacing:.5px}
+.status-completed{color:var(--muted);background:rgba(255,255,255,0.05)}
+.status-upcoming{color:var(--orange-lt);background:rgba(232,130,12,0.12)}
+.status-live{color:var(--green);background:rgba(34,197,94,0.12)}
+.match-teams{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.match-team-side{flex:1}
+.match-team-side.right{text-align:right}
+.match-team-name{font-size:12px;color:var(--muted);margin-bottom:3px}
+.match-score{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--white);line-height:1}
+.match-score.winner{color:var(--orange-lt)}
+.match-overs{font-size:11px;color:var(--muted2)}
+.match-vs{font-size:12px;color:var(--muted2);padding:0 4px;margin-top:8px}
+.match-result{margin-top:10px;padding:6px 10px;background:rgba(34,197,94,0.08);border-radius:6px;font-size:11px;color:var(--green);border:1px solid rgba(34,197,94,0.15)}
+.match-meta{margin-top:8px;font-size:11px;color:var(--muted2);border-top:1px solid var(--border);padding-top:8px}
+
+/* ── TABLE ── */
+.table-wrap{background:var(--navy-card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.table-wrap table{width:100%;border-collapse:collapse}
+.table-wrap th{padding:9px 12px;font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;background:rgba(255,255,255,0.03);text-align:left;border-bottom:1px solid var(--border)}
+.table-wrap th.r,.table-wrap td.r{text-align:right}
+.table-wrap th.c,.table-wrap td.c{text-align:center}
+.table-wrap td{padding:9px 12px;font-size:12px;color:var(--muted);border-bottom:1px solid rgba(255,255,255,0.03)}
+.table-wrap tr:last-child td{border-bottom:none}
+.table-wrap tr.top-row td{background:rgba(232,130,12,0.06)}
+.td-name{color:var(--white)!important;font-weight:500}
+.td-pts{color:var(--orange-lt)!important;font-weight:600;font-family:'DM Mono',monospace}
+.td-rank{font-family:'Bebas Neue',sans-serif;font-size:16px}
+.td-rank.gold{color:var(--orange)}
+.td-nrr-pos{color:#22c55e}
+.td-nrr-neg{color:#ef4444}
+.td-team-badge{display:inline-flex;align-items:center;gap:6px}
+.team-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+
+/* ── TABS ── */
+.tabs{display:flex;gap:4px;background:rgba(255,255,255,0.04);border-radius:8px;padding:3px;margin-bottom:16px;overflow-x:auto}
+.tab{padding:6px 14px;border-radius:6px;font-size:12px;cursor:pointer;white-space:nowrap;border:none;background:none;color:var(--muted);font-family:'DM Sans',sans-serif;transition:all .15s}
+.tab.active{background:var(--navy-mid);color:var(--white);font-weight:500}
+
+/* ── STAGE LABEL ── */
+.stage-label{font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;color:var(--orange);margin:20px 0 10px;padding-left:2px}
+
+/* ── AWARDS ── */
+.award-card{background:var(--navy-card);border:1px solid var(--border);border-radius:12px;padding:18px;text-align:center;position:relative;overflow:hidden}
+.award-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(to right,transparent,var(--orange),transparent)}
+.award-icon{font-size:28px;margin-bottom:8px}
+.award-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;font-family:'DM Mono',monospace}
+.award-winner{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--white);margin-bottom:2px}
+.award-detail{font-size:12px;color:var(--orange-lt)}
+.award-team{font-size:11px;color:var(--muted);margin-top:2px}
+
+/* ── PLAYER ROW ── */
+.player-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border)}
+.player-row:last-child{border-bottom:none}
+.player-rank{font-family:'Bebas Neue',sans-serif;font-size:18px;color:var(--muted2);width:24px;flex-shrink:0}
+.player-rank.p1{color:var(--orange)}
+.player-info{flex:1}
+.player-name{font-size:13px;font-weight:500;color:var(--white)}
+.player-team{font-size:11px;color:var(--muted)}
+.player-stat{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--orange-lt)}
+.player-stat-label{font-size:10px;color:var(--muted);font-family:'DM Mono',monospace}
+
+/* ── FORMAT TIMELINE ── */
+.format-timeline{display:flex;align-items:center;gap:0;overflow-x:auto;padding-bottom:4px}
+.format-stage{background:var(--navy-card);border:1px solid var(--border);border-radius:8px;padding:10px 14px;text-align:center;flex-shrink:0;min-width:100px}
+.format-stage-name{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:1px;color:var(--white)}
+.format-stage-detail{font-size:10px;color:var(--muted);margin-top:2px}
+.format-arrow{color:var(--orange);font-size:18px;padding:0 6px;flex-shrink:0}
+
+/* ── MINI INFO ROW ── */
+.info-row{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+.info-chip{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)}
+.info-chip span{color:var(--white);font-weight:500}
+
+/* RESPONSIVE */
+@media(max-width:640px){
+  .hero{padding:40px 16px 32px}
+  .hero h1{font-size:42px}
+  .container{padding:0 14px}
+  .grid-2{grid-template-columns:1fr 1fr}
+}
+</style>
 </head>
 <body>
 
-<div id="app">
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#" onclick="showPage('home')">
+    <svg viewBox="0 0 36 36" fill="none">
+      <rect x="11" y="8" width="2.5" height="18" rx="1.2" fill="white" opacity=".9"/>
+      <rect x="16.75" y="5" width="2.5" height="21" rx="1.2" fill="white"/>
+      <rect x="22.5" y="8" width="2.5" height="18" rx="1.2" fill="white" opacity=".9"/>
+      <circle cx="28" cy="9" r="5.5" fill="#e8820c" opacity=".9"/>
+      <circle cx="28" cy="9" r="3.2" fill="#f5a73b"/>
+      <path d="M25 6Q27.5 3 31.5 5.5Q29 9 25.5 8.5Z" fill="#f97316" opacity=".8"/>
+    </svg>
+    <div>
+      <div class="nav-logo-text">OCC <span id="nav-year-display">2025</span></div>
+    </div>
+  </a>
+  <div class="nav-links">
+    <button class="nav-link active" onclick="showPage('home')">Home</button>
+    <button class="nav-link" onclick="showPage('schedule')">Schedule</button>
+    <button class="nav-link" onclick="showPage('teams')">Teams</button>
+    <button class="nav-link" onclick="showPage('points')">Standings</button>
+    <button class="nav-link" onclick="showPage('stats')">Stats</button>
+    <button class="nav-link" onclick="showPage('awards')">Awards</button>
+  </div>
+  <div class="nav-year-pill">
+    <select class="year-sel" id="global-year" onchange="setYear(this.value)">
+      <option value="2025">OCC 2025</option>
+      <option value="2024">OCC 2024</option>
+    </select>
+  </div>
+</nav>
 
-  <!-- HERO -->
-  <div class="home-hero" id="hero-section">
-    <div class="hero-inner">
-      <div class="hero-tag"><span class="dot" style="width:6px;height:6px;border-radius:50%;background:currentColor;display:inline-block;animation:pulse 2s infinite"></span> Live Season</div>
-      <h1 class="hero-title">
-        Offside
-        <span>Cricket Club</span>
-      </h1>
-      <p class="hero-subtitle">Official stats portal for OCC — live standings, player stats, match scorecards and more.</p>
-      <div class="hero-ctas">
-        <a class="btn-primary" href="points-table.html">📊 Points Table</a>
-        <a class="btn-ghost"   href="matches.html">View Matches →</a>
-      </div>
+<!-- ════════════════════════════ HOME PAGE ════════════════════════════ -->
+<div id="page-home" class="page active">
+  <div class="hero">
+    <div class="hero-badge" id="hero-badge">Season 2025 · Noida</div>
+    <h1>OPTUM<br><em>CRICKET</em><br>CHAMPIONSHIP</h1>
+    <div class="hero-sub" id="hero-sub">Siditya Cricket Ground · 16 Teams · 8 Groups</div>
+    <div class="hero-btns">
+      <button class="btn-pri" onclick="showPage('schedule')">View Schedule</button>
+      <button class="btn-sec" onclick="showPage('points')">Live Standings</button>
     </div>
   </div>
+  <div class="hero-rule"></div>
 
-  <!-- MAIN CONTENT -->
-  <div class="page-wrap" id="main-content">
+  <div class="container">
+    <!-- Champion Banner -->
+    <div class="section">
+      <div id="home-champion"></div>
 
-    <!-- Stats bar -->
-    <div class="stat-row mt-lg" id="stats-bar">
-      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Matches Played</div></div>
-      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Teams</div></div>
-      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Players</div></div>
-      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Total Runs</div></div>
-      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Total Wickets</div></div>
+      <!-- Key Finals -->
+      <div class="section-header">
+        <div class="section-title">Key Matches</div>
+        <div class="section-badge" id="home-year-badge">2025</div>
+      </div>
+      <div class="grid-2" id="home-matches"></div>
     </div>
 
-    <!-- Cap Leaders -->
-    <div id="caps-section"></div>
-
-    <!-- Points Table Preview -->
-    <div class="section-head">
-      <h2>📊 Points Table</h2>
-      <div class="rule"></div>
-      <a href="points-table.html">Full Table →</a>
+    <!-- Stats Snapshot -->
+    <div class="section" style="padding-top:0">
+      <div class="section-header">
+        <div class="section-title">Tournament Leaders</div>
+      </div>
+      <div class="grid-4" id="home-stats"></div>
     </div>
-    <div id="pts-preview"></div>
 
-    <!-- Recent Matches -->
-    <div class="section-head mt-lg">
-      <h2>🏏 Recent Matches</h2>
-      <div class="rule"></div>
-      <a href="matches.html">All Matches →</a>
+    <!-- Format -->
+    <div class="section" style="padding-top:0">
+      <div class="section-header">
+        <div class="section-title">Tournament Format</div>
+      </div>
+      <div class="format-timeline" id="home-format"></div>
     </div>
-    <div class="matches-grid" id="recent-matches"></div>
-
-    <!-- Upcoming -->
-    <div class="section-head mt-lg" id="upcoming-head" style="display:none">
-      <h2>📅 Upcoming Fixtures</h2>
-      <div class="rule"></div>
-      <a href="matches.html">Full Schedule →</a>
-    </div>
-    <div class="matches-grid" id="upcoming-matches"></div>
-
   </div>
 </div>
 
-<script src="js/occ.js"></script>
-<script src="js/chrome.js"></script>
-<script>
-(async () => {
-  const year = await injectChrome();
-  render(year, OCC.getData());
-  OCC.onYearChange((y, d) => render(y, d));
-
-  function render(year, d) {
-    if (!d) return;
-
-    // Hero season badge
-    const tag = document.querySelector('.hero-tag');
-    if (tag) tag.innerHTML = `<span class="dot" style="width:6px;height:6px;border-radius:50%;background:currentColor;display:inline-block;animation:pulse 2s infinite"></span> ${d.status === 'ongoing' ? 'Live Season' : 'Season ' + year}`;
-
-    // Stats bar
-    const totalRuns = d.players.reduce((s,p) => s + p.runs, 0);
-    const totalWkts = d.players.reduce((s,p) => s + p.wickets, 0);
-    document.getElementById('stats-bar').innerHTML = `
-      <div class="stat-pill"><div class="num">${d.completedMatches.length}</div><div class="lbl">Matches Played</div></div>
-      <div class="stat-pill"><div class="num">${d.teams.length}</div><div class="lbl">Teams</div></div>
-      <div class="stat-pill"><div class="num">${d.players.length}</div><div class="lbl">Players</div></div>
-      <div class="stat-pill"><div class="num">${totalRuns}</div><div class="lbl">Total Runs</div></div>
-      <div class="stat-pill"><div class="num">${totalWkts}</div><div class="lbl">Total Wickets</div></div>
-    `;
-
-    // Cap leaders
-    document.getElementById('caps-section').innerHTML = `
-      <div class="section-head mt-lg">
-        <h2>🏆 Award Leaders</h2>
-        <div class="rule"></div>
+<!-- ════════════════════════════ SCHEDULE PAGE ════════════════════════ -->
+<div id="page-schedule" class="page">
+  <div class="container">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Schedule & Results</div>
+        <div class="section-badge" id="schedule-badge">2025</div>
       </div>
-      ${Render.capCards(d.orangeCap, d.purpleCap)}
-    `;
+      <div id="schedule-content"></div>
+    </div>
+  </div>
+</div>
 
-    // Points table (top 4)
-    const top4 = d.sortedTeams.slice(0, 4);
-    document.getElementById('pts-preview').innerHTML = Render.pointsTable(top4);
+<!-- ════════════════════════════ TEAMS PAGE ══════════════════════════ -->
+<div id="page-teams" class="page">
+  <div class="container">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Teams</div>
+        <div class="section-badge" id="teams-badge">2025</div>
+      </div>
+      <div id="teams-content"></div>
+    </div>
+  </div>
+</div>
 
-    // Recent matches (last 4 completed)
-    const recent = d.completedMatches.slice(-4).reverse();
-    document.getElementById('recent-matches').innerHTML = recent.map(m => Render.matchCard(m, d.teamMap)).join('');
+<!-- ════════════════════════════ POINTS TABLE ════════════════════════ -->
+<div id="page-points" class="page">
+  <div class="container">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Points Table</div>
+        <div class="section-badge" id="points-badge">2025</div>
+      </div>
+      <div id="points-content"></div>
+    </div>
+  </div>
+</div>
 
-    // Upcoming
-    const upcoming = d.upcomingMatches.slice(0, 3);
-    const upcomingEl = document.getElementById('upcoming-matches');
-    const upcomingHead = document.getElementById('upcoming-head');
-    if (upcoming.length > 0) {
-      upcomingHead.style.display = 'flex';
-      upcomingEl.innerHTML = upcoming.map(m => Render.matchCard(m, d.teamMap)).join('');
-    } else {
-      upcomingHead.style.display = 'none';
-      upcomingEl.innerHTML = '';
-    }
+<!-- ════════════════════════════ STATS PAGE ══════════════════════════ -->
+<div id="page-stats" class="page">
+  <div class="container">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Player Statistics</div>
+        <div class="section-badge" id="stats-badge">2025</div>
+      </div>
+      <div class="tabs" id="stats-tabs">
+        <button class="tab active" onclick="showStatTab('batting')">Batting</button>
+        <button class="tab" onclick="showStatTab('bowling')">Bowling</button>
+        <button class="tab" onclick="showStatTab('fielding')">Fielding</button>
+        <button class="tab" onclick="showStatTab('mvp')">MVP</button>
+      </div>
+      <div id="stats-content"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════ AWARDS PAGE ═════════════════════════ -->
+<div id="page-awards" class="page">
+  <div class="container">
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">Awards & Hall of Fame</div>
+        <div class="section-badge" id="awards-badge">2025</div>
+      </div>
+      <div id="awards-content"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// DATA
+// ══════════════════════════════════════════════════════════════
+const DATA = {
+  '2025': {
+    season: 'Season 2025 · Noida',
+    tagline: 'Siditya Cricket Ground · 16 Teams · 4 Groups',
+    champion: 'Super Smashers',
+    final: { t1:'Super Smashers', s1:'115/3', o1:'18.4', t2:'Furious Flames', s2:'114/10', o2:'19.3', result:'Super Smashers won by 7 wickets', date:'11 Oct 2025' },
+    format: [
+      { name:'4 Groups', detail:'Alpha/Bravo/Charlie/Delta' },
+      { name:'Super Eight', detail:'Panthers & Tigers groups' },
+      { name:'Semi Finals', detail:'Top 2 of each S8 group' },
+      { name:'3rd Place', detail:'Speedy Spartans beat UW' },
+      { name:'Final', detail:'11 Oct 2025' }
+    ],
+    groups: [
+      { name:'ALPHA', teams:[
+        { pos:1, name:'Ultimate Warriors',   m:3, w:2, l:1, nrr:'+0.958', pts:4 },
+        { pos:2, name:'Furious Flames',       m:3, w:2, l:1, nrr:'+0.583', pts:4 },
+        { pos:3, name:'Fierce Falcons',       m:3, w:2, l:1, nrr:'-0.749', pts:4 },
+        { pos:4, name:'FEARLESS FIGHTERS',    m:3, w:0, l:3, nrr:'-1.133', pts:0 }
+      ]},
+      { name:'BRAVO', teams:[
+        { pos:1, name:'Thunder Strikers',     m:3, w:3, l:0, nrr:'+4.031', pts:6 },
+        { pos:2, name:'Stellar Stunners',     m:3, w:1, l:1, nrr:'+0.067', pts:3, tie:true },
+        { pos:3, name:'Supreme Strikers',     m:3, w:1, l:1, nrr:'-2.005', pts:3, tie:true },
+        { pos:4, name:'Lighting Bolts',       m:3, w:0, l:3, nrr:'-2.192', pts:0 }
+      ]},
+      { name:'CHARLIE', teams:[
+        { pos:1, name:'Speedy Spartan',       m:3, w:2, l:1, nrr:'+2.279', pts:4 },
+        { pos:2, name:'Super Smashers',       m:3, w:2, l:1, nrr:'+0.171', pts:4 },
+        { pos:3, name:'Dynamic Daredevils',   m:3, w:1, l:2, nrr:'-0.456', pts:2 },
+        { pos:4, name:'Thundering Thunderbolts',m:3,w:1,l:2, nrr:'-2.161', pts:2 }
+      ]},
+      { name:'DELTA', teams:[
+        { pos:1, name:'Dominant DareDevils',  m:3, w:3, l:0, nrr:'+0.633', pts:6 },
+        { pos:2, name:'Rampage Rhinos',       m:3, w:2, l:1, nrr:'+3.382', pts:4 },
+        { pos:3, name:'Elite Lions',          m:3, w:1, l:2, nrr:'-1.644', pts:2 },
+        { pos:4, name:'Unstoppable Warriors', m:3, w:0, l:3, nrr:'-2.875', pts:0 }
+      ]}
+    ],
+    superEight: [
+      { name:'PANTHERS', teams:[
+        { pos:1, name:'Super Smashers',    m:3, w:3, l:0, nrr:'+1.349', pts:6 },
+        { pos:2, name:'Furious Flames',    m:3, w:2, l:1, nrr:'+2.037', pts:4 },
+        { pos:3, name:'Stellar Stunners',  m:3, w:1, l:2, nrr:'-1.976', pts:2 },
+        { pos:4, name:'Rampage Rhinos',    m:3, w:0, l:3, nrr:'-1.772', pts:0 }
+      ]},
+      { name:'TIGERS', teams:[
+        { pos:1, name:'Ultimate Warriors', m:3, w:3, l:0, nrr:'+1.913', pts:6 },
+        { pos:2, name:'Speedy Spartan',    m:3, w:2, l:1, nrr:'+2.000', pts:4 },
+        { pos:3, name:'Thunder Strikers',  m:2, w:0, l:2, nrr:'-1.598', pts:0 },
+        { pos:4, name:'Dominant DareDevils',m:2,w:0,l:2,  nrr:'-4.225', pts:0 }
+      ]}
+    ],
+    knockout: [
+      { stage:'Semi Final 1', t1:'Super Smashers', t2:'Speedy Spartan', result:'Super Smashers won' },
+      { stage:'Semi Final 2', t1:'Ultimate Warriors', t2:'Furious Flames', result:'Furious Flames won' },
+      { stage:'3rd Place', t1:'Speedy Spartan', s1:'161/19', t2:'Ultimate Warriors', s2:'156/20', result:'Speedy Spartan won by 2 wickets', date:'11 Oct 2025' },
+      { stage:'Final', t1:'Super Smashers', s1:'115/3', o1:'18.4', t2:'Furious Flames', s2:'114/10', o2:'19.3', result:'Super Smashers won by 7 wickets', date:'11 Oct 2025' }
+    ],
+    batting: [
+      { name:'Deepak Negi',        team:'Speedy Spartan',    runs:279, hs:100, avg:39.86, sr:118.72, '50s':1, '100s':1 },
+      { name:'Anant',              team:'Ultimate Warriors', runs:255, hs:56,  avg:42.50, sr:126.24, '50s':3, '100s':0 },
+      { name:'Gaurav Singh Tomar', team:'Ultimate Warriors', runs:255, hs:78,  avg:36.43, sr:132.81, '50s':2, '100s':0 },
+      { name:'Abhishek Tripathi',  team:'Super Smashers',    runs:253, hs:81,  avg:84.33, sr:108.58, '50s':1, '100s':0 },
+      { name:'Ramit Bajpai',       team:'Furious Flames',    runs:243, hs:54,  avg:40.50, sr:100.00, '50s':2, '100s':0 },
+      { name:'Yatik Prabhakar',    team:'Thunder Strikers',  runs:231, hs:78,  avg:57.75, sr:186.29, '50s':2, '100s':0 },
+      { name:'Sam 08',             team:'Ultimate Warriors', runs:220, hs:81,  avg:27.50, sr:173.23, '50s':2, '100s':0 },
+      { name:'Harish (Munna)',      team:'Rampage Rhinos',    runs:212, hs:82,  avg:53.00, sr:135.03, '50s':2, '100s':0 },
+      { name:'Gourav Banathia',    team:'Ultimate Warriors', runs:212, hs:88,  avg:26.50, sr:118.44, '50s':1, '100s':0 },
+      { name:'Manish Pokhriyal',   team:'Super Smashers',    runs:204, hs:58,  avg:34.00, sr:131.61, '50s':1, '100s':0 },
+      { name:'Rahul Singh',        team:'Fierce Falcons',    runs:171, hs:119, avg:85.50, sr:150.00, '50s':0, '100s':1 },
+      { name:'Ankur Pandey',       team:'Furious Flames',    runs:164, hs:71,  avg:27.33, sr:156.19, '50s':1, '100s':0 }
+    ],
+    bowling: [
+      { name:'Muzaffer',          team:'Speedy Spartan',    wkts:22, eco:4.70, best:'5 wkt', avg:5.77, sr:7.36 },
+      { name:'Ramit Bajpai',      team:'Furious Flames',    wkts:17, eco:4.62, best:'5 wkt', avg:8.71, sr:11.29 },
+      { name:'Gourav Banathia',   team:'Ultimate Warriors', wkts:15, eco:5.53, best:'5 wkt', avg:10.20, sr:11.07 },
+      { name:'Sanjeet Singh',     team:'Furious Flames',    wkts:13, eco:5.34, best:'3 wkt', avg:11.23, sr:12.62 },
+      { name:'Ravindra Nitwal',   team:'Super Smashers',    wkts:13, eco:6.29, best:'5 wkt', avg:11.77, sr:11.23 },
+      { name:'Gaurav Singh Tomar',team:'Ultimate Warriors', wkts:13, eco:6.64, best:'3 wkt', avg:14.31, sr:12.92 },
+      { name:'Abhishek Tripathi', team:'Super Smashers',    wkts:12, eco:4.68, best:'3 wkt', avg:8.58,  sr:11.00 },
+      { name:'Deepak Negi',       team:'Speedy Spartan',    wkts:12, eco:6.04, best:'3 wkt', avg:13.08, sr:13.00 },
+      { name:'Shivam Kumar',      team:'Speedy Spartan',    wkts:11, eco:7.25, best:'3 wkt', avg:12.64, sr:10.45 },
+      { name:'Chetan Sharma',     team:'Super Smashers',    wkts:10, eco:6.18, best:'4 wkt', avg:10.30, sr:10.00 },
+      { name:'Ajay Bhardwaj',     team:'Furious Flames',    wkts:10, eco:7.14, best:'2 wkt', avg:20.00, sr:16.80 },
+      { name:'Prakash Singh Unyani',team:'Super Smashers',  wkts:10, eco:7.45, best:'3 wkt', avg:14.90, sr:12.00 }
+    ],
+    fielding: [
+      { name:'Autir Wani',       team:'Speedy Spartan',    dismissals:10, catches:9, stumpings:0 },
+      { name:'Satya Rawat',      team:'Furious Flames',    dismissals:10, catches:2, stumpings:7 },
+      { name:'Chetan Sharma',    team:'Super Smashers',    dismissals:7,  catches:7, stumpings:0 },
+      { name:'Anant',            team:'Ultimate Warriors', dismissals:6,  catches:1, stumpings:4 },
+      { name:'Shashi',           team:'Stellar Stunners',  dismissals:5,  catches:2, stumpings:0 },
+      { name:'Ramit Bajpai',     team:'Furious Flames',    dismissals:5,  catches:5, stumpings:0 },
+      { name:'Manish Pokhriyal', team:'Super Smashers',    dismissals:5,  catches:0, stumpings:5 },
+      { name:'Kritik',           team:'Rampage Rhinos',    dismissals:5,  catches:3, stumpings:1 }
+    ],
+    mvp: [
+      { name:'Ramit Bajpai',       team:'Furious Flames',    pts:59.20, role:'All-Rounder' },
+      { name:'Deepak Negi',        team:'Speedy Spartan',    pts:51.88, role:'All-Rounder' },
+      { name:'Gourav Banathia',    team:'Ultimate Warriors', pts:50.65, role:'Batter' },
+      { name:'Gaurav Singh Tomar', team:'Ultimate Warriors', pts:50.24, role:'Batter' },
+      { name:'Abhishek Tripathi',  team:'Super Smashers',    pts:46.58, role:'All-Rounder' },
+      { name:'Muzaffer',           team:'Speedy Spartan',    pts:43.78, role:'Bowler' },
+      { name:'Manish Pokhriyal',   team:'Super Smashers',    pts:37.84, role:'WK-Batter' },
+      { name:'Sam 08',             team:'Ultimate Warriors', pts:34.44, role:'Batter' }
+    ],
+    awards: [
+      { icon:'🏆', title:'Champions',          winner:'Super Smashers',    detail:'Won by 7 wickets', team:'' },
+      { icon:'🥈', title:'Runners Up',         winner:'Furious Flames',    detail:'Lost by 7 wickets', team:'' },
+      { icon:'🥉', title:'3rd Place',          winner:'Speedy Spartan',    detail:'Won by 2 wickets', team:'' },
+      { icon:'⭐', title:'Tournament MVP',     winner:'Ramit Bajpai',      detail:'59.20 MVP pts', team:'Furious Flames' },
+      { icon:'🏏', title:'Best Batsman',       winner:'Deepak Negi',       detail:'279 runs · Avg 39.86', team:'Speedy Spartan' },
+      { icon:'🎳', title:'Best Bowler',        winner:'Muzaffer',          detail:'22 wickets · Eco 4.70', team:'Speedy Spartan' },
+      { icon:'🧤', title:'Best Wicketkeeper',  winner:'Satya Rawat',       detail:'10 dismissals (7 stumpings)', team:'Furious Flames' },
+      { icon:'🌟', title:'Best All-Rounder',   winner:'Ramit Bajpai',      detail:'243 runs + 17 wickets', team:'Furious Flames' },
+      { icon:'💥', title:'Highest Individual', winner:'Rahul Singh',       detail:'119* off 114 balls', team:'Fierce Falcons' },
+      { icon:'🎯', title:'Best Figures',       winner:'Muzaffer',          detail:'5 wickets in an innings', team:'Speedy Spartan' }
+    ],
+    teams: [
+      'Ultimate Warriors','Furious Flames','Fierce Falcons','FEARLESS FIGHTERS',
+      'Thunder Strikers','Stellar Stunners','Supreme Strikers','Lighting Bolts',
+      'Speedy Spartan','Super Smashers','Dynamic Daredevils','Thundering Thunderbolts',
+      'Dominant DareDevils','Rampage Rhinos','Elite Lions','Unstoppable Warriors'
+    ]
+  },
+
+  '2024': {
+    season: 'Season 2024 · Noida (Inaugural)',
+    tagline: 'Siditya Cricket Ground · 24 Teams · 6 Groups',
+    champion: 'Furious Flames',
+    final: { t1:'Furious Flames', s1:'180/10', o1:'19.0', t2:'Super Smashers', s2:'100/10', o2:'17.2', result:'Furious Flames won by 80 runs', date:'13 Apr 2025' },
+    format: [
+      { name:'6 Groups A–F', detail:'4 teams each, 24 total' },
+      { name:'Super Six', detail:'Group A & B, top 2 advance' },
+      { name:'Semi Finals', detail:'1 Dec 2024' },
+      { name:'3rd Place', detail:'SPEEDY SPARTANS beat UW' },
+      { name:'Final', detail:'13 Apr 2025' }
+    ],
+    groups: [
+      { name:'GROUP A', teams:[
+        { pos:1, name:'Dynamic Daredevils',       m:3, w:3, l:0, nrr:'+4.129', pts:6 },
+        { pos:2, name:'Savage Scorpions',          m:3, w:2, l:1, nrr:'+1.788', pts:4 },
+        { pos:3, name:'Phoenix Kings',             m:3, w:1, l:2, nrr:'-0.228', pts:2 },
+        { pos:4, name:'Thundering Thunderbolts',   m:3, w:0, l:3, nrr:'-5.013', pts:0 }
+      ]},
+      { name:'GROUP B', teams:[
+        { pos:1, name:'Furious Flames',            m:3, w:2, l:1, nrr:'+1.684', pts:4 },
+        { pos:2, name:'Ferocious Fighters',        m:3, w:2, l:1, nrr:'+1.398', pts:4 },
+        { pos:3, name:'Stellar Stunners',          m:3, w:1, l:2, nrr:'-0.431', pts:2 },
+        { pos:4, name:'Dominant DareDevils',       m:3, w:1, l:2, nrr:'-2.354', pts:2 }
+      ]},
+      { name:'GROUP C', teams:[
+        { pos:1, name:'Ultimate Warriors',         m:3, w:3, l:0, nrr:'+5.060', pts:6 },
+        { pos:2, name:'Thunder Strikers',          m:3, w:2, l:1, nrr:'-0.423', pts:4 },
+        { pos:3, name:'Blazing Batsman',           m:3, w:1, l:2, nrr:'-1.615', pts:2 },
+        { pos:4, name:'Rising Stars OCC',          m:3, w:0, l:3, nrr:'-2.017', pts:0 }
+      ]},
+      { name:'GROUP D', teams:[
+        { pos:1, name:'Super Smashers',            m:3, w:2, l:1, nrr:'+1.739', pts:4 },
+        { pos:2, name:'Fierce Falcons',            m:3, w:2, l:1, nrr:'+0.382', pts:4 },
+        { pos:3, name:'Invincible Knights',        m:3, w:2, l:1, nrr:'+0.363', pts:4 },
+        { pos:4, name:'Turbo Chargers',            m:3, w:0, l:3, nrr:'-3.060', pts:0 }
+      ]},
+      { name:'GROUP E', teams:[
+        { pos:1, name:'SPEEDY SPARTANS',           m:3, w:2, l:1, nrr:'+2.791', pts:4 },
+        { pos:2, name:'Forceful Falcons Optum',    m:3, w:2, l:1, nrr:'+1.850', pts:4 },
+        { pos:3, name:'Unstoppable Warriors',      m:3, w:2, l:1, nrr:'+0.361', pts:4 },
+        { pos:4, name:'Elite Lions',               m:3, w:0, l:3, nrr:'-5.077', pts:0 }
+      ]},
+      { name:'GROUP F', teams:[
+        { pos:1, name:'FEARLESS FIGHTERS',         m:3, w:3, l:0, nrr:'+2.164', pts:6 },
+        { pos:2, name:'Rampage Rhinos',            m:3, w:2, l:1, nrr:'+2.766', pts:4 },
+        { pos:3, name:'Lighting Bolts',            m:2, w:0, l:2, nrr:'-3.600', pts:0 },
+        { pos:4, name:'Supreme Strikers',          m:2, w:0, l:2, nrr:'-4.227', pts:0 }
+      ]}
+    ],
+    superEight: [
+      { name:'SUPER SIX – Group A', teams:[
+        { pos:1, name:'Furious Flames',       m:2, w:2, l:0, nrr:'+1.421', pts:4 },
+        { pos:2, name:'Ultimate Warriors',    m:2, w:1, l:1, nrr:'+1.038', pts:2 },
+        { pos:3, name:'Dynamic Daredevils',   m:2, w:0, l:2, nrr:'-2.481', pts:0 }
+      ]},
+      { name:'SUPER SIX – Group B', teams:[
+        { pos:1, name:'Super Smashers',       m:2, w:2, l:0, nrr:'+1.009', pts:4 },
+        { pos:2, name:'SPEEDY SPARTANS',      m:2, w:1, l:1, nrr:'+0.972', pts:2 },
+        { pos:3, name:'FEARLESS FIGHTERS',    m:2, w:0, l:2, nrr:'-1.998', pts:0 }
+      ]}
+    ],
+    knockout: [
+      { stage:'Semi Final 1', t1:'Furious Flames', s1:'207/6', o1:'20.0', t2:'SPEEDY SPARTANS', s2:'174/7', o2:'20.0', result:'Furious Flames won by 33 runs', date:'1 Dec 2024' },
+      { stage:'Semi Final 2', t1:'Ultimate Warriors', s1:'220/5', o1:'20.0', t2:'Super Smashers', s2:'221/5', o2:'19.5', result:'Super Smashers won by 5 wickets', date:'1 Dec 2024' },
+      { stage:'3rd Place', t1:'SPEEDY SPARTANS', s1:'140/5', o1:'15.5', t2:'Ultimate Warriors', s2:'138/7', o2:'20.0', result:'SPEEDY SPARTANS won by 5 wickets', date:'13 Apr 2025' },
+      { stage:'Final', t1:'Furious Flames', s1:'180/10', o1:'19.0', t2:'Super Smashers', s2:'100/10', o2:'17.2', result:'Furious Flames won by 80 runs', date:'13 Apr 2025' }
+    ],
+    batting: [
+      { name:'Gourav Banathia',    team:'Ultimate Warriors', runs:408, hs:128, avg:68.00, sr:152.81, '50s':0, '100s':2 },
+      { name:'Ankur Pandey',       team:'Furious Flames',    runs:343, hs:121, avg:49.00, sr:169.80, '50s':2, '100s':1 },
+      { name:'Atul Thakur',        team:'Dynamic Daredevils',runs:289, hs:102, avg:144.50,sr:140.29, '50s':3, '100s':1 },
+      { name:'Gaurav Singh Tomar', team:'FEARLESS FIGHTERS', runs:271, hs:77,  avg:90.33, sr:153.11, '50s':3, '100s':0 },
+      { name:'Kanishk Sethi',      team:'Ultimate Warriors', runs:266, hs:66,  avg:53.20, sr:146.96, '50s':2, '100s':0 },
+      { name:'Abhishek Tripathi',  team:'Super Smashers',    runs:264, hs:75,  avg:66.00, sr:182.07, '50s':2, '100s':0 },
+      { name:'Sanjeet Singh',      team:'Furious Flames',    runs:237, hs:103, avg:33.86, sr:156.95, '50s':0, '100s':1 },
+      { name:'Aman Sharma',        team:'Super Smashers',    runs:205, hs:88,  avg:51.25, sr:126.54, '50s':1, '100s':0 },
+      { name:'Manish Pokhriyal',   team:'Fierce Falcons',    runs:194, hs:106, avg:194.00,sr:204.21, '50s':1, '100s':1 },
+      { name:'Vikas',              team:'SPEEDY SPARTANS',   runs:180, hs:80,  avg:45.00, sr:144.00, '50s':1, '100s':0 },
+      { name:'Kritik',             team:'Rampage Rhinos',    runs:176, hs:95,  avg:58.67, sr:140.80, '50s':2, '100s':0 },
+      { name:'Priyank Sharma',     team:'Savage Scorpions',  runs:173, hs:60,  avg:86.50, sr:192.22, '50s':3, '100s':0 }
+    ],
+    bowling: [
+      { name:'Sanjeet Singh',     team:'Furious Flames',    wkts:17, eco:5.68, best:'4 wkt', avg:9.35,  sr:9.88 },
+      { name:'Farrukh Nadeem',    team:'SPEEDY SPARTANS',   wkts:15, eco:6.11, best:'4 wkt', avg:11.40, sr:11.20 },
+      { name:'Ajay Bhardwaj',     team:'Furious Flames',    wkts:13, eco:5.92, best:'3 wkt', avg:11.85, sr:12.00 },
+      { name:'Kanishk Sethi',     team:'Ultimate Warriors', wkts:12, eco:5.88, best:'3 wkt', avg:12.75, sr:13.00 },
+      { name:'Sanju',             team:'SPEEDY SPARTANS',   wkts:12, eco:6.16, best:'4 wkt', avg:12.75, sr:12.42 },
+      { name:'Muzaffer',          team:'SPEEDY SPARTANS',   wkts:12, eco:7.21, best:'4 wkt', avg:14.92, sr:12.42 },
+      { name:'Akhilesh',          team:'FEARLESS FIGHTERS', wkts:10, eco:5.24, best:'4 wkt', avg:9.60,  sr:11.00 },
+      { name:'Satyadev Sain',     team:'Dynamic Daredevils',wkts:10, eco:7.68, best:'4 wkt', avg:11.90, sr:9.30 },
+      { name:'Ramit Bajpai',      team:'Savage Scorpions',  wkts:9,  eco:3.92, best:'5 wkt', avg:5.22,  sr:8.00 },
+      { name:'Ankit Rana',        team:'Ferocious Fighters',wkts:9,  eco:6.81, best:'4 wkt', avg:8.44,  sr:7.44 },
+      { name:'Ravindra Nitwal',   team:'Super Smashers',    wkts:9,  eco:9.05, best:'3 wkt', avg:20.11, sr:13.33 },
+      { name:'Atul Thakur',       team:'Dynamic Daredevils',wkts:8,  eco:4.44, best:'3 wkt', avg:9.25,  sr:12.50 }
+    ],
+    fielding: [
+      { name:'Satya Rawat',        team:'Furious Flames',    dismissals:10, catches:4, stumpings:6 },
+      { name:'Yogesh Saini',       team:'Dynamic Daredevils',dismissals:8,  catches:3, stumpings:4 },
+      { name:'Vimal Kumar',        team:'Furious Flames',    dismissals:7,  catches:4, stumpings:0 },
+      { name:'Gaurav Singh Tomar', team:'FEARLESS FIGHTERS', dismissals:6,  catches:5, stumpings:0 },
+      { name:'Ankit Chauhan',      team:'Forceful Falcons',  dismissals:5,  catches:4, stumpings:0 },
+      { name:'Deepak Negi',        team:'Forceful Falcons',  dismissals:5,  catches:4, stumpings:0 },
+      { name:'Anant',              team:'Ultimate Warriors', dismissals:5,  catches:4, stumpings:1 },
+      { name:'Sanju',              team:'SPEEDY SPARTANS',   dismissals:5,  catches:5, stumpings:0 }
+    ],
+    mvp: [
+      { name:'Sanjeet Singh',      team:'Furious Flames',    pts:58.95, role:'All-Rounder' },
+      { name:'Gourav Banathia',    team:'Ultimate Warriors', pts:58.92, role:'Batter' },
+      { name:'Kanishk Sethi',      team:'Ultimate Warriors', pts:53.77, role:'Batter' },
+      { name:'Ankur Pandey',       team:'Furious Flames',    pts:47.13, role:'All-Rounder' },
+      { name:'Atul Thakur',        team:'Dynamic Daredevils',pts:44.71, role:'All-Rounder' },
+      { name:'Farrukh Nadeem',     team:'SPEEDY SPARTANS',   pts:42.73, role:'Bowler' },
+      { name:'Abhishek Tripathi',  team:'Super Smashers',    pts:41.01, role:'All-Rounder' },
+      { name:'Gaurav Singh Tomar', team:'FEARLESS FIGHTERS', pts:40.66, role:'Batter' }
+    ],
+    awards: [
+      { icon:'🏆', title:'Champions',          winner:'Furious Flames',    detail:'Won by 80 runs', team:'' },
+      { icon:'🥈', title:'Runners Up',         winner:'Super Smashers',    detail:'Lost by 80 runs', team:'' },
+      { icon:'🥉', title:'3rd Place',          winner:'SPEEDY SPARTANS',   detail:'Won by 5 wickets', team:'' },
+      { icon:'⭐', title:'Tournament MVP',     winner:'Sanjeet Singh',     detail:'58.95 MVP pts', team:'Furious Flames' },
+      { icon:'🏏', title:'Best Batsman',       winner:'Gourav Banathia',   detail:'408 runs · 2 centuries', team:'Ultimate Warriors' },
+      { icon:'🎳', title:'Best Bowler',        winner:'Sanjeet Singh',     detail:'17 wickets · Eco 5.68', team:'Furious Flames' },
+      { icon:'🧤', title:'Best Wicketkeeper',  winner:'Satya Rawat',       detail:'10 dismissals (6 stumpings)', team:'Furious Flames' },
+      { icon:'🌟', title:'Best All-Rounder',   winner:'Sanjeet Singh',     detail:'237 runs + 17 wickets', team:'Furious Flames' },
+      { icon:'💥', title:'Highest Individual', winner:'Gourav Banathia',   detail:'128* for Ultimate Warriors', team:'Ultimate Warriors' },
+      { icon:'🎯', title:'Best Economy',       winner:'Ramit Bajpai',      detail:'3.92 economy · 9 wickets', team:'Savage Scorpions' }
+    ],
+    teams: [
+      'Dynamic Daredevils','Savage Scorpions','Phoenix Kings','Thundering Thunderbolts',
+      'Furious Flames','Ferocious Fighters','Stellar Stunners','Dominant DareDevils',
+      'Ultimate Warriors','Thunder Strikers','Blazing Batsman','Rising Stars OCC',
+      'Super Smashers','Fierce Falcons','Invincible Knights','Turbo Chargers',
+      'SPEEDY SPARTANS','Forceful Falcons Optum','Unstoppable Warriors','Elite Lions',
+      'FEARLESS FIGHTERS','Rampage Rhinos','Lighting Bolts','Supreme Strikers'
+    ]
   }
-})();
+};
+
+// ══════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════
+let currentYear = '2025';
+let currentStatTab = 'batting';
+
+const teamColors = [
+  '#e8820c','#22c55e','#3b82f6','#a855f7','#ef4444',
+  '#06b6d4','#f59e0b','#ec4899','#10b981','#6366f1',
+  '#f97316','#14b8a6','#8b5cf6','#84cc16','#0ea5e9','#f43f5e'
+];
+const teamColorMap = {};
+function getTeamColor(name) {
+  if (!teamColorMap[name]) {
+    const keys = Object.keys(teamColorMap);
+    teamColorMap[name] = teamColors[keys.length % teamColors.length];
+  }
+  return teamColorMap[name];
+}
+
+// ══════════════════════════════════════════════════════════════
+// NAVIGATION
+// ══════════════════════════════════════════════════════════════
+function showPage(page) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+  document.getElementById('page-' + page).classList.add('active');
+  const links = document.querySelectorAll('.nav-link');
+  const pageMap = { home:0, schedule:1, teams:2, points:3, stats:4, awards:5 };
+  if (pageMap[page] !== undefined) links[pageMap[page]].classList.add('active');
+  renderPage(page);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function setYear(year) {
+  currentYear = year;
+  document.getElementById('nav-year-display').textContent = year;
+  const d = DATA[year];
+  document.getElementById('hero-badge').textContent = d.season;
+  document.getElementById('hero-sub').textContent = d.tagline;
+  ['home-year-badge','schedule-badge','teams-badge','points-badge','stats-badge','awards-badge']
+    .forEach(id => { const el = document.getElementById(id); if(el) el.textContent = year; });
+  const activePage = document.querySelector('.page.active');
+  if (activePage) {
+    const pageId = activePage.id.replace('page-', '');
+    renderPage(pageId);
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+// RENDER DISPATCHER
+// ══════════════════════════════════════════════════════════════
+function renderPage(page) {
+  const d = DATA[currentYear];
+  if (page === 'home')     renderHome(d);
+  if (page === 'schedule') renderSchedule(d);
+  if (page === 'teams')    renderTeams(d);
+  if (page === 'points')   renderPoints(d);
+  if (page === 'stats')    renderStats(d);
+  if (page === 'awards')   renderAwards(d);
+}
+
+// ══════════════════════════════════════════════════════════════
+// HOME
+// ══════════════════════════════════════════════════════════════
+function renderHome(d) {
+  // Champion
+  document.getElementById('home-champion').innerHTML = d.champion ? `
+    <div class="champion-banner">
+      <span class="champion-trophy">🏆</span>
+      <div><strong>${d.champion}</strong> — ${currentYear} OCC Champions</div>
+    </div>` : '';
+
+  // Key matches
+  const f = d.final;
+  let matchesHTML = `
+    <div class="match-card">
+      <div class="match-status status-completed">Final</div>
+      <div class="match-teams">
+        <div class="match-team-side">
+          <div class="match-team-name">${f.t1}</div>
+          <div class="match-score winner">${f.s1}</div>
+          <div class="match-overs">${f.o1 || ''}</div>
+        </div>
+        <div class="match-vs">vs</div>
+        <div class="match-team-side right">
+          <div class="match-team-name">${f.t2}</div>
+          <div class="match-score">${f.s2}</div>
+          <div class="match-overs">${f.o2 || ''}</div>
+        </div>
+      </div>
+      <div class="match-result">${f.result}</div>
+      <div class="match-meta">${f.date} · Siditya Cricket Ground</div>
+    </div>`;
+
+  const sf = d.knockout.find(k => k.stage.includes('Semi Final 1')) || d.knockout[0];
+  matchesHTML += `
+    <div class="match-card">
+      <div class="match-status status-completed">${sf.stage}</div>
+      <div class="match-teams">
+        <div class="match-team-side">
+          <div class="match-team-name">${sf.t1}</div>
+          <div class="match-score ${sf.result.startsWith(sf.t1)?'winner':''}">${sf.s1||'—'}</div>
+          <div class="match-overs">${sf.o1||''}</div>
+        </div>
+        <div class="match-vs">vs</div>
+        <div class="match-team-side right">
+          <div class="match-team-name">${sf.t2}</div>
+          <div class="match-score ${sf.result.startsWith(sf.t2)?'winner':''}">${sf.s2||'—'}</div>
+          <div class="match-overs">${sf.o2||''}</div>
+        </div>
+      </div>
+      <div class="match-result">${sf.result}</div>
+      ${sf.date?`<div class="match-meta">${sf.date}</div>`:''}
+    </div>`;
+  document.getElementById('home-matches').innerHTML = matchesHTML;
+
+  // Stats
+  const b = d.batting[0], bw = d.bowling[0], mvp = d.mvp[0];
+  document.getElementById('home-stats').innerHTML = `
+    <div class="stat-card">
+      <div class="card-label">Top Scorer</div>
+      <div><span class="stat-val">${b.runs}</span><span class="stat-unit">runs</span></div>
+      <div class="stat-player">${b.name}</div>
+      <div class="stat-team">${b.team}</div>
+    </div>
+    <div class="stat-card">
+      <div class="card-label">Top Wickets</div>
+      <div><span class="stat-val">${bw.wkts}</span><span class="stat-unit">wkts</span></div>
+      <div class="stat-player">${bw.name}</div>
+      <div class="stat-team">${bw.team}</div>
+    </div>
+    <div class="stat-card">
+      <div class="card-label">Best Economy</div>
+      <div><span class="stat-val">${d.bowling.slice().sort((a,b)=>a.eco-b.eco)[0].eco}</span><span class="stat-unit">eco</span></div>
+      <div class="stat-player">${d.bowling.slice().sort((a,b)=>a.eco-b.eco)[0].name}</div>
+      <div class="stat-team">${d.bowling.slice().sort((a,b)=>a.eco-b.eco)[0].team}</div>
+    </div>
+    <div class="stat-card">
+      <div class="card-label">Tournament MVP</div>
+      <div><span class="stat-val">${mvp.pts}</span><span class="stat-unit">pts</span></div>
+      <div class="stat-player">${mvp.name}</div>
+      <div class="stat-team">${mvp.team}</div>
+    </div>`;
+
+  // Format
+  let fmtHTML = '';
+  d.format.forEach((s,i) => {
+    fmtHTML += `<div class="format-stage"><div class="format-stage-name">${s.name}</div><div class="format-stage-detail">${s.detail}</div></div>`;
+    if (i < d.format.length-1) fmtHTML += `<div class="format-arrow">→</div>`;
+  });
+  document.getElementById('home-format').innerHTML = fmtHTML;
+}
+
+// ══════════════════════════════════════════════════════════════
+// SCHEDULE
+// ══════════════════════════════════════════════════════════════
+function renderSchedule(d) {
+  let html = '';
+
+  // Knockout matches
+  html += `<div class="stage-label">Knockout Stages</div><div class="grid-2">`;
+  d.knockout.slice().reverse().forEach(m => {
+    const w = m.result ? m.result.split(' ')[0] + ' ' + m.result.split(' ')[1] : '';
+    html += `
+      <div class="match-card">
+        <div class="match-status status-completed">${m.stage}</div>
+        <div class="match-teams">
+          <div class="match-team-side">
+            <div class="match-team-name">${m.t1}</div>
+            <div class="match-score ${m.result&&m.result.startsWith(m.t1)?'winner':''}">${m.s1||'TBD'}</div>
+            <div class="match-overs">${m.o1||''}</div>
+          </div>
+          <div class="match-vs">vs</div>
+          <div class="match-team-side right">
+            <div class="match-team-name">${m.t2}</div>
+            <div class="match-score ${m.result&&m.result.startsWith(m.t2)?'winner':''}">${m.s2||'TBD'}</div>
+            <div class="match-overs">${m.o2||''}</div>
+          </div>
+        </div>
+        ${m.result?`<div class="match-result">${m.result}</div>`:''}
+        ${m.date?`<div class="match-meta">${m.date} · Siditya Cricket Ground, Noida</div>`:''}
+      </div>`;
+  });
+  html += `</div>`;
+
+  // Super stage
+  const stageLabel = currentYear === '2025' ? 'Super Eight' : 'Super Six';
+  html += `<div class="stage-label" style="margin-top:24px">${stageLabel}</div>`;
+  d.superEight.forEach(grp => {
+    html += `<div class="card-label" style="margin:12px 0 6px">${grp.name}</div>`;
+    html += renderGroupTable(grp.teams);
+  });
+
+  // League groups
+  html += `<div class="stage-label" style="margin-top:24px">League Stage</div>`;
+  d.groups.forEach(grp => {
+    html += `<div class="card-label" style="margin:12px 0 6px">Group ${grp.name}</div>`;
+    html += renderGroupTable(grp.teams);
+  });
+
+  document.getElementById('schedule-content').innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════════
+// TEAMS
+// ══════════════════════════════════════════════════════════════
+function renderTeams(d) {
+  let html = `<div class="info-row" style="margin-bottom:16px">
+    <div class="info-chip">Total teams: <span>${d.teams.length}</span></div>
+    <div class="info-chip">Season: <span>${currentYear}</span></div>
+    <div class="info-chip">Venue: <span>Siditya Cricket Ground, Noida</span></div>
+  </div>`;
+  html += `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px">`;
+  d.teams.forEach(name => {
+    const col = getTeamColor(name);
+    html += `
+      <div class="card" style="border-left:2px solid ${col};cursor:default">
+        <div style="display:flex;align-items:center;gap:8px">
+          <div style="width:28px;height:28px;border-radius:50%;background:${col}22;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:600;color:${col}">
+            ${name.split(' ').map(w=>w[0]).slice(0,2).join('')}
+          </div>
+          <div style="font-size:12px;font-weight:500;color:var(--white);line-height:1.3">${name}</div>
+        </div>
+      </div>`;
+  });
+  html += `</div>`;
+  document.getElementById('teams-content').innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════════
+// POINTS TABLE
+// ══════════════════════════════════════════════════════════════
+function renderPoints(d) {
+  let html = '';
+
+  if (d.champion) {
+    html += `<div class="champion-banner">
+      <span class="champion-trophy">🏆</span>
+      <div><strong>${d.champion}</strong> — ${currentYear} OCC Champions</div>
+    </div>`;
+  }
+
+  const stageLabel = currentYear === '2025' ? 'Super Eight' : 'Super Six';
+  html += `<div class="stage-label">${stageLabel}</div>`;
+  d.superEight.forEach(grp => {
+    html += `<div class="card-label" style="margin:12px 0 6px">${grp.name}</div>`;
+    html += renderGroupTable(grp.teams);
+  });
+
+  html += `<div class="stage-label" style="margin-top:24px">League Stage</div>`;
+  d.groups.forEach(grp => {
+    html += `<div class="card-label" style="margin:12px 0 6px">Group ${grp.name}</div>`;
+    html += renderGroupTable(grp.teams);
+  });
+
+  document.getElementById('points-content').innerHTML = html;
+}
+
+function renderGroupTable(teams) {
+  let html = `<div class="table-wrap" style="margin-bottom:4px">
+    <table><thead><tr>
+      <th style="width:28px">#</th>
+      <th>Team</th>
+      <th class="c">M</th><th class="c">W</th><th class="c">L</th>
+      <th class="r">NRR</th><th class="r">Pts</th>
+    </tr></thead><tbody>`;
+  teams.forEach(t => {
+    const nrrClass = parseFloat(t.nrr) >= 0 ? 'td-nrr-pos' : 'td-nrr-neg';
+    const col = getTeamColor(t.name);
+    html += `<tr class="${t.pos===1?'top-row':''}">
+      <td class="td-rank ${t.pos===1?'gold':''}">${t.pos}</td>
+      <td class="td-name">
+        <div class="td-team-badge">
+          <div class="team-dot" style="background:${col}"></div>
+          ${t.name}${t.tie?' <span style="font-size:9px;color:var(--muted)">(T)</span>':''}
+        </div>
+      </td>
+      <td class="c">${t.m}</td><td class="c">${t.w}</td><td class="c">${t.l}</td>
+      <td class="r ${nrrClass}">${t.nrr}</td>
+      <td class="td-pts r">${t.pts}</td>
+    </tr>`;
+  });
+  html += `</tbody></table></div>`;
+  return html;
+}
+
+// ══════════════════════════════════════════════════════════════
+// STATS
+// ══════════════════════════════════════════════════════════════
+function showStatTab(tab) {
+  currentStatTab = tab;
+  document.querySelectorAll('#stats-tabs .tab').forEach(t => t.classList.remove('active'));
+  const tabMap = { batting:0, bowling:1, fielding:2, mvp:3 };
+  document.querySelectorAll('#stats-tabs .tab')[tabMap[tab]].classList.add('active');
+  renderStats(DATA[currentYear]);
+}
+
+function renderStats(d) {
+  let html = '';
+  if (currentStatTab === 'batting') {
+    html += `<div class="table-wrap"><table>
+      <thead><tr>
+        <th>#</th><th>Player</th><th>Team</th>
+        <th class="r">Runs</th><th class="r">HS</th><th class="r">Avg</th><th class="r">SR</th>
+        <th class="c">50s</th><th class="c">100s</th>
+      </tr></thead><tbody>`;
+    d.batting.forEach((p,i) => {
+      html += `<tr class="${i===0?'top-row':''}">
+        <td class="td-rank ${i===0?'gold':''}">${i+1}</td>
+        <td class="td-name">${p.name}</td>
+        <td><div class="td-team-badge"><div class="team-dot" style="background:${getTeamColor(p.team)}"></div>${p.team}</div></td>
+        <td class="r td-pts">${p.runs}</td>
+        <td class="r">${p.hs}</td>
+        <td class="r">${p.avg}</td>
+        <td class="r">${p.sr}</td>
+        <td class="c">${p['50s']}</td>
+        <td class="c">${p['100s']}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+
+  } else if (currentStatTab === 'bowling') {
+    html += `<div class="table-wrap"><table>
+      <thead><tr>
+        <th>#</th><th>Player</th><th>Team</th>
+        <th class="r">Wkts</th><th class="r">Best</th><th class="r">Avg</th><th class="r">Eco</th><th class="r">SR</th>
+      </tr></thead><tbody>`;
+    d.bowling.forEach((p,i) => {
+      html += `<tr class="${i===0?'top-row':''}">
+        <td class="td-rank ${i===0?'gold':''}">${i+1}</td>
+        <td class="td-name">${p.name}</td>
+        <td><div class="td-team-badge"><div class="team-dot" style="background:${getTeamColor(p.team)}"></div>${p.team}</div></td>
+        <td class="r td-pts">${p.wkts}</td>
+        <td class="r">${p.best}</td>
+        <td class="r">${p.avg}</td>
+        <td class="r">${p.eco}</td>
+        <td class="r">${p.sr}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+
+  } else if (currentStatTab === 'fielding') {
+    html += `<div class="table-wrap"><table>
+      <thead><tr>
+        <th>#</th><th>Player</th><th>Team</th>
+        <th class="r">Dismissals</th><th class="r">Catches</th><th class="r">Stumpings</th>
+      </tr></thead><tbody>`;
+    d.fielding.forEach((p,i) => {
+      html += `<tr class="${i===0?'top-row':''}">
+        <td class="td-rank ${i===0?'gold':''}">${i+1}</td>
+        <td class="td-name">${p.name}</td>
+        <td><div class="td-team-badge"><div class="team-dot" style="background:${getTeamColor(p.team)}"></div>${p.team}</div></td>
+        <td class="r td-pts">${p.dismissals}</td>
+        <td class="r">${p.catches}</td>
+        <td class="r">${p.stumpings}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+
+  } else if (currentStatTab === 'mvp') {
+    html += `<div class="table-wrap"><table>
+      <thead><tr>
+        <th>#</th><th>Player</th><th>Team</th><th>Role</th>
+        <th class="r">MVP Pts</th>
+      </tr></thead><tbody>`;
+    d.mvp.forEach((p,i) => {
+      html += `<tr class="${i===0?'top-row':''}">
+        <td class="td-rank ${i===0?'gold':''}">${i+1}</td>
+        <td class="td-name">${p.name}</td>
+        <td><div class="td-team-badge"><div class="team-dot" style="background:${getTeamColor(p.team)}"></div>${p.team}</div></td>
+        <td style="color:var(--muted);font-size:11px">${p.role}</td>
+        <td class="r td-pts">${p.pts}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+  document.getElementById('stats-content').innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════════
+// AWARDS
+// ══════════════════════════════════════════════════════════════
+function renderAwards(d) {
+  let html = ``;
+  if (d.champion) {
+    html += `<div class="champion-banner" style="margin-bottom:20px">
+      <span class="champion-trophy">🏆</span>
+      <div><strong>${d.champion}</strong> — ${currentYear} OCC Champions · Siditya Cricket Ground, Noida</div>
+    </div>`;
+  }
+
+  html += `<div class="grid-3" style="margin-bottom:20px">`;
+  d.awards.forEach(a => {
+    html += `
+      <div class="award-card">
+        <div class="award-icon">${a.icon}</div>
+        <div class="award-title">${a.title}</div>
+        <div class="award-winner">${a.winner}</div>
+        <div class="award-detail">${a.detail}</div>
+        ${a.team ? `<div class="award-team">${a.team}</div>` : ''}
+      </div>`;
+  });
+  html += `</div>`;
+
+  // Year comparison
+  html += `<div class="section-header" style="margin-top:8px"><div class="section-title">All-time Champions</div></div>`;
+  html += `<div class="table-wrap"><table>
+    <thead><tr>
+      <th>Year</th><th>Champions</th><th>Runners Up</th><th>3rd Place</th><th>Top Scorer</th><th>Top Bowler</th>
+    </tr></thead><tbody>`;
+
+  Object.keys(DATA).sort((a,b)=>b-a).forEach(yr => {
+    const yd = DATA[yr];
+    html += `<tr>
+      <td class="td-pts">${yr}</td>
+      <td class="td-name">🏆 ${yd.champion}</td>
+      <td style="color:var(--muted)">${yd.knockout?.find(k=>k.stage==='Final')?.t2 || '—'}</td>
+      <td style="color:var(--muted)">${yd.knockout?.find(k=>k.stage==='3rd Place')?.t1 || '—'}</td>
+      <td style="color:var(--muted)">${yd.batting[0].name} (${yd.batting[0].runs})</td>
+      <td style="color:var(--muted)">${yd.bowling[0].name} (${yd.bowling[0].wkts} wkts)</td>
+    </tr>`;
+  });
+  html += `</tbody></table></div>`;
+
+  document.getElementById('awards-content').innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════
+// Pre-assign team colors deterministically
+Object.values(DATA).forEach(d => d.teams.forEach(t => getTeamColor(t)));
+renderHome(DATA['2025']);
 </script>
 </body>
 </html>
