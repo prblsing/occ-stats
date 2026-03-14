@@ -1,72 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🏏 OCC Matches Timeline</title>
-  <link rel="stylesheet" href="css/globals.css"/>
-<link rel="stylesheet" href="css/matches.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matches — OCC Cricket</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏏</text></svg>" />
 </head>
 <body>
 
-  <!-- Top Navbar -->
-  <nav class="navbar">
-    <div class="logo">Optum Cricket Championship (OCC)</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Summary</a></li>
-      <li><a href="players.html">Players</a></li>
-      <li><a href="teams.html">Teams</a></li>
-      <li><a href="matches.html" class="active">Matches</a></li>
-    </ul>
-    <select id="year-select">
-      <option value="2024">2024</option>
-      <option value="2025">2025</option>
-    </select>
-  </nav>
+<div class="page-banner">
+  <div class="banner-inner">
+    <div class="banner-text">
+      <div class="eyebrow">OCC Cricket</div>
+      <h1>Match <span>Schedule</span></h1>
+      <div class="sub" id="banner-sub">Results &amp; fixtures</div>
+    </div>
+    <span class="season-badge" id="season-badge"></span>
+  </div>
+</div>
 
-  <!-- Page Header -->
-  <header class="hero">
-    <h1><span id="hero-year">2024</span> OCC Match Details</h1>
-  </header>
+<div class="page-wrap">
+  <div id="year-bar-mount"></div>
 
-  <!-- Filter section OUTSIDE banner -->
-  <div class="filter-bar" style="text-align:center; margin: 1rem 0;">
-    <label for="stage-filter">Stage:</label>
-    <select id="stage-filter">
-      <option value="all">All</option>
-      <option value="Group League">Group League</option>
-      <option value="Super Six">Super Six</option>
-      <option value="Eliminator">Eliminator</option>
-      <option value="Semi">Semi</option>
-      <option value="Final">Final</option>
-    </select>
+  <!-- Season overview stats -->
+  <div class="stat-row mb-lg" id="match-stats-bar"></div>
+
+  <!-- Tabs: All / Results / Upcoming -->
+  <div class="tab-bar mb-md" id="match-tabs">
+    <button class="tab-btn active" data-tab="all">All</button>
+    <button class="tab-btn" data-tab="completed">Results</button>
+    <button class="tab-btn" data-tab="upcoming">Upcoming</button>
   </div>
 
-  <!-- Content Area -->
-  <div id="content">
-    <section id="timeline" class="timeline-container"></section>
+  <!-- Team filter -->
+  <div class="filter-bar" id="team-filter"></div>
+
+  <!-- Match grid -->
+  <div class="matches-grid" id="matches-grid"></div>
+
+  <!-- Empty state -->
+  <div id="empty-state" style="display:none;text-align:center;padding:3rem 1rem;color:var(--text-2)">
+    <div style="font-size:3rem;margin-bottom:1rem">🏏</div>
+    <div style="font-size:1rem;font-weight:600">No matches found</div>
+    <div style="font-size:0.85rem;margin-top:0.25rem">Try changing the filter</div>
   </div>
 
-  <!-- Coming Soon Placeholder -->
-  <div id="coming" class="coming-soon" style="display:none;"></div>
-
-  <!-- Match Details Modal -->
-  <div id="match-modal" class="modal">
-    <div class="modal-content">
-      <span class="modal-close">&times;</span>
-      <div id="match-modal-body"></div>
+  <!-- Full results table -->
+  <div class="section-head mt-lg">
+    <h2>📋 Full Results</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="table-card" id="results-table-wrap">
+    <div class="table-scroll">
+      <table class="stats-table" id="results-table" style="min-width:500px">
+        <thead>
+          <tr>
+            <th style="text-align:left">#</th>
+            <th style="text-align:left">Teams</th>
+            <th style="text-align:left">Date</th>
+            <th>Score</th>
+            <th style="text-align:left">Result</th>
+            <th style="text-align:left">MOM</th>
+          </tr>
+        </thead>
+        <tbody id="results-tbody"></tbody>
+      </table>
     </div>
   </div>
+</div>
 
-  <!-- Footer -->
-  <footer>
-    © <span id="footer-year"></span> OCC Tournament. Organised by U-Sports Noida.
-  </footer>
+<script src="js/occ.js"></script>
+<script src="js/chrome.js"></script>
+<script>
+(async () => {
+  let activeTab  = 'all';
+  let activeTeam = 'all';
+  let currentData = null;
 
-  <!-- Scripts -->
-  <script src="js/app.js"></script>
-<script src="js/matches.js"></script>
+  const year = await injectChrome();
+  const mount = document.getElementById('year-bar-mount');
+  mount.appendChild(buildYearBar(OCC.getSeasons(), year, (y, d) => { currentData = d; renderAll(); }));
+  currentData = OCC.getData();
+  renderAll();
+  OCC.onYearChange((y, d) => {
+    currentData = d;
+    mount.innerHTML = '';
+    mount.appendChild(buildYearBar(OCC.getSeasons(), y, (ny, nd) => { currentData = nd; renderAll(); }));
+    renderAll();
+  });
 
+  // Tabs
+  document.getElementById('match-tabs').addEventListener('click', e => {
+    if (!e.target.classList.contains('tab-btn')) return;
+    document.querySelectorAll('#match-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    activeTab = e.target.dataset.tab;
+    renderCards();
+  });
+
+  function renderAll() {
+    const d = currentData;
+    if (!d) return;
+    activeTeam = 'all'; // reset on year change
+
+    // Banner
+    document.getElementById('banner-sub').textContent = `${d.completedMatches.length} completed · ${d.upcomingMatches.length} upcoming`;
+    const badge = document.getElementById('season-badge');
+    badge.className = `season-badge ${d.status}`;
+    badge.innerHTML = `<span class="dot"></span> ${d.status === 'ongoing' ? 'Ongoing' : 'Completed'} · OCC ${d.year}`;
+
+    // Stats bar
+    const totalRuns = d.completedMatches.reduce((s, m) => {
+      const r1 = parseInt(m.score1) || 0;
+      const r2 = parseInt(m.score2) || 0;
+      return s + r1 + r2;
+    }, 0);
+    document.getElementById('match-stats-bar').innerHTML = `
+      <div class="stat-pill"><div class="num">${d.matches.length}</div><div class="lbl">Total Matches</div></div>
+      <div class="stat-pill"><div class="num">${d.completedMatches.length}</div><div class="lbl">Completed</div></div>
+      <div class="stat-pill"><div class="num">${d.upcomingMatches.length}</div><div class="lbl">Upcoming</div></div>
+      <div class="stat-pill"><div class="num">${d.teams.length}</div><div class="lbl">Teams</div></div>
+    `;
+
+    // Team filter
+    const filterEl = document.getElementById('team-filter');
+    filterEl.innerHTML = `
+      <button class="filter-pill active" data-team="all">All Teams</button>
+      ${d.teams.map(t => `<button class="filter-pill" data-team="${t.id}" style="--dot:${t.color}">${t.short}</button>`).join('')}
+    `;
+    filterEl.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterEl.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeTeam = btn.dataset.team;
+        renderCards();
+      });
+    });
+
+    renderCards();
+    renderTable();
+  }
+
+  function getFilteredMatches() {
+    const d = currentData;
+    if (!d) return [];
+    let matches = d.matches;
+    if (activeTab === 'completed') matches = matches.filter(m => m.status === 'completed');
+    if (activeTab === 'upcoming')  matches = matches.filter(m => m.status === 'upcoming');
+    if (activeTeam !== 'all') matches = matches.filter(m => m.team1 === activeTeam || m.team2 === activeTeam);
+    return matches;
+  }
+
+  function renderCards() {
+    const matches = getFilteredMatches();
+    const grid = document.getElementById('matches-grid');
+    const empty = document.getElementById('empty-state');
+    if (matches.length === 0) {
+      grid.innerHTML = '';
+      empty.style.display = 'block';
+    } else {
+      empty.style.display = 'none';
+      grid.innerHTML = matches.map(m => Render.matchCard(m, currentData.teamMap)).join('');
+    }
+  }
+
+  function renderTable() {
+    const d = currentData;
+    if (!d) return;
+    const tbody = document.getElementById('results-tbody');
+    const completed = d.completedMatches;
+    if (completed.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="6" style="text-align:center;color:var(--text-3);padding:2rem">No results yet</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = completed.map(m => {
+      const t1 = d.teamMap[m.team1] || {};
+      const t2 = d.teamMap[m.team2] || {};
+      const winnerName = m.winner ? (d.teamMap[m.winner]?.name || m.winner) : 'Tied';
+      return `
+        <tr>
+          <td style="text-align:left;color:var(--text-3);font-size:0.8rem">M${m.number}</td>
+          <td style="text-align:left">
+            <span style="color:${t1.color||'inherit'};font-weight:600">${t1.short||m.team1}</span>
+            <span style="color:var(--text-3);margin:0 0.35rem">vs</span>
+            <span style="color:${t2.color||'inherit'};font-weight:600">${t2.short||m.team2}</span>
+          </td>
+          <td style="text-align:left;color:var(--text-2);font-size:0.8rem">${m.dateFmt}</td>
+          <td style="text-align:right;font-family:'Teko',sans-serif;font-size:0.95rem">
+            ${m.score1} <span style="color:var(--text-3);font-size:0.7rem">v</span> ${m.score2}
+          </td>
+          <td style="text-align:left;font-size:0.8rem">
+            ${m.winner ? `<span style="color:var(--orange);font-weight:600">${winnerName}</span> · ${m.margin}` : '<span style="color:var(--gold)">Tied</span>'}
+          </td>
+          <td style="text-align:left;font-size:0.78rem;color:var(--text-2)">${m.momObj ? m.momObj.name : '—'}</td>
+        </tr>`;
+    }).join('');
+  }
+})();
+</script>
 </body>
 </html>
