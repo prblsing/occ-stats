@@ -118,8 +118,7 @@ img { max-width: 100%; display: block; }
 /* ── HERO ── */
 .hero {
   background: linear-gradient(155deg, var(--navy-dark) 0%, var(--navy-mid) 60%, #0f2a50 100%);
-  padding: 56px 24px 44px;
-  text-align: center;
+  padding: 52px 32px 44px;
   position: relative;
   overflow: hidden;
 }
@@ -130,20 +129,29 @@ img { max-width: 100%; display: block; }
   background: radial-gradient(ellipse 55% 60% at 75% 40%, rgba(232,130,12,.08), transparent);
   pointer-events: none;
 }
+.hero-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 48px;
+}
+.hero-left { position: relative; z-index: 1; }
 .hero-eyebrow {
   font-family: 'DM Mono', monospace;
   font-size: 11px;
   letter-spacing: 3px;
   color: var(--orange-lt);
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   opacity: .9;
 }
 .hero h1 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(44px, 7vw, 76px);
-  line-height: .95;
-  letter-spacing: 2px;
+  font-size: clamp(48px, 5.5vw, 84px);
+  line-height: .92;
+  letter-spacing: 3px;
   color: var(--white);
   margin-bottom: 14px;
 }
@@ -154,7 +162,38 @@ img { max-width: 100%; display: block; }
   margin-bottom: 28px;
   letter-spacing: .3px;
 }
-.hero-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.hero-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.hero-right {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-end;
+  border-left: 1px solid rgba(255,255,255,0.07);
+  padding-left: 48px;
+  min-width: 220px;
+}
+.hero-kpi { text-align: right; }
+.hero-kpi-val {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 38px;
+  color: var(--orange-lt);
+  line-height: 1;
+}
+.hero-kpi-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+.hero-kpi-sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+  margin-top: 1px;
+}
 .btn-primary {
   background: var(--orange);
   color: #fff;
@@ -164,6 +203,8 @@ img { max-width: 100%; display: block; }
   font-size: 13px;
   font-weight: 500;
   transition: background .15s;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn-primary:hover { background: var(--orange-lt); }
 .btn-outline {
@@ -174,6 +215,8 @@ img { max-width: 100%; display: block; }
   border-radius: 8px;
   font-size: 13px;
   transition: all .15s;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn-outline:hover { background: rgba(255,255,255,0.13); }
 .hero-divider {
@@ -181,9 +224,13 @@ img { max-width: 100%; display: block; }
   background: linear-gradient(to right, transparent, var(--orange) 40%, transparent);
   margin: 0;
 }
+@media (max-width: 768px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-right { display: none; }
+}
 
 /* ── LAYOUT ── */
-.container { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
 .section { padding: 28px 0; }
 .section + .section { padding-top: 0; }
 
@@ -219,18 +266,21 @@ img { max-width: 100%; display: block; }
 }
 
 /* ── GRIDS ── */
-.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-.grid-teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.grid-teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
 
+@media (max-width: 900px) {
+  .grid-4 { grid-template-columns: 1fr 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr; }
+}
 @media (max-width: 640px) {
   .grid-2 { grid-template-columns: 1fr; }
-  .grid-3 { grid-template-columns: 1fr 1fr; }
-  .grid-4 { grid-template-columns: 1fr 1fr; }
+  .grid-3, .grid-4 { grid-template-columns: 1fr 1fr; }
   .nav-links { display: none; }
-  .hero { padding: 36px 16px 28px; }
-  .container { padding: 0 14px; }
+  .hero { padding: 32px 16px 28px; }
+  .container { padding: 0 16px; }
 }
 @media (max-width: 400px) {
   .grid-3, .grid-4 { grid-template-columns: 1fr; }

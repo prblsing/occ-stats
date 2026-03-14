@@ -89,9 +89,10 @@ async function setYear(year) {
 
   const data = await loadYear(year);
   if (data.meta) {
-    document.querySelectorAll('.hero-eyebrow').forEach(el => el.textContent = data.meta.season + ' · ' + data.meta.venue.split(',')[1]?.trim());
+    const venueCity = data.meta.venue?.split(',')[1]?.trim() || '';
+    document.querySelectorAll('.hero-eyebrow').forEach(el => el.textContent = `${data.meta.season} · ${venueCity}`);
     document.querySelectorAll('.hero-sub').forEach(el => el.textContent = data.meta.tagline);
-    document.querySelectorAll('.nav-year').forEach(el => el.textContent = year);
+    document.querySelectorAll('.nav-year, .year-display').forEach(el => el.textContent = year);
   }
 
   // Re-render current page

@@ -52,6 +52,27 @@ function renderPage(page, data) {
     ).join('');
   }
 
+  // ── Hero KPIs ──
+  const kpiEl = document.getElementById('hero-kpis');
+  if (kpiEl && topBat && topBowl && topMvp) {
+    kpiEl.innerHTML = `
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">${topBat.runs}</div>
+        <div class="hero-kpi-label">Top runs</div>
+        <div class="hero-kpi-sub">${topBat.name}</div>
+      </div>
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">${topBowl.wkts}</div>
+        <div class="hero-kpi-label">Top wickets</div>
+        <div class="hero-kpi-sub">${topBowl.name}</div>
+      </div>
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">${topMvp.total.toFixed(1)}</div>
+        <div class="hero-kpi-label">MVP points</div>
+        <div class="hero-kpi-sub">${topMvp.name}</div>
+      </div>`;
+  }
+
   // ── Year badge ──
   el('home-year-badge').textContent = OCC.year;
 }
