@@ -1,0 +1,19 @@
+{
+  "players": [
+    { "name": "Sanjeet Singh",     "team": "Furious Flames",     "matches": 7, "innings": 7, "wkts": 17, "overs": 28.0, "runs": 159, "eco": 5.68, "avg": 9.35,  "sr": 9.88,  "best": "4/",  "maidens": 1 },
+    { "name": "Farrukh Nadeem",    "team": "SPEEDY SPARTANS",    "matches": 7, "innings": 7, "wkts": 15, "overs": 28.0, "runs": 171, "eco": 6.11, "avg": 11.40, "sr": 11.20, "best": "4/",  "maidens": 0 },
+    { "name": "Ajay Bhardwaj",     "team": "Furious Flames",     "matches": 8, "innings": 7, "wkts": 13, "overs": 26.0, "runs": 154, "eco": 5.92, "avg": 11.85, "sr": 12.00, "best": "3/",  "maidens": 1 },
+    { "name": "Kanishk Sethi",     "team": "Ultimate Warriors",  "matches": 7, "innings": 7, "wkts": 12, "overs": 26.0, "runs": 153, "eco": 5.88, "avg": 12.75, "sr": 13.00, "best": "3/",  "maidens": 1 },
+    { "name": "Sanju",             "team": "SPEEDY SPARTANS",    "matches": 7, "innings": 7, "wkts": 12, "overs": 24.5, "runs": 153, "eco": 6.16, "avg": 12.75, "sr": 12.42, "best": "4/",  "maidens": 1 },
+    { "name": "Muzaffer",          "team": "SPEEDY SPARTANS",    "matches": 7, "innings": 7, "wkts": 12, "overs": 24.5, "runs": 179, "eco": 7.21, "avg": 14.92, "sr": 12.42, "best": "4/",  "maidens": 0 },
+    { "name": "Akhilesh",          "team": "FEARLESS FIGHTERS",  "matches": 5, "innings": 5, "wkts": 10, "overs": 18.2, "runs": 96,  "eco": 5.24, "avg": 9.60,  "sr": 11.00, "best": "4/",  "maidens": 1 },
+    { "name": "Satyadev Sain",     "team": "Dynamic Daredevils", "matches": 5, "innings": 5, "wkts": 10, "overs": 15.3, "runs": 119, "eco": 7.68, "avg": 11.90, "sr": 9.30,  "best": "4/",  "maidens": 1 },
+    { "name": "Ramit Bajpai",      "team": "Savage Scorpions",   "matches": 3, "innings": 3, "wkts": 9,  "overs": 12.0, "runs": 47,  "eco": 3.92, "avg": 5.22,  "sr": 8.00,  "best": "5/",  "maidens": 2 },
+    { "name": "Ankit Rana",        "team": "Ferocious Fighters", "matches": 3, "innings": 3, "wkts": 9,  "overs": 11.1, "runs": 76,  "eco": 6.81, "avg": 8.44,  "sr": 7.44,  "best": "4/",  "maidens": 0 },
+    { "name": "Ravindra Nitwal",   "team": "Super Smashers",     "matches": 7, "innings": 7, "wkts": 9,  "overs": 20.0, "runs": 181, "eco": 9.05, "avg": 20.11, "sr": 13.33, "best": "3/",  "maidens": 0 },
+    { "name": "Atul Thakur",       "team": "Dynamic Daredevils", "matches": 5, "innings": 5, "wkts": 8,  "overs": 16.4, "runs": 74,  "eco": 4.44, "avg": 9.25,  "sr": 12.50, "best": "3/",  "maidens": 0 },
+    { "name": "Rahil Kapoor",      "team": "Furious Flames",     "matches": 6, "innings": 6, "wkts": 8,  "overs": 22.0, "runs": 146, "eco": 6.64, "avg": 18.25, "sr": 16.50, "best": "4/",  "maidens": 0 },
+    { "name": "Puneet Sharma",     "team": "Ferocious Fighters", "matches": 3, "innings": 3, "wkts": 8,  "overs": 8.5,  "runs": 59,  "eco": 6.68, "avg": 7.38,  "sr": 6.62,  "best": "4/",  "maidens": 0 },
+    { "name": "Gourav Banathia",   "team": "Ultimate Warriors",  "matches": 7, "innings": 6, "wkts": 8,  "overs": 20.0, "runs": 141, "eco": 7.05, "avg": 17.63, "sr": 15.00, "best": "3/",  "maidens": 2 }
+  ]
+}

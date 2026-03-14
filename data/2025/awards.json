@@ -1,0 +1,14 @@
+{
+  "awards": [
+    { "icon": "🏆", "title": "Champions",           "winner": "Super Smashers",  "detail": "Won by 7 wickets in Final",           "team": "" },
+    { "icon": "🥈", "title": "Runners Up",          "winner": "Furious Flames",  "detail": "Lost by 7 wickets",                   "team": "" },
+    { "icon": "🥉", "title": "3rd Place",           "winner": "Speedy Spartan",  "detail": "Beat Ultimate Warriors by 2 wickets", "team": "" },
+    { "icon": "⭐", "title": "Tournament MVP",      "winner": "Ramit Bajpai",    "detail": "59.20 MVP points",                    "team": "Furious Flames" },
+    { "icon": "🏏", "title": "Best Batsman",        "winner": "Deepak Negi",     "detail": "279 runs · 1 century · Avg 39.86",    "team": "Speedy Spartan" },
+    { "icon": "🎳", "title": "Best Bowler",         "winner": "Muzaffer",        "detail": "22 wickets · Economy 4.70",           "team": "Speedy Spartan" },
+    { "icon": "🧤", "title": "Best Wicketkeeper",   "winner": "Satya Rawat",     "detail": "10 dismissals (7 stumpings)",         "team": "Furious Flames" },
+    { "icon": "🌟", "title": "Best All-Rounder",    "winner": "Ramit Bajpai",    "detail": "243 runs + 17 wickets",               "team": "Furious Flames" },
+    { "icon": "💥", "title": "Highest Individual",  "winner": "Rahul Singh",     "detail": "119* off 114 balls",                  "team": "Fierce Falcons" },
+    { "icon": "🎯", "title": "Best Economy",        "winner": "Muzaffer",        "detail": "Economy 4.70 · 22 wickets",           "team": "Speedy Spartan" }
+  ]
+}

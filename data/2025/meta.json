@@ -1,0 +1,42 @@
+{
+  "year": "2025",
+  "title": "OCC – Noida 2025",
+  "season": "Season 2025",
+  "tagline": "Siditya Cricket Ground · 16 Teams · 4 Groups",
+  "venue": "Siditya Cricket Ground, Noida",
+  "champion": "Super Smashers",
+  "runnersUp": "Furious Flames",
+  "thirdPlace": "Speedy Spartan",
+  "totalTeams": 16,
+  "format": [
+    { "name": "4 Groups", "detail": "Alpha / Bravo / Charlie / Delta" },
+    { "name": "Super Eight", "detail": "Panthers & Tigers groups" },
+    { "name": "Semi Finals", "detail": "Top 2 of each S8 group" },
+    { "name": "3rd Place", "detail": "Speedy Spartan beat UW" },
+    { "name": "Final", "detail": "11 Oct 2025" }
+  ],
+  "teams": [
+    "Ultimate Warriors", "Furious Flames", "Fierce Falcons", "FEARLESS FIGHTERS",
+    "Thunder Strikers", "Stellar Stunners", "Supreme Strikers", "Lighting Bolts",
+    "Speedy Spartan", "Super Smashers", "Dynamic Daredevils", "Thundering Thunderbolts",
+    "Dominant DareDevils", "Rampage Rhinos", "Elite Lions", "Unstoppable Warriors"
+  ],
+  "teamLogos": {
+    "Ultimate Warriors":       "ultimate-warriors.png",
+    "Furious Flames":          "furious-flames.png",
+    "Fierce Falcons":          "fierce-falcons.png",
+    "FEARLESS FIGHTERS":       "fearless-fighters.png",
+    "Thunder Strikers":        "thunder-strikers.png",
+    "Stellar Stunners":        "stellar-stunners.png",
+    "Supreme Strikers":        "supreme-strikers.png",
+    "Lighting Bolts":          "lighting-bolts.png",
+    "Speedy Spartan":          "speedy-spartan.png",
+    "Super Smashers":          "super-smashers.png",
+    "Dynamic Daredevils":      "dynamic-daredevils.png",
+    "Thundering Thunderbolts": "thundering-thunderbolts.png",
+    "Dominant DareDevils":     "dominant-daredevils.png",
+    "Rampage Rhinos":          "rampage-rhinos.png",
+    "Elite Lions":             "elite-lions.png",
+    "Unstoppable Warriors":    "unstoppable-warriors.png"
+  }
+}

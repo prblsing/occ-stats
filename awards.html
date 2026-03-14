@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OCC – Optum Cricket Championship</title>
+  <title>Awards – OCC</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-page="home">
+<body data-page="awards">
 
-  <!-- NAV -->
   <nav class="nav">
     <a class="nav-logo" href="index.html">
-      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 36 36" fill="none">
         <rect x="11" y="8" width="2.5" height="18" rx="1.2" fill="white" opacity=".9"/>
         <rect x="16.75" y="5" width="2.5" height="21" rx="1.2" fill="white"/>
         <rect x="22.5" y="8" width="2.5" height="18" rx="1.2" fill="white" opacity=".9"/>
@@ -34,51 +33,28 @@
     </div>
   </nav>
 
-  <!-- HERO -->
-  <div class="hero">
-    <div class="hero-eyebrow">Season 2025 · Noida</div>
-    <h1>OPTUM<br><em>CRICKET</em><br>CHAMPIONSHIP</h1>
-    <p class="hero-sub">Siditya Cricket Ground · 16 Teams · 4 Groups</p>
-    <div class="hero-actions">
-      <a class="btn-primary" href="schedule.html">View Schedule</a>
-      <a class="btn-outline" href="points.html">Standings</a>
-    </div>
+  <div class="hero" style="padding:36px 24px 28px">
+    <div class="hero-eyebrow">Honours & Records</div>
+    <h1 style="font-size:clamp(32px,5vw,52px)">AWARDS &<br><em>HALL OF FAME</em></h1>
+    <p class="hero-sub">Season awards · All-time records · Champions</p>
   </div>
   <div class="hero-divider"></div>
 
-  <!-- CONTENT -->
-  <div class="page-section active" data-page="home">
+  <div class="page-section active" data-page="awards">
     <div class="container">
-
       <div class="section">
-        <div id="home-champion"></div>
         <div class="section-header">
-          <div class="section-title">Key Matches</div>
-          <div class="section-badge" id="home-year-badge">2025</div>
+          <div class="section-title">Awards</div>
+          <div class="section-badge" id="awards-badge">2025</div>
         </div>
-        <div class="grid-2" id="home-matches">
+        <div id="awards-content">
           <div class="loading"><span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></div>
         </div>
       </div>
-
-      <div class="section">
-        <div class="section-header">
-          <div class="section-title">Tournament Leaders</div>
-        </div>
-        <div class="grid-4" id="home-stats"></div>
-      </div>
-
-      <div class="section">
-        <div class="section-header">
-          <div class="section-title">Tournament Format</div>
-        </div>
-        <div class="format-flow" id="home-format"></div>
-      </div>
-
     </div>
   </div>
 
   <script src="js/app.js"></script>
-  <script src="js/home.js"></script>
+  <script src="js/awards.js"></script>
 </body>
 </html>

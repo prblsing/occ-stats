@@ -1,0 +1,56 @@
+{
+  "matches": [
+    {
+      "stage": "Semi Final 1",
+      "date": "1 Dec 2024",
+      "venue": "Siditya Cricket Ground, Noida",
+      "team1": "Furious Flames",
+      "score1": "207/6",
+      "overs1": "20.0",
+      "team2": "SPEEDY SPARTANS",
+      "score2": "174/7",
+      "overs2": "20.0",
+      "result": "Furious Flames won by 33 runs",
+      "winner": "Furious Flames"
+    },
+    {
+      "stage": "Semi Final 2",
+      "date": "1 Dec 2024",
+      "venue": "Siditya Cricket Ground, Noida",
+      "team1": "Ultimate Warriors",
+      "score1": "220/5",
+      "overs1": "20.0",
+      "team2": "Super Smashers",
+      "score2": "221/5",
+      "overs2": "19.5",
+      "result": "Super Smashers won by 5 wickets",
+      "winner": "Super Smashers"
+    },
+    {
+      "stage": "3rd Place",
+      "date": "13 Apr 2025",
+      "venue": "Siditya Cricket Ground, Noida",
+      "team1": "SPEEDY SPARTANS",
+      "score1": "140/5",
+      "overs1": "15.5",
+      "team2": "Ultimate Warriors",
+      "score2": "138/7",
+      "overs2": "20.0",
+      "result": "SPEEDY SPARTANS won by 5 wickets",
+      "winner": "SPEEDY SPARTANS"
+    },
+    {
+      "stage": "Final",
+      "date": "13 Apr 2025",
+      "venue": "Siditya Cricket Ground, Noida",
+      "team1": "Furious Flames",
+      "score1": "180/10",
+      "overs1": "19.0",
+      "team2": "Super Smashers",
+      "score2": "100/10",
+      "overs2": "17.2",
+      "result": "Furious Flames won by 80 runs",
+      "winner": "Furious Flames"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "year": "2024",
+  "title": "Optum Cricket Championship Noida 2024",
+  "season": "Season 2024 · Inaugural Edition",
+  "tagline": "Siditya Cricket Ground · 24 Teams · 6 Groups",
+  "venue": "Siditya Cricket Ground, Noida",
+  "champion": "Furious Flames",
+  "runnersUp": "Super Smashers",
+  "thirdPlace": "SPEEDY SPARTANS",
+  "totalTeams": 24,
+  "format": [
+    { "name": "6 Groups A–F", "detail": "4 teams each, 24 total" },
+    { "name": "Super Six", "detail": "Group A & B, top 2 advance" },
+    { "name": "Semi Finals", "detail": "1 Dec 2024" },
+    { "name": "3rd Place", "detail": "SPEEDY SPARTANS beat UW" },
+    { "name": "Final", "detail": "13 Apr 2025" }
+  ],
+  "teams": [
+    "Dynamic Daredevils", "Savage Scorpions", "Phoenix Kings", "Thundering Thunderbolts",
+    "Furious Flames", "Ferocious Fighters", "Stellar Stunners", "Dominant DareDevils",
+    "Ultimate Warriors", "Thunder Strikers", "Blazing Batsman", "Rising Stars OCC",
+    "Super Smashers", "Fierce Falcons", "Invincible Knights", "Turbo Chargers",
+    "SPEEDY SPARTANS", "Forceful Falcons Optum", "Unstoppable Warriors", "Elite Lions",
+    "FEARLESS FIGHTERS", "Rampage Rhinos", "Lighting Bolts", "Supreme Strikers"
+  ],
+  "teamLogos": {
+    "Dynamic Daredevils": "dynamic-daredevils.png",
+    "Savage Scorpions": "savage-scorpions.png",
+    "Phoenix Kings": "phoenix-kings.png",
+    "Thundering Thunderbolts": "thundering-thunderbolts.png",
+    "Furious Flames": "furious-flames.png",
+    "Ferocious Fighters": "ferocious-fighters.png",
+    "Stellar Stunners": "stellar-stunners.png",
+    "Dominant DareDevils": "dominant-daredevils.png",
+    "Ultimate Warriors": "ultimate-warriors.png",
+    "Thunder Strikers": "thunder-strikers.png",
+    "Blazing Batsman": "blazing-batsman.png",
+    "Rising Stars OCC": "rising-stars-occ.png",
+    "Super Smashers": "super-smashers.png",
+    "Fierce Falcons": "fierce-falcons.png",
+    "Invincible Knights": "invincible-knights.png",
+    "Turbo Chargers": "turbo-chargers.png",
+    "SPEEDY SPARTANS": "speedy-spartans.png",
+    "Forceful Falcons Optum": "forceful-falcons-optum.png",
+    "Unstoppable Warriors": "unstoppable-warriors.png",
+    "Elite Lions": "elite-lions.png",
+    "FEARLESS FIGHTERS": "fearless-fighters.png",
+    "Rampage Rhinos": "rampage-rhinos.png",
+    "Lighting Bolts": "lighting-bolts.png",
+    "Supreme Strikers": "supreme-strikers.png"
+  }
+}

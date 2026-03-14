@@ -1,0 +1,79 @@
+{
+  "league": [
+    {
+      "name": "GROUP A",
+      "teams": [
+        { "pos": 1, "name": "Dynamic Daredevils",     "m": 3, "w": 3, "l": 0, "nrr": "+4.129", "pts": 6 },
+        { "pos": 2, "name": "Savage Scorpions",        "m": 3, "w": 2, "l": 1, "nrr": "+1.788", "pts": 4 },
+        { "pos": 3, "name": "Phoenix Kings",           "m": 3, "w": 1, "l": 2, "nrr": "-0.228", "pts": 2 },
+        { "pos": 4, "name": "Thundering Thunderbolts", "m": 3, "w": 0, "l": 3, "nrr": "-5.013", "pts": 0 }
+      ]
+    },
+    {
+      "name": "GROUP B",
+      "teams": [
+        { "pos": 1, "name": "Furious Flames",      "m": 3, "w": 2, "l": 1, "nrr": "+1.684", "pts": 4 },
+        { "pos": 2, "name": "Ferocious Fighters",   "m": 3, "w": 2, "l": 1, "nrr": "+1.398", "pts": 4 },
+        { "pos": 3, "name": "Stellar Stunners",     "m": 3, "w": 1, "l": 2, "nrr": "-0.431", "pts": 2 },
+        { "pos": 4, "name": "Dominant DareDevils",  "m": 3, "w": 1, "l": 2, "nrr": "-2.354", "pts": 2 }
+      ]
+    },
+    {
+      "name": "GROUP C",
+      "teams": [
+        { "pos": 1, "name": "Ultimate Warriors", "m": 3, "w": 3, "l": 0, "nrr": "+5.060", "pts": 6 },
+        { "pos": 2, "name": "Thunder Strikers",  "m": 3, "w": 2, "l": 1, "nrr": "-0.423", "pts": 4 },
+        { "pos": 3, "name": "Blazing Batsman",   "m": 3, "w": 1, "l": 2, "nrr": "-1.615", "pts": 2 },
+        { "pos": 4, "name": "Rising Stars OCC",  "m": 3, "w": 0, "l": 3, "nrr": "-2.017", "pts": 0 }
+      ]
+    },
+    {
+      "name": "GROUP D",
+      "teams": [
+        { "pos": 1, "name": "Super Smashers",    "m": 3, "w": 2, "l": 1, "nrr": "+1.739", "pts": 4 },
+        { "pos": 2, "name": "Fierce Falcons",    "m": 3, "w": 2, "l": 1, "nrr": "+0.382", "pts": 4 },
+        { "pos": 3, "name": "Invincible Knights","m": 3, "w": 2, "l": 1, "nrr": "+0.363", "pts": 4 },
+        { "pos": 4, "name": "Turbo Chargers",    "m": 3, "w": 0, "l": 3, "nrr": "-3.060", "pts": 0 }
+      ]
+    },
+    {
+      "name": "GROUP E",
+      "teams": [
+        { "pos": 1, "name": "SPEEDY SPARTANS",        "m": 3, "w": 2, "l": 1, "nrr": "+2.791", "pts": 4 },
+        { "pos": 2, "name": "Forceful Falcons Optum", "m": 3, "w": 2, "l": 1, "nrr": "+1.850", "pts": 4 },
+        { "pos": 3, "name": "Unstoppable Warriors",   "m": 3, "w": 2, "l": 1, "nrr": "+0.361", "pts": 4 },
+        { "pos": 4, "name": "Elite Lions",            "m": 3, "w": 0, "l": 3, "nrr": "-5.077", "pts": 0 }
+      ]
+    },
+    {
+      "name": "GROUP F",
+      "teams": [
+        { "pos": 1, "name": "FEARLESS FIGHTERS", "m": 3, "w": 3, "l": 0, "nrr": "+2.164", "pts": 6 },
+        { "pos": 2, "name": "Rampage Rhinos",    "m": 3, "w": 2, "l": 1, "nrr": "+2.766", "pts": 4 },
+        { "pos": 3, "name": "Lighting Bolts",    "m": 2, "w": 0, "l": 2, "nrr": "-3.600", "pts": 0 },
+        { "pos": 4, "name": "Supreme Strikers",  "m": 2, "w": 0, "l": 2, "nrr": "-4.227", "pts": 0 }
+      ]
+    }
+  ],
+  "superStage": {
+    "label": "Super Six",
+    "groups": [
+      {
+        "name": "SUPER SIX – Group A",
+        "teams": [
+          { "pos": 1, "name": "Furious Flames",    "m": 2, "w": 2, "l": 0, "nrr": "+1.421", "pts": 4 },
+          { "pos": 2, "name": "Ultimate Warriors", "m": 2, "w": 1, "l": 1, "nrr": "+1.038", "pts": 2 },
+          { "pos": 3, "name": "Dynamic Daredevils","m": 2, "w": 0, "l": 2, "nrr": "-2.481", "pts": 0 }
+        ]
+      },
+      {
+        "name": "SUPER SIX – Group B",
+        "teams": [
+          { "pos": 1, "name": "Super Smashers",   "m": 2, "w": 2, "l": 0, "nrr": "+1.009", "pts": 4 },
+          { "pos": 2, "name": "SPEEDY SPARTANS",  "m": 2, "w": 1, "l": 1, "nrr": "+0.972", "pts": 2 },
+          { "pos": 3, "name": "FEARLESS FIGHTERS","m": 2, "w": 0, "l": 2, "nrr": "-1.998", "pts": 0 }
+        ]
+      }
+    ]
+  }
+}

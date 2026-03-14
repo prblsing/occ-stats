@@ -1,0 +1,14 @@
+{
+  "awards": [
+    { "icon": "🏆", "title": "Champions",           "winner": "Furious Flames",    "detail": "Won by 80 runs in Final",          "team": "" },
+    { "icon": "🥈", "title": "Runners Up",          "winner": "Super Smashers",    "detail": "Lost by 80 runs",                  "team": "" },
+    { "icon": "🥉", "title": "3rd Place",           "winner": "SPEEDY SPARTANS",   "detail": "Beat Ultimate Warriors by 5 wkts", "team": "" },
+    { "icon": "⭐", "title": "Tournament MVP",      "winner": "Sanjeet Singh",     "detail": "58.95 MVP points",                 "team": "Furious Flames" },
+    { "icon": "🏏", "title": "Best Batsman",        "winner": "Gourav Banathia",   "detail": "408 runs · 2 centuries · Avg 68",  "team": "Ultimate Warriors" },
+    { "icon": "🎳", "title": "Best Bowler",         "winner": "Sanjeet Singh",     "detail": "17 wickets · Economy 5.68",        "team": "Furious Flames" },
+    { "icon": "🧤", "title": "Best Wicketkeeper",   "winner": "Satya Rawat",       "detail": "10 dismissals (6 stumpings)",      "team": "Furious Flames" },
+    { "icon": "🌟", "title": "Best All-Rounder",    "winner": "Sanjeet Singh",     "detail": "237 runs + 17 wickets",            "team": "Furious Flames" },
+    { "icon": "💥", "title": "Highest Individual",  "winner": "Gourav Banathia",   "detail": "128* for Ultimate Warriors",       "team": "Ultimate Warriors" },
+    { "icon": "🎯", "title": "Best Economy",        "winner": "Ramit Bajpai",      "detail": "Economy 3.92 · 9 wickets",        "team": "Savage Scorpions" }
+  ]
+}

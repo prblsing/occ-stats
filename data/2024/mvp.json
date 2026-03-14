@@ -1,0 +1,14 @@
+{
+  "players": [
+    { "name": "Sanjeet Singh",      "team": "Furious Flames",     "role": "All-Rounder", "batting": 24.097, "bowling": 33.777, "fielding": 1.080, "total": 58.954 },
+    { "name": "Gourav Banathia",    "team": "Ultimate Warriors",  "role": "Batter",      "batting": 41.011, "bowling": 16.536, "fielding": 1.368, "total": 58.915 },
+    { "name": "Kanishk Sethi",      "team": "Ultimate Warriors",  "role": "Batter",      "batting": 26.891, "bowling": 23.484, "fielding": 3.390, "total": 53.765 },
+    { "name": "Ankur Pandey",       "team": "Furious Flames",     "role": "All-Rounder", "batting": 34.778, "bowling": 10.736, "fielding": 1.620, "total": 47.134 },
+    { "name": "Atul Thakur",        "team": "Dynamic Daredevils", "role": "All-Rounder", "batting": 29.102, "bowling": 15.248, "fielding": 0.360, "total": 44.710 },
+    { "name": "Farrukh Nadeem",     "team": "SPEEDY SPARTANS",    "role": "Bowler",      "batting": 13.100, "bowling": 28.550, "fielding": 1.080, "total": 42.730 },
+    { "name": "Abhishek Tripathi",  "team": "Super Smashers",     "role": "All-Rounder", "batting": 27.040, "bowling": 12.712, "fielding": 1.260, "total": 41.012 },
+    { "name": "Gaurav Singh Tomar", "team": "FEARLESS FIGHTERS",  "role": "Batter",      "batting": 27.597, "bowling": 9.613,  "fielding": 3.450, "total": 40.660 },
+    { "name": "Sanju",              "team": "SPEEDY SPARTANS",    "role": "All-Rounder", "batting": 8.922,  "bowling": 22.392, "fielding": 1.578, "total": 32.892 },
+    { "name": "Aman Sharma",        "team": "Super Smashers",     "role": "All-Rounder", "batting": 20.544, "bowling": 9.280,  "fielding": 1.080, "total": 30.904 }
+  ]
+}

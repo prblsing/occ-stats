@@ -1,0 +1,14 @@
+{
+  "players": [
+    { "name": "Satya Rawat",        "team": "Furious Flames",     "matches": 6, "dismissals": 10, "catches": 4, "caughtBehind": 3, "stumpings": 6, "runOuts": 0 },
+    { "name": "Yogesh Saini",       "team": "Dynamic Daredevils", "matches": 5, "dismissals": 8,  "catches": 3, "caughtBehind": 3, "stumpings": 4, "runOuts": 1 },
+    { "name": "Vimal Kumar",        "team": "Furious Flames",     "matches": 7, "dismissals": 7,  "catches": 4, "caughtBehind": 0, "stumpings": 0, "runOuts": 3 },
+    { "name": "Gaurav Singh Tomar", "team": "FEARLESS FIGHTERS",  "matches": 5, "dismissals": 6,  "catches": 5, "caughtBehind": 0, "stumpings": 0, "runOuts": 1 },
+    { "name": "Ankit Chauhan",      "team": "Forceful Falcons Optum","matches":2,"dismissals": 5, "catches": 4, "caughtBehind": 4, "stumpings": 0, "runOuts": 1 },
+    { "name": "Deepak Negi",        "team": "Forceful Falcons Optum","matches":3,"dismissals": 5, "catches": 4, "caughtBehind": 0, "stumpings": 0, "runOuts": 1 },
+    { "name": "Anant",              "team": "Ultimate Warriors",  "matches": 6, "dismissals": 5,  "catches": 4, "caughtBehind": 1, "stumpings": 1, "runOuts": 0 },
+    { "name": "Sanju",              "team": "SPEEDY SPARTANS",    "matches": 7, "dismissals": 5,  "catches": 5, "caughtBehind": 0, "stumpings": 0, "runOuts": 0 },
+    { "name": "Kanishk Sethi",      "team": "Ultimate Warriors",  "matches": 7, "dismissals": 5,  "catches": 3, "caughtBehind": 0, "stumpings": 1, "runOuts": 1 },
+    { "name": "Sarthak Singh",      "team": "SPEEDY SPARTANS",    "matches": 7, "dismissals": 5,  "catches": 4, "caughtBehind": 3, "stumpings": 0, "runOuts": 1 }
+  ]
+}

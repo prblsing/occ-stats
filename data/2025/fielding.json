@@ -1,0 +1,14 @@
+{
+  "players": [
+    { "name": "Autir Wani",       "team": "Speedy Spartan",    "matches": 6, "dismissals": 10, "catches": 9, "caughtBehind": 0, "stumpings": 0, "runOuts": 1 },
+    { "name": "Satya Rawat",      "team": "Furious Flames",    "matches": 8, "dismissals": 10, "catches": 2, "caughtBehind": 1, "stumpings": 7, "runOuts": 1 },
+    { "name": "Chetan Sharma",    "team": "Super Smashers",    "matches": 8, "dismissals": 7,  "catches": 7, "caughtBehind": 2, "stumpings": 0, "runOuts": 0 },
+    { "name": "Anant",            "team": "Ultimate Warriors", "matches": 8, "dismissals": 6,  "catches": 1, "caughtBehind": 0, "stumpings": 4, "runOuts": 1 },
+    { "name": "Shashi",           "team": "Stellar Stunners",  "matches": 6, "dismissals": 5,  "catches": 2, "caughtBehind": 0, "stumpings": 0, "runOuts": 3 },
+    { "name": "Ramit Bajpai",     "team": "Furious Flames",    "matches": 8, "dismissals": 5,  "catches": 5, "caughtBehind": 0, "stumpings": 0, "runOuts": 0 },
+    { "name": "Manish Pokhriyal", "team": "Super Smashers",    "matches": 8, "dismissals": 5,  "catches": 0, "caughtBehind": 0, "stumpings": 5, "runOuts": 0 },
+    { "name": "Kritik",           "team": "Rampage Rhinos",    "matches": 6, "dismissals": 5,  "catches": 3, "caughtBehind": 3, "stumpings": 1, "runOuts": 1 },
+    { "name": "Gourav Banathia",  "team": "Ultimate Warriors", "matches": 8, "dismissals": 4,  "catches": 4, "caughtBehind": 0, "stumpings": 0, "runOuts": 0 },
+    { "name": "Ravindra Nitwal",  "team": "Super Smashers",    "matches": 8, "dismissals": 4,  "catches": 4, "caughtBehind": 0, "stumpings": 0, "runOuts": 0 }
+  ]
+}

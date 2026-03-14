@@ -1,0 +1,14 @@
+{
+  "players": [
+    { "name": "Ramit Bajpai",       "team": "Furious Flames",    "role": "All-Rounder", "batting": 24.432, "bowling": 33.038, "fielding": 1.728, "total": 59.198 },
+    { "name": "Deepak Negi",        "team": "Speedy Spartan",    "role": "All-Rounder", "batting": 28.018, "bowling": 21.697, "fielding": 2.160, "total": 51.875 },
+    { "name": "Gourav Banathia",    "team": "Ultimate Warriors", "role": "Batter",      "batting": 21.295, "bowling": 27.910, "fielding": 1.440, "total": 50.645 },
+    { "name": "Gaurav Singh Tomar", "team": "Ultimate Warriors", "role": "Batter",      "batting": 25.668, "bowling": 23.704, "fielding": 0.864, "total": 50.236 },
+    { "name": "Abhishek Tripathi",  "team": "Super Smashers",    "role": "All-Rounder", "batting": 25.466, "bowling": 19.674, "fielding": 1.440, "total": 46.580 },
+    { "name": "Muzaffer",           "team": "Speedy Spartan",    "role": "Bowler",      "batting": 3.410,  "bowling": 40.365, "fielding": 0.000, "total": 43.775 },
+    { "name": "Manish Pokhriyal",   "team": "Super Smashers",    "role": "WK-Batter",   "batting": 20.895, "bowling": 13.996, "fielding": 2.952, "total": 37.843 },
+    { "name": "Sam 08",             "team": "Ultimate Warriors", "role": "Batter",      "batting": 22.744, "bowling": 10.794, "fielding": 0.900, "total": 34.438 },
+    { "name": "Anant",              "team": "Ultimate Warriors", "role": "WK-Batter",   "batting": 25.641, "bowling": 4.496,  "fielding": 4.248, "total": 34.385 },
+    { "name": "Sanjeet Singh",      "team": "Furious Flames",    "role": "All-Rounder", "batting": 8.492,  "bowling": 23.283, "fielding": 0.000, "total": 31.775 }
+  ]
+}

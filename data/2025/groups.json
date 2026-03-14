@@ -1,0 +1,63 @@
+{
+  "league": [
+    {
+      "name": "ALPHA",
+      "teams": [
+        { "pos": 1, "name": "Ultimate Warriors",  "m": 3, "w": 2, "l": 1, "nrr": "+0.958", "pts": 4 },
+        { "pos": 2, "name": "Furious Flames",      "m": 3, "w": 2, "l": 1, "nrr": "+0.583", "pts": 4 },
+        { "pos": 3, "name": "Fierce Falcons",      "m": 3, "w": 2, "l": 1, "nrr": "-0.749", "pts": 4 },
+        { "pos": 4, "name": "FEARLESS FIGHTERS",   "m": 3, "w": 0, "l": 3, "nrr": "-1.133", "pts": 0 }
+      ]
+    },
+    {
+      "name": "BRAVO",
+      "teams": [
+        { "pos": 1, "name": "Thunder Strikers",  "m": 3, "w": 3, "l": 0, "nrr": "+4.031", "pts": 6 },
+        { "pos": 2, "name": "Stellar Stunners",  "m": 3, "w": 1, "l": 1, "nrr": "+0.067", "pts": 3, "note": "Tie" },
+        { "pos": 3, "name": "Supreme Strikers",  "m": 3, "w": 1, "l": 1, "nrr": "-2.005", "pts": 3, "note": "Tie" },
+        { "pos": 4, "name": "Lighting Bolts",    "m": 3, "w": 0, "l": 3, "nrr": "-2.192", "pts": 0 }
+      ]
+    },
+    {
+      "name": "CHARLIE",
+      "teams": [
+        { "pos": 1, "name": "Speedy Spartan",          "m": 3, "w": 2, "l": 1, "nrr": "+2.279", "pts": 4 },
+        { "pos": 2, "name": "Super Smashers",           "m": 3, "w": 2, "l": 1, "nrr": "+0.171", "pts": 4 },
+        { "pos": 3, "name": "Dynamic Daredevils",       "m": 3, "w": 1, "l": 2, "nrr": "-0.456", "pts": 2 },
+        { "pos": 4, "name": "Thundering Thunderbolts",  "m": 3, "w": 1, "l": 2, "nrr": "-2.161", "pts": 2 }
+      ]
+    },
+    {
+      "name": "DELTA",
+      "teams": [
+        { "pos": 1, "name": "Dominant DareDevils",  "m": 3, "w": 3, "l": 0, "nrr": "+0.633", "pts": 6 },
+        { "pos": 2, "name": "Rampage Rhinos",        "m": 3, "w": 2, "l": 1, "nrr": "+3.382", "pts": 4 },
+        { "pos": 3, "name": "Elite Lions",           "m": 3, "w": 1, "l": 2, "nrr": "-1.644", "pts": 2 },
+        { "pos": 4, "name": "Unstoppable Warriors",  "m": 3, "w": 0, "l": 3, "nrr": "-2.875", "pts": 0 }
+      ]
+    }
+  ],
+  "superStage": {
+    "label": "Super Eight",
+    "groups": [
+      {
+        "name": "PANTHERS",
+        "teams": [
+          { "pos": 1, "name": "Super Smashers",   "m": 3, "w": 3, "l": 0, "nrr": "+1.349", "pts": 6 },
+          { "pos": 2, "name": "Furious Flames",   "m": 3, "w": 2, "l": 1, "nrr": "+2.037", "pts": 4 },
+          { "pos": 3, "name": "Stellar Stunners", "m": 3, "w": 1, "l": 2, "nrr": "-1.976", "pts": 2 },
+          { "pos": 4, "name": "Rampage Rhinos",   "m": 3, "w": 0, "l": 3, "nrr": "-1.772", "pts": 0 }
+        ]
+      },
+      {
+        "name": "TIGERS",
+        "teams": [
+          { "pos": 1, "name": "Ultimate Warriors",   "m": 3, "w": 3, "l": 0, "nrr": "+1.913", "pts": 6 },
+          { "pos": 2, "name": "Speedy Spartan",      "m": 3, "w": 2, "l": 1, "nrr": "+2.000", "pts": 4 },
+          { "pos": 3, "name": "Thunder Strikers",    "m": 2, "w": 0, "l": 2, "nrr": "-1.598", "pts": 0 },
+          { "pos": 4, "name": "Dominant DareDevils", "m": 2, "w": 0, "l": 2, "nrr": "-4.225", "pts": 0 }
+        ]
+      }
+    ]
+  }
+}
