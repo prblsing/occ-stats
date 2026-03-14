@@ -1,130 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OCC • Summary</title>
-
-  <link rel="stylesheet" href="css/tokens.css" />
-  <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/components.css" />
-  <link rel="stylesheet" href="css/layout.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OCC Cricket — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏏</text></svg>" />
 </head>
-
 <body>
-  <header class="topbar">
-    <div class="container">
-      <div class="topbar-inner">
-        <a class="brand" href="index.html">
-          <img src="images/occ-logo.png" alt="OCC logo" />
-          <div class="title">
-            <strong>Optum Cricket Championship</strong>
-            <span>Powered by Engage! Noida</span>
-          </div>
-        </a>
 
-        <nav class="nav" aria-label="Primary">
-          <a class="nav-item" data-page="summary" href="index.html">Summary</a>
-          <a class="nav-item" data-page="players" href="players.html">Players</a>
-          <a class="nav-item" data-page="teams" href="teams.html">Teams</a>
-          <a class="nav-item" data-page="matches" href="matches.html">Matches</a>
-          <a class="nav-item" data-page="records" href="records.html">Records</a>
-          <a class="nav-item" data-page="history" href="history.html">History</a>
-          <a class="nav-item" data-page="auction" href="auction.html">Auction</a>
-        </nav>
+<div id="app">
 
-        <button class="btn menu-btn" type="button" data-menu-btn aria-expanded="false" aria-label="Open menu">
-          ☰ Menu
-        </button>
-      </div>
-
-      <div class="drawer" data-drawer>
-        <a class="nav-item" data-page="summary" href="index.html">Summary</a>
-        <a class="nav-item" data-page="players" href="players.html">Players</a>
-        <a class="nav-item" data-page="teams" href="teams.html">Teams</a>
-        <a class="nav-item" data-page="matches" href="matches.html">Matches</a>
-        <a class="nav-item" data-page="records" href="records.html">Records</a>
-        <a class="nav-item" data-page="history" href="history.html">History</a>
-        <a class="nav-item" data-page="auction" href="auction.html">Auction</a>
+  <!-- HERO -->
+  <div class="home-hero" id="hero-section">
+    <div class="hero-inner">
+      <div class="hero-tag"><span class="dot" style="width:6px;height:6px;border-radius:50%;background:currentColor;display:inline-block;animation:pulse 2s infinite"></span> Live Season</div>
+      <h1 class="hero-title">
+        Offside
+        <span>Cricket Club</span>
+      </h1>
+      <p class="hero-subtitle">Official stats portal for OCC — live standings, player stats, match scorecards and more.</p>
+      <div class="hero-ctas">
+        <a class="btn-primary" href="points-table.html">📊 Points Table</a>
+        <a class="btn-ghost"   href="matches.html">View Matches →</a>
       </div>
     </div>
-  </header>
+  </div>
 
-  <main class="container page">
-    <div class="content-center">
+  <!-- MAIN CONTENT -->
+  <div class="page-wrap" id="main-content">
 
-      <section class="hero centered">
-        <div class="hero-top">
-          <div class="badge">🏏 OCC • Stats & Insights</div>
-
-          <div class="hero-actions" style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="btn primary" href="players.html">Explore Players</a>
-            <a class="btn" href="matches.html">View Matches</a>
-          </div>
-        </div>
-
-        <h1>Quiz, Stats, Rankings — one place</h1>
-        <p>
-          Portal for OCC: profiles, teams, fixtures, points table, records, history and auction.
-        </p>
-      </section>
-
-      <section class="grid auto">
-        <article class="card">
-          <div class="card-body">
-            <div class="card-head">
-              <div class="card-title">Top Run-Scorers</div>
-              <span class="pill">Season</span>
-            </div>
-            <p class="muted">Component placeholder (will be data-driven).</p>
-            <ul class="list">
-              <li class="list-row"><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
-              <li class="list-row"><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
-              <li class="list-row"><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <div class="card-head">
-              <div class="card-title">Top Wicket-Takers</div>
-              <span class="pill">Season</span>
-            </div>
-            <p class="muted">Component placeholder (will be data-driven).</p>
-            <ul class="list">
-              <li class="list-row"><span class="rank">1</span><span class="name">—</span><span class="val">—</span></li>
-              <li class="list-row"><span class="rank">2</span><span class="name">—</span><span class="val">—</span></li>
-              <li class="list-row"><span class="rank">3</span><span class="name">—</span><span class="val">—</span></li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <div class="card-head">
-              <div class="card-title">Quick Links</div>
-              <span class="pill">Portal</span>
-            </div>
-            <p class="muted">Go to the core areas.</p>
-            <div style="display:flex; flex-direction:column; gap:10px; margin-top:12px;">
-              <a class="btn" href="records.html">Records</a>
-              <a class="btn" href="history.html">History</a>
-              <a class="btn" href="auction.html">Auction</a>
-            </div>
-          </div>
-        </article>
-      </section>
-
+    <!-- Stats bar -->
+    <div class="stat-row mt-lg" id="stats-bar">
+      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Matches Played</div></div>
+      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Teams</div></div>
+      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Players</div></div>
+      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Total Runs</div></div>
+      <div class="stat-pill"><div class="num skeleton" style="width:40px;height:30px;margin:0 auto"></div><div class="lbl">Total Wickets</div></div>
     </div>
-  </main>
 
-  <footer class="footer">
-    <div class="container">
-      © OCC Noida • Managed by U-Sports
+    <!-- Cap Leaders -->
+    <div id="caps-section"></div>
+
+    <!-- Points Table Preview -->
+    <div class="section-head">
+      <h2>📊 Points Table</h2>
+      <div class="rule"></div>
+      <a href="points-table.html">Full Table →</a>
     </div>
-  </footer>
+    <div id="pts-preview"></div>
 
-  <script src="js/app.js"></script>
+    <!-- Recent Matches -->
+    <div class="section-head mt-lg">
+      <h2>🏏 Recent Matches</h2>
+      <div class="rule"></div>
+      <a href="matches.html">All Matches →</a>
+    </div>
+    <div class="matches-grid" id="recent-matches"></div>
+
+    <!-- Upcoming -->
+    <div class="section-head mt-lg" id="upcoming-head" style="display:none">
+      <h2>📅 Upcoming Fixtures</h2>
+      <div class="rule"></div>
+      <a href="matches.html">Full Schedule →</a>
+    </div>
+    <div class="matches-grid" id="upcoming-matches"></div>
+
+  </div>
+</div>
+
+<script src="js/occ.js"></script>
+<script src="js/chrome.js"></script>
+<script>
+(async () => {
+  const year = await injectChrome();
+  render(year, OCC.getData());
+  OCC.onYearChange((y, d) => render(y, d));
+
+  function render(year, d) {
+    if (!d) return;
+
+    // Hero season badge
+    const tag = document.querySelector('.hero-tag');
+    if (tag) tag.innerHTML = `<span class="dot" style="width:6px;height:6px;border-radius:50%;background:currentColor;display:inline-block;animation:pulse 2s infinite"></span> ${d.status === 'ongoing' ? 'Live Season' : 'Season ' + year}`;
+
+    // Stats bar
+    const totalRuns = d.players.reduce((s,p) => s + p.runs, 0);
+    const totalWkts = d.players.reduce((s,p) => s + p.wickets, 0);
+    document.getElementById('stats-bar').innerHTML = `
+      <div class="stat-pill"><div class="num">${d.completedMatches.length}</div><div class="lbl">Matches Played</div></div>
+      <div class="stat-pill"><div class="num">${d.teams.length}</div><div class="lbl">Teams</div></div>
+      <div class="stat-pill"><div class="num">${d.players.length}</div><div class="lbl">Players</div></div>
+      <div class="stat-pill"><div class="num">${totalRuns}</div><div class="lbl">Total Runs</div></div>
+      <div class="stat-pill"><div class="num">${totalWkts}</div><div class="lbl">Total Wickets</div></div>
+    `;
+
+    // Cap leaders
+    document.getElementById('caps-section').innerHTML = `
+      <div class="section-head mt-lg">
+        <h2>🏆 Award Leaders</h2>
+        <div class="rule"></div>
+      </div>
+      ${Render.capCards(d.orangeCap, d.purpleCap)}
+    `;
+
+    // Points table (top 4)
+    const top4 = d.sortedTeams.slice(0, 4);
+    document.getElementById('pts-preview').innerHTML = Render.pointsTable(top4);
+
+    // Recent matches (last 4 completed)
+    const recent = d.completedMatches.slice(-4).reverse();
+    document.getElementById('recent-matches').innerHTML = recent.map(m => Render.matchCard(m, d.teamMap)).join('');
+
+    // Upcoming
+    const upcoming = d.upcomingMatches.slice(0, 3);
+    const upcomingEl = document.getElementById('upcoming-matches');
+    const upcomingHead = document.getElementById('upcoming-head');
+    if (upcoming.length > 0) {
+      upcomingHead.style.display = 'flex';
+      upcomingEl.innerHTML = upcoming.map(m => Render.matchCard(m, d.teamMap)).join('');
+    } else {
+      upcomingHead.style.display = 'none';
+      upcomingEl.innerHTML = '';
+    }
+  }
+})();
+</script>
 </body>
 </html>
