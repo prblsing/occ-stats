@@ -1,67 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>🏏 OCC Teams</title>
-  <link rel="stylesheet" href="css/globals.css"/>
-<link rel="stylesheet" href="css/teams.css"/>
-
-  <style>
-  /* only on teams page: make the card icons larger */
-  #teams-grid .team-icon {
-    width: 100px !important;
-    height: 100px !important;
-  }
-</style>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teams — OCC Cricket</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏏</text></svg>" />
 </head>
 <body>
-<nav class="navbar">
-  <div class="logo">Optum Cricket Championship (OCC)</div>
 
-  <ul class="nav-links">
-    <li><a href="index.html" class="nav-item" data-page="summary">Summary</a></li>
-    <li><a href="players.html" class="nav-item" data-page="players">Players</a></li>
-    <li><a href="teams.html"   class="nav-item" data-page="teams">Teams</a></li>
-    <li><a href="matches.html" class="nav-item" data-page="matches">Matches</a></li>
-  </ul>
-
-  <select id="year-select">
-    <option value="2024">2024</option>
-    <option value="2025">2025</option>
-  </select>
-</nav>
-
-
-  <header class="hero">
-    <h1><span id="hero-year">2024</span> OCC Team Details</h1>
-  </header>
-
-  <div id="content">
-    <section id="teams-grid" class="card-grid"></section>
-  </div>
-
-  <div id="coming" class="coming-soon" style="display:none;"></div>
-
-  <footer>
-    © <span id="footer-year"></span> OCC Tournament. Organised by U-Sports Noida.
-  </footer>
-
-  <script src="js/app.js"></script>
-<script src="js/teams.js"></script>
-
-  <script src="js/app.js"></script>
-<script src="js/teams.js"></script>
-
-
-<!-- Team Details Modal -->
-<div id="team-modal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <div id="modal-body"></div>
+<div class="page-banner">
+  <div class="banner-inner">
+    <div class="banner-text">
+      <div class="eyebrow">OCC Cricket</div>
+      <h1>Teams &amp; <span>Squads</span></h1>
+      <div class="sub" id="banner-sub">All teams this season</div>
+    </div>
+    <span class="season-badge" id="season-badge"></span>
   </div>
 </div>
 
+<div class="page-wrap">
+  <div id="year-bar-mount"></div>
+
+  <!-- Team selector pills (large) -->
+  <div id="team-selector" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:2rem"></div>
+
+  <!-- Active team detail -->
+  <div id="team-detail"></div>
+
+</div>
+
+<script src="js/occ.js"></script>
+<script src="js/chrome.js"></script>
+<script>
+(async () => {
+  let activeTeamId = null;
+  let currentData  = null;
+
+  const year = await injectChrome();
+  const mount = document.getElementById('year-bar-mount');
+  mount.appendChild(buildYearBar(OCC.getSeasons(), year, (y, d) => { currentData = d; renderAll(); }));
+  currentData = OCC.getData();
+  renderAll();
+  OCC.onYearChange((y, d) => {
+    currentData = d;
+    activeTeamId = null;
+    mount.innerHTML = '';
+    mount.appendChild(buildYearBar(OCC.getSeasons(), y, (ny, nd) => { currentData = nd; renderAll(); }));
+    renderAll();
+  });
+
+  function renderAll() {
+    const d = currentData;
+    if (!d) return;
+
+    // Banner
+    document.getElementById('banner-sub').textContent = `${d.teams.length} teams · OCC ${d.year}`;
+    const badge = document.getElementById('season-badge');
+    badge.className = `season-badge ${d.status}`;
+    badge.innerHTML = `<span class="dot"></span> ${d.status === 'ongoing' ? 'Ongoing' : 'Completed'}`;
+
+    // Default to first team
+    if (!activeTeamId || !d.teamMap[activeTeamId]) activeTeamId = d.teams[0]?.id;
+
+    // Team selector
+    const sel = document.getElementById('team-selector');
+    sel.innerHTML = d.sortedTeams.map((t, i) => `
+      <button class="team-tab-btn" data-team="${t.id}" style="
+        display:flex;align-items:center;gap:0.6rem;
+        background:${t.id === activeTeamId ? t.color : 'var(--surface)'};
+        border:1px solid ${t.id === activeTeamId ? t.color : 'var(--border)'};
+        color:${t.id === activeTeamId ? '#fff' : 'var(--text-2)'};
+        padding:0.5rem 1.1rem;
+        border-radius:var(--radius);
+        font-size:0.85rem;font-weight:600;
+        cursor:pointer;
+        transition:all 0.2s;
+      ">
+        <span style="font-size:0.7rem;opacity:0.7">#${i+1}</span>
+        <span>${t.short}</span>
+        <span style="font-family:'Teko',sans-serif;font-size:1rem;opacity:0.9">${t.pts}pts</span>
+      </button>
+    `).join('');
+
+    sel.querySelectorAll('.team-tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeTeamId = btn.dataset.team;
+        // Update styles
+        sel.querySelectorAll('.team-tab-btn').forEach(b => {
+          const t = currentData.teamMap[b.dataset.team];
+          const active = b.dataset.team === activeTeamId;
+          b.style.background = active ? t.color : 'var(--surface)';
+          b.style.borderColor = active ? t.color : 'var(--border)';
+          b.style.color = active ? '#fff' : 'var(--text-2)';
+        });
+        renderTeamDetail();
+      });
+    });
+
+    renderTeamDetail();
+  }
+
+  function renderTeamDetail() {
+    const d = currentData;
+    const t = d.teamMap[activeTeamId];
+    if (!t) return;
+
+    const squad   = d.players.filter(p => p.team === t.id);
+    const nrrClass = parseFloat(t.nrr) >= 0 ? 'pos' : 'neg';
+
+    // Team matches
+    const teamMatches = d.completedMatches.filter(m => m.team1 === t.id || m.team2 === t.id);
+    const wins = teamMatches.filter(m => m.winner === t.id).length;
+
+    // Top performers
+    const topBatter = [...squad].sort((a,b) => b.runs - a.runs)[0];
+    const topBowler = [...squad].filter(p => p.wickets > 0).sort((a,b) => b.wickets - a.wickets)[0];
+    const topField  = [...squad].sort((a,b) => b.dismissals - a.dismissals)[0];
+
+    // Form (last 5 matches)
+    const last5 = teamMatches.slice(-5);
+    const formDots = last5.map(m => {
+      if (!m.winner) return `<span style="width:28px;height:28px;border-radius:6px;background:var(--gold);color:#000;display:inline-flex;align-items:center;justify-content:center;font-size:0.72rem;font-weight:700" title="Tie">T</span>`;
+      const won = m.winner === t.id;
+      return `<span style="width:28px;height:28px;border-radius:6px;background:${won?'var(--green)':'var(--red)'};color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:0.72rem;font-weight:700" title="${won?'Win':'Loss'}">${won?'W':'L'}</span>`;
+    }).join('');
+
+    document.getElementById('team-detail').innerHTML = `
+      <!-- Team header -->
+      <div class="card mb-lg">
+        <div style="height:8px;background:${t.color}"></div>
+        <div style="padding:1.5rem;display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;border-bottom:1px solid var(--border)">
+          <div style="width:64px;height:64px;border-radius:14px;background:${t.color};display:flex;align-items:center;justify-content:center;font-family:'Teko',sans-serif;font-size:1.6rem;font-weight:600;color:#fff;flex-shrink:0">${t.short}</div>
+          <div style="flex:1;min-width:0">
+            <h2 style="font-family:'Teko',sans-serif;font-size:2rem;font-weight:600;letter-spacing:0.04em;color:var(--text);line-height:1">${t.name}</h2>
+            <div style="font-size:0.82rem;color:var(--text-2);margin-top:0.25rem">Squad of ${squad.length} players</div>
+          </div>
+          <div style="display:flex;gap:0.5rem;align-items:center">
+            ${formDots || '<span style="color:var(--text-3);font-size:0.8rem">No results yet</span>'}
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:1px;background:var(--border)">
+          ${[
+            {v: t.played, l:'Played'},
+            {v: t.won,    l:'Won', c:'var(--green)'},
+            {v: t.lost,   l:'Lost', c:'var(--red)'},
+            {v: t.tied,   l:'Tied'},
+            {v: t.pts,    l:'Points', c:'var(--orange)'},
+            {v: `<span class="tc-nrr ${nrrClass}">${t.nrr}</span>`, l:'NRR', raw:true},
+          ].map(s => `
+            <div style="background:var(--surface);padding:1rem;text-align:center">
+              <div style="font-family:'Teko',sans-serif;font-size:1.8rem;font-weight:600;color:${s.c||'var(--text)'};line-height:1">${s.raw ? s.v : s.v}</div>
+              <div style="font-size:0.68rem;font-weight:600;color:var(--text-3);text-transform:uppercase;letter-spacing:0.08em;margin-top:2px">${s.l}</div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- Top performers -->
+      ${(topBatter || topBowler || topField) ? `
+      <div class="section-head">
+        <h2>⭐ Top Performers</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="caps-grid mb-lg">
+        ${topBatter ? `
+        <div class="cap-card orange-cap">
+          <div class="cap-icon">🏏</div>
+          <div class="cap-body">
+            <div class="cap-label">Top Batter</div>
+            <div class="cap-name">${topBatter.name}</div>
+            <div class="cap-team">${topBatter.role} · ${topBatter.matches} matches</div>
+          </div>
+          <div>
+            <div class="cap-stat">${topBatter.runs}</div>
+            <div class="cap-stat-lbl">Runs</div>
+          </div>
+        </div>` : ''}
+        ${topBowler ? `
+        <div class="cap-card purple-cap">
+          <div class="cap-icon">💜</div>
+          <div class="cap-body">
+            <div class="cap-label">Top Bowler</div>
+            <div class="cap-name">${topBowler.name}</div>
+            <div class="cap-team">${topBowler.role} · ${topBowler.matches} matches</div>
+          </div>
+          <div>
+            <div class="cap-stat">${topBowler.wickets}</div>
+            <div class="cap-stat-lbl">Wkts</div>
+          </div>
+        </div>` : ''}
+      </div>
+      ` : ''}
+
+      <!-- Squad Table -->
+      <div class="section-head">
+        <h2>👥 Squad</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="table-card mb-lg">
+        <div class="table-scroll">
+          <table class="stats-table" style="min-width:420px">
+            <thead>
+              <tr>
+                <th style="text-align:left">Player</th>
+                <th>Role</th>
+                <th>M</th>
+                <th>Runs</th>
+                <th>Avg</th>
+                <th>SR</th>
+                <th>Wkts</th>
+                <th>Econ</th>
+                <th>Dis</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${squad.map(p => `
+                <tr>
+                  <td style="text-align:left;font-weight:600;color:var(--text)">${p.name}</td>
+                  <td style="font-size:0.75rem;color:var(--text-2)">${p.role}</td>
+                  <td>${p.matches}</td>
+                  <td class="highlight">${p.runs}</td>
+                  <td>${p.avg}</td>
+                  <td>${p.sr}</td>
+                  <td class="highlight">${p.wickets}</td>
+                  <td>${p.economy ?? '—'}</td>
+                  <td>${p.dismissals}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Match Results for this team -->
+      <div class="section-head">
+        <h2>📋 Match Results</h2>
+        <div class="rule"></div>
+      </div>
+      ${teamMatches.length === 0
+        ? `<p style="color:var(--text-2);font-size:0.9rem;padding:1rem 0">No completed matches yet.</p>`
+        : `<div class="matches-grid">
+            ${teamMatches.map(m => Render.matchCard(m, d.teamMap)).join('')}
+          </div>`
+      }
+    `;
+  }
+})();
+</script>
 </body>
 </html>
