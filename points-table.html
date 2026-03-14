@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Points Table — OCC Cricket</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏏</text></svg>" />
+</head>
+<body>
+
+<div class="page-banner">
+  <div class="banner-inner">
+    <div class="banner-text">
+      <div class="eyebrow">OCC Cricket</div>
+      <h1>Points <span>Table</span></h1>
+      <div class="sub" id="banner-sub">Season standings</div>
+    </div>
+    <span class="season-badge" id="season-badge"></span>
+  </div>
+</div>
+
+<div class="page-wrap">
+  <div id="year-bar-mount"></div>
+
+  <!-- Cap Leaders -->
+  <div id="caps-section"></div>
+
+  <!-- Full Table -->
+  <div class="section-head mt-lg">
+    <h2>📊 Full Standings</h2>
+    <div class="rule"></div>
+  </div>
+  <div id="full-table"></div>
+
+  <!-- Legend -->
+  <div style="display:flex;gap:1.5rem;flex-wrap:wrap;font-size:0.75rem;color:var(--text-2);padding:0.5rem 0 1.5rem;">
+    <span><span style="display:inline-block;width:10px;height:10px;background:var(--green);border-radius:2px;margin-right:5px"></span>Qualifier zone (top 2)</span>
+    <span><span style="display:inline-block;width:10px;height:10px;background:var(--red);border-radius:2px;margin-right:5px"></span>Elimination zone (bottom)</span>
+  </div>
+
+  <!-- Team Form -->
+  <div class="section-head">
+    <h2>📈 Team Form</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="teams-grid" id="team-form-cards"></div>
+
+</div>
+
+<script src="js/occ.js"></script>
+<script src="js/chrome.js"></script>
+<script>
+(async () => {
+  const year = await injectChrome();
+  const mount = document.getElementById('year-bar-mount');
+  mount.appendChild(buildYearBar(OCC.getSeasons(), year, (y, d) => render(y, d)));
+  render(year, OCC.getData());
+  OCC.onYearChange((y, d) => {
+    mount.innerHTML = '';
+    mount.appendChild(buildYearBar(OCC.getSeasons(), y, (ny, nd) => render(ny, nd)));
+    render(y, d);
+  });
+
+  function render(year, d) {
+    if (!d) return;
+
+    // Banner
+    document.getElementById('banner-sub').textContent = `${d.completedMatches.length} matches played · ${d.teams.length} teams`;
+    const badge = document.getElementById('season-badge');
+    badge.className = `season-badge ${d.status}`;
+    badge.innerHTML = `<span class="dot"></span> ${d.status === 'ongoing' ? 'Ongoing' : 'Completed'} · ${year}`;
+
+    // Caps
+    document.getElementById('caps-section').innerHTML = Render.capCards(d.orangeCap, d.purpleCap);
+
+    // Full table
+    document.getElementById('full-table').innerHTML = Render.pointsTable(d.sortedTeams);
+
+    // Team form cards
+    document.getElementById('team-form-cards').innerHTML = d.sortedTeams.map((t, i) => {
+      const nrrClass = parseFloat(t.nrr) >= 0 ? 'pos' : 'neg';
+      // Compute last 5 results from matches
+      const teamMatches = d.completedMatches.filter(m => m.team1 === t.id || m.team2 === t.id).slice(-5);
+      const form = teamMatches.map(m => {
+        if (!m.winner) return `<span title="Tie" style="background:var(--gold);color:#000;width:20px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:700">T</span>`;
+        const won = m.winner === t.id;
+        return `<span title="${won?'Win':'Loss'}" style="background:${won?'var(--green)':'var(--red)'};color:#fff;width:20px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:700">${won?'W':'L'}</span>`;
+      }).join('');
+
+      return `
+        <div class="team-card">
+          <div class="team-card-banner" style="background:${t.color}"></div>
+          <div class="team-card-head">
+            ${Render.teamAvatar(t)}
+            <div>
+              <div class="team-card-name">${t.name}</div>
+              <div class="team-card-sub">Rank #${i+1}</div>
+            </div>
+          </div>
+          <div class="team-card-stats">
+            <div class="tc-stat"><div class="v">${t.played}</div><div class="l">P</div></div>
+            <div class="tc-stat"><div class="v" style="color:var(--green)">${t.won}</div><div class="l">W</div></div>
+            <div class="tc-stat"><div class="v" style="color:var(--red)">${t.lost}</div><div class="l">L</div></div>
+            <div class="tc-stat"><div class="v">${t.tied}</div><div class="l">T</div></div>
+          </div>
+          <div class="team-card-footer">
+            <div><div class="tc-pts">${t.pts}</div><div class="tc-pts-lbl">Points</div></div>
+            <div style="text-align:right">
+              <div class="tc-nrr ${nrrClass}">${t.nrr}</div>
+              <div style="font-size:0.65rem;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em">NRR</div>
+            </div>
+          </div>
+          ${form ? `<div style="padding:0 1.25rem 0.9rem;display:flex;gap:4px;align-items:center;flex-wrap:wrap">
+            <span style="font-size:0.68rem;color:var(--text-3);font-weight:600;text-transform:uppercase;letter-spacing:0.06em;margin-right:4px">Form</span>
+            ${form}
+          </div>` : ''}
+        </div>`;
+    }).join('');
+  }
+})();
+</script>
+</body>
+</html>
