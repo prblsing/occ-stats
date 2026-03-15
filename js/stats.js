@@ -20,10 +20,21 @@ function switchStatTab(tab) {
 function renderStatTab(tab, data) {
   const el = document.getElementById('stats-content');
   if (!el) return;
+  const isAllTime = OCC.year === ALL_TIME_KEY;
   const { meta, batting, bowling, fielding, mvp } = data;
+
+  // Show an info banner when in all-time mode
+  let bannerHtml = '';
+  if (isAllTime) {
+    bannerHtml = '<div style="background:rgba(232,130,12,0.08);border:1px solid rgba(232,130,12,0.2);border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:12px;color:var(--text-secondary)">' +
+      '📊 Showing aggregated stats across all ' + YEARS.length + ' editions (' + YEARS.join(', ') + '). ' +
+      'Runs and wickets are career totals; averages are recalculated across all appearances.' +
+      '</div>';
+  }
   let html = '<div class="page-content">';
 
   if (tab === 'batting' && batting?.players) {
+    html += bannerHtml;
     html += `<div class="table-wrap">
       <table>
         <thead><tr>
@@ -59,6 +70,7 @@ function renderStatTab(tab, data) {
     html += `</tbody></table></div>`;
 
   } else if (tab === 'bowling' && bowling?.players) {
+    html += bannerHtml;
     html += `<div class="table-wrap">
       <table>
         <thead><tr>
@@ -94,6 +106,7 @@ function renderStatTab(tab, data) {
     html += `</tbody></table></div>`;
 
   } else if (tab === 'fielding' && fielding?.players) {
+    html += bannerHtml;
     html += `<div class="table-wrap">
       <table>
         <thead><tr>
@@ -123,6 +136,7 @@ function renderStatTab(tab, data) {
     html += `</tbody></table></div>`;
 
   } else if (tab === 'mvp' && mvp?.players) {
+    html += bannerHtml;
     html += `<div class="table-wrap">
       <table>
         <thead><tr>
