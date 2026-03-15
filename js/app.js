@@ -253,11 +253,17 @@ function renderMatchCard(m, meta) {
 
 // ── INIT ─────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async function() {
-  // Build year selector with All Time option
+  // Pages where "All Time" aggregation makes sense
+  const ALL_TIME_PAGES = ['stats'];
+
+  // Build year selector — only show "All Time" on applicable pages
+  const currentPage = document.body.dataset.page || 'home';
+  const showAllTime = ALL_TIME_PAGES.indexOf(currentPage) !== -1;
+
   document.querySelectorAll('.year-select').forEach(sel => {
     sel.innerHTML =
       YEARS.map(y => '<option value="' + y + '"' + (y===DEFAULT_YEAR?' selected':'') + '>' + y + '</option>').join('') +
-      '<option value="' + ALL_TIME_KEY + '">All Time</option>';
+      (showAllTime ? '<option value="' + ALL_TIME_KEY + '">All Time</option>' : '');
     sel.addEventListener('change', function(e){ setYear(e.target.value); });
   });
 
