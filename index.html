@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OCC</title>
+  <title>OCC – Optum Cricket Championship</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-page="home">
@@ -37,15 +37,33 @@
           <path d="M9.7 15.5V8.5l6.6 3.5-6.6 3.5z" fill="white"/>
         </svg>
       </a>
+      <button class="burger" id="burger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html"    data-nav="home">🏠 Home</a>
+    <a href="schedule.html" data-nav="schedule">📅 Schedule</a>
+    <a href="teams.html"    data-nav="teams">👥 Teams</a>
+    <a href="points.html"   data-nav="points">📊 Standings</a>
+    <a href="stats.html"    data-nav="stats">🏏 Stats</a>
+    <a href="awards.html"   data-nav="awards">🏆 Awards</a>
+    <div class="menu-divider"></div>
+    <a href="https://www.youtube.com/@OCCNoida" target="_blank" rel="noopener">▶ OCC YouTube</a>
+    <div class="menu-year-row">
+      <span class="menu-year-label">Season</span>
+      <select class="year-select" style="font-size:12px"></select>
+    </div>
+  </div>
 
   <!-- HERO -->
   <div class="hero">
     <div class="hero-inner">
       <div class="hero-left">
         <div class="hero-eyebrow">Season 2025 · Noida</div>
-        <h1>O<em>C</em>C</h1>
+        <h1>OPTUM <em>CRICKET</em> CHAMPIONSHIP</h1>
         <p class="hero-sub">Siditya Cricket Ground · 16 Teams · 4 Groups</p>
         <div class="hero-actions">
           <a class="btn-primary" href="schedule.html">View Schedule</a>
@@ -105,5 +123,19 @@
 
   <script src="js/app.js"></script>
   <script src="js/home.js"></script>
+  <script>
+  function toggleMenu() {
+    var b = document.getElementById('burger');
+    var m = document.getElementById('mobile-menu');
+    b.classList.toggle('open');
+    m.classList.toggle('open');
+  }
+  // Highlight active page in mobile menu
+  document.addEventListener('DOMContentLoaded', function() {
+    var page = document.body.dataset.page || 'home';
+    var link = document.querySelector('.mobile-menu [data-nav="' + page + '"]');
+    if (link) link.classList.add('active');
+  });
+  </script>
 </body>
 </html>

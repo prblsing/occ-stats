@@ -36,6 +36,9 @@
           <path d="M9.7 15.5V8.5l6.6 3.5-6.6 3.5z" fill="white"/>
         </svg>
       </a>
+      <button class="burger" id="burger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
@@ -62,5 +65,19 @@
 
   <script src="js/app.js"></script>
   <script src="js/teams.js"></script>
+  <script>
+  function toggleMenu() {
+    var b = document.getElementById('burger');
+    var m = document.getElementById('mobile-menu');
+    b.classList.toggle('open');
+    m.classList.toggle('open');
+  }
+  // Highlight active page in mobile menu
+  document.addEventListener('DOMContentLoaded', function() {
+    var page = document.body.dataset.page || 'home';
+    var link = document.querySelector('.mobile-menu [data-nav="' + page + '"]');
+    if (link) link.classList.add('active');
+  });
+  </script>
 </body>
 </html>

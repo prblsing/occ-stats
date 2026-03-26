@@ -1,0 +1,410 @@
+{
+  "weeks": [
+    {
+      "label": "28th and 29th March",
+      "type": "Practice",
+      "matches": [
+        {
+          "num": 1,
+          "dateSlot": "28th Mar (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Indian Smashers",
+          "team2": "Ultimate Warriors"
+        },
+        {
+          "num": 2,
+          "dateSlot": "28th Mar (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Thundering Thunderbolt",
+          "team2": "Thunder Strikers"
+        },
+        {
+          "num": 3,
+          "dateSlot": "28th Mar (Sat) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Unstoppable Warriors",
+          "team2": "Super Smashers"
+        },
+        {
+          "num": 4,
+          "dateSlot": "28th Mar (Sat) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Fearless Fighters",
+          "team2": "Dynamic Daredevil"
+        },
+        {
+          "num": 5,
+          "dateSlot": "29th Mar (Sun) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Rampage Rhinos",
+          "team2": "Rising Stars"
+        },
+        {
+          "num": 6,
+          "dateSlot": "29th Mar (Sun) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Supreme Strikers",
+          "team2": "Dominant Daredevils"
+        },
+        {
+          "num": 7,
+          "dateSlot": "29th Mar (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Speedy Spartans",
+          "team2": "Stellar Stunners"
+        },
+        {
+          "num": 8,
+          "dateSlot": "29th Mar (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Fierce Falcons",
+          "team2": "Elite Lions"
+        }
+      ]
+    },
+    {
+      "label": "WEEK 02 - 4th and 5th April",
+      "type": "League",
+      "matches": [
+        {
+          "num": 1,
+          "dateSlot": "4th April (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Ultimate Warriors",
+          "team2": "Super Smashers"
+        },
+        {
+          "num": 2,
+          "dateSlot": "4th April (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Rising Stars",
+          "team2": "Thunder Strikers"
+        },
+        {
+          "num": 3,
+          "dateSlot": "4th April (Sat) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Thundering Thunderbolt",
+          "team2": "Supreme Strikers"
+        },
+        {
+          "num": 4,
+          "dateSlot": "4th April (Sat) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Elite Lions",
+          "team2": "Indian Smashers"
+        },
+        {
+          "num": 5,
+          "dateSlot": "5th April (Sun) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Speedy Spartans",
+          "team2": "Rampage Rhinos"
+        },
+        {
+          "num": 6,
+          "dateSlot": "5th April (Sun) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Fierce Falcons",
+          "team2": "Dominant DareDevils"
+        },
+        {
+          "num": 7,
+          "dateSlot": "5th April (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Dynamic Daredevil",
+          "team2": "Stellar Stunners"
+        },
+        {
+          "num": 8,
+          "dateSlot": "5th April (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Fearless Fighters",
+          "team2": "Unstoppable Warriors"
+        }
+      ]
+    },
+    {
+      "label": "WEEK 03 - 11th and 12th April",
+      "type": "League",
+      "matches": [
+        {
+          "num": 9,
+          "dateSlot": "11th April (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Ultimate Warriors",
+          "team2": "Dynamic Daredevil"
+        },
+        {
+          "num": 10,
+          "dateSlot": "11th April (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Super Smashers",
+          "team2": "Supreme Strikers"
+        },
+        {
+          "num": 11,
+          "dateSlot": "11th April (Sat) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Rising Stars",
+          "team2": "Elite Lions"
+        },
+        {
+          "num": 12,
+          "dateSlot": "11th April (Sat) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Thunder Strikers",
+          "team2": "Dominant DareDevils"
+        },
+        {
+          "num": 13,
+          "dateSlot": "12th April (Sun) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Speedy Spartans",
+          "team2": "Fierce Falcons"
+        },
+        {
+          "num": 14,
+          "dateSlot": "12th April (Sun) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Ultimate Warriors",
+          "team2": "Thundering Thunderbolt"
+        },
+        {
+          "num": 15,
+          "dateSlot": "12th April (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Dynamic Daredevil",
+          "team2": "Fearless Fighters"
+        },
+        {
+          "num": 16,
+          "dateSlot": "12th April (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Stellar Stunners",
+          "team2": "Unstoppable Warriors"
+        }
+      ]
+    },
+    {
+      "label": "WEEK 04  -18th and 19th April",
+      "type": "League",
+      "matches": [
+        {
+          "num": 17,
+          "dateSlot": "18th April (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Ultimate Warriors",
+          "team2": "Speedy Spartans"
+        },
+        {
+          "num": 18,
+          "dateSlot": "18th April (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Super Smashers",
+          "team2": "Rampage Rhinos"
+        },
+        {
+          "num": 19,
+          "dateSlot": "18th April (Sat) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Rising Stars",
+          "team2": "Fierce Falcons"
+        },
+        {
+          "num": 20,
+          "dateSlot": "18th April (Sat) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Thunder Strikers",
+          "team2": "Indian Smashers"
+        },
+        {
+          "num": 21,
+          "dateSlot": "19th April (Sun) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Thundering Thunderbolt",
+          "team2": "Dynamic Daredevil"
+        },
+        {
+          "num": 22,
+          "dateSlot": "19th April (Sun) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Supreme Strikers",
+          "team2": "Stellar Stunners"
+        },
+        {
+          "num": 23,
+          "dateSlot": "19th April (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Elite Lions",
+          "team2": "Fearless Fighters"
+        },
+        {
+          "num": 24,
+          "dateSlot": "19th April (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Indian Smashers",
+          "team2": "Unstoppable Warriors"
+        }
+      ]
+    },
+    {
+      "label": "WEEK 05 - 25th and 26th April",
+      "type": "League",
+      "matches": [
+        {
+          "num": 25,
+          "dateSlot": "25th April (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Rampage Rhinos",
+          "team2": "Dominant DareDevils"
+        },
+        {
+          "num": 26,
+          "dateSlot": "25th April (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Super Smashers",
+          "team2": "Stellar Stunners"
+        },
+        {
+          "num": 27,
+          "dateSlot": "25th April (Sat) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Rising Stars",
+          "team2": "Fearless Fighters"
+        },
+        {
+          "num": 28,
+          "dateSlot": "25th April (Sat) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Thunder Strikers",
+          "team2": "Unstoppable Warriors"
+        },
+        {
+          "num": 29,
+          "dateSlot": "26th April (Sun) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Thundering Thunderbolt",
+          "team2": "Rampage Rhinos"
+        },
+        {
+          "num": 30,
+          "dateSlot": "26th April (Sun) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Supreme Strikers",
+          "team2": "Fierce Falcons"
+        },
+        {
+          "num": 31,
+          "dateSlot": "26th April (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Elite Lions",
+          "team2": "Dominant DareDevils"
+        },
+        {
+          "num": 32,
+          "dateSlot": "26th April (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Indian Smashers",
+          "team2": "Speedy Spartans"
+        }
+      ]
+    },
+    {
+      "label": "WEEK 06 - 2nd and 3rd May",
+      "type": "League",
+      "matches": [
+        {
+          "num": 33,
+          "dateSlot": "2nd May (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Ultimate Warriors",
+          "team2": "Elite Lions"
+        },
+        {
+          "num": 34,
+          "dateSlot": "2nd May (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Super Smashers",
+          "team2": "Unstoppable Warriors"
+        },
+        {
+          "num": 35,
+          "dateSlot": "2nd May (Sat) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Rising Stars",
+          "team2": "Stellar Stunners"
+        },
+        {
+          "num": 36,
+          "dateSlot": "2nd May (Sat) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Thunder Strikers",
+          "team2": "Rampage Rhinos"
+        },
+        {
+          "num": 37,
+          "dateSlot": "3rd May (Sun) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "Thundering Thunderbolt",
+          "team2": "Fierce Falcons"
+        },
+        {
+          "num": 38,
+          "dateSlot": "3rd May (Sun) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "Supreme Strikers",
+          "team2": "Dominant DareDevils"
+        },
+        {
+          "num": 39,
+          "dateSlot": "3rd May (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Fearless Fighters",
+          "team2": "Speedy Spartans"
+        },
+        {
+          "num": 40,
+          "dateSlot": "3rd May (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Indian Smashers",
+          "team2": "Dynamic Daredevil"
+        }
+      ]
+    },
+    {
+      "label": "WEEK 07 - 9th and 10th May",
+      "type": "Final",
+      "matches": [
+        {
+          "num": 41,
+          "dateSlot": "9th May (Sat) - 7:00 AM",
+          "ground": "Ground 1",
+          "team1": "League 1st",
+          "team2": "League 3rd"
+        },
+        {
+          "num": 42,
+          "dateSlot": "9th May (Sat) - 7:00 AM",
+          "ground": "Ground 2",
+          "team1": "League 2nd",
+          "team2": "League 4th"
+        },
+        {
+          "num": 43,
+          "dateSlot": "10th May (Sun) - 3:00 PM",
+          "ground": "Ground 1",
+          "team1": "Finalist 1",
+          "team2": "Finalist 2"
+        },
+        {
+          "num": 44,
+          "dateSlot": "10th May (Sun) - 3:00 PM",
+          "ground": "Ground 2",
+          "team1": "Third Place 1",
+          "team2": "Third Place 2"
+        }
+      ]
+    }
+  ]
+}

@@ -6,8 +6,8 @@
 // To add a new year (e.g. 2026):
 //   1. Create data/2026/ folder with all JSON files
 //   2. Add '2026' to YEARS array below
-const YEARS = ['2025', '2024'];
-const DEFAULT_YEAR = '2025';
+const YEARS = ['2026', '2025', '2024'];
+const DEFAULT_YEAR = '2026';
 const ALL_TIME_KEY  = 'all';
 
 // ── STATE ────────────────────────────────────────────────────
@@ -51,7 +51,7 @@ function teamLogoHTML(teamName, size, meta) {
 }
 
 // ── DATA LOADING ─────────────────────────────────────────────
-const DATA_FILES = ['meta', 'groups', 'knockout', 'batting', 'bowling', 'fielding', 'mvp', 'awards'];
+const DATA_FILES = ['meta', 'groups', 'knockout', 'schedule', 'batting', 'bowling', 'fielding', 'mvp', 'awards'];
 
 async function loadYear(year) {
   if (year === ALL_TIME_KEY) return buildAllTimeData();

@@ -659,6 +659,79 @@ img { max-width: 100%; display: block; }
   border-color: rgba(255,0,0,0.35);
 }
 .yt-link svg { display: block; }
+
+/* ── MOBILE HAMBURGER ── */
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0 7px;
+  flex-shrink: 0;
+}
+.burger span {
+  display: block;
+  height: 1.5px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: all .2s;
+}
+.burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.burger.open span:nth-child(2) { opacity: 0; }
+.burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: var(--navy-dark);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 8px 16px 12px;
+  gap: 2px;
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu a {
+  color: var(--muted);
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all .15s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mobile-menu a:hover { color: var(--white); background: rgba(255,255,255,0.06); }
+.mobile-menu a.active { color: var(--orange-lt); background: rgba(232,130,12,0.1); }
+.mobile-menu .menu-divider {
+  height: 1px;
+  background: rgba(255,255,255,0.06);
+  margin: 4px 0;
+}
+.mobile-menu .menu-year-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px 4px;
+}
+.mobile-menu .menu-year-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 640px) {
+  .burger { display: flex; }
+  .nav-links { display: none !important; }
+  .yt-link span { display: none; }
+}
 /* ── SCROLLBAR ── */
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
