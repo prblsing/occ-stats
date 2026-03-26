@@ -1,43 +1,71 @@
 {
   "year": "2026",
-  "title": "OCC – Noida 2026",
+  "title": "OCC \u2013 Noida 2026",
   "season": "Season 2026",
-  "tagline": "Siditya Cricket Ground · 16 Teams · Practice + League + Knockouts",
-  "venue": "Siditya Cricket Ground, Noida",
+  "tagline": "CK Oval & PSE Oval \u00b7 16 Teams \u00b7 Practice + League + Knockouts",
+  "venue": "CK Oval (PSE Oval), Noida",
   "champion": null,
   "runnersUp": null,
   "thirdPlace": null,
   "totalTeams": 16,
   "status": "upcoming",
   "format": [
-    { "name": "Practice",    "detail": "28–29 Mar · 8 matches" },
-    { "name": "League",      "detail": "Wk 2–6 · 40 matches" },
-    { "name": "Semi Finals", "detail": "9 May · Ground 1 & 2" },
-    { "name": "3rd Place",   "detail": "10 May · Ground 2" },
-    { "name": "Final",       "detail": "10 May · Ground 1" }
+    {
+      "name": "Practice",
+      "detail": "28\u201329 Mar \u00b7 8 matches"
+    },
+    {
+      "name": "League",
+      "detail": "Wk 2\u20136 \u00b7 40 matches"
+    },
+    {
+      "name": "Semi Finals",
+      "detail": "9 May \u00b7 Ground 1 & 2"
+    },
+    {
+      "name": "3rd Place",
+      "detail": "10 May \u00b7 Ground 2"
+    },
+    {
+      "name": "Final",
+      "detail": "10 May \u00b7 Ground 1"
+    }
   ],
   "teams": [
-    "Indian Smashers", "Ultimate Warriors", "Thundering Thunderbolt", "Thunder Strikers",
-    "Unstoppable Warriors", "Super Smashers", "Fearless Fighters", "Dynamic Daredevil",
-    "Rampage Rhinos", "Rising Stars", "Supreme Strikers", "Dominant DareDevils",
-    "Speedy Spartans", "Stellar Stunners", "Fierce Falcons", "Elite Lions"
+    "Indian Smashers",
+    "Ultimate Warriors",
+    "Thundering Thunderbolt",
+    "Thunder Strikers",
+    "Unstoppable Warriors",
+    "Super Smashers",
+    "Fearless Fighters",
+    "Dynamic Daredevil",
+    "Rampage Rhinos",
+    "Rising Stars",
+    "Supreme Strikers",
+    "Dominant DareDevils",
+    "Speedy Spartans",
+    "Stellar Stunners",
+    "Fierce Falcons",
+    "Elite Lions"
   ],
   "teamLogos": {
-    "Indian Smashers":        "indian-smashers.png",
-    "Ultimate Warriors":      "ultimate-warriors.png",
+    "Indian Smashers": "indian-smashers.png",
+    "Ultimate Warriors": "ultimate-warriors.png",
     "Thundering Thunderbolt": "thundering-thunderbolt.png",
-    "Thunder Strikers":       "thunder-strikers.png",
-    "Unstoppable Warriors":   "unstoppable-warriors.png",
-    "Super Smashers":         "super-smashers.png",
-    "Fearless Fighters":      "fearless-fighters.png",
-    "Dynamic Daredevil":      "dynamic-daredevil.png",
-    "Rampage Rhinos":         "rampage-rhinos.png",
-    "Rising Stars":           "rising-stars.png",
-    "Supreme Strikers":       "supreme-strikers.png",
-    "Dominant DareDevils":    "dominant-daredevils.png",
-    "Speedy Spartans":        "speedy-spartans.png",
-    "Stellar Stunners":       "stellar-stunners.png",
-    "Fierce Falcons":         "fierce-falcons.png",
-    "Elite Lions":            "elite-lions.png"
-  }
+    "Thunder Strikers": "thunder-strikers.png",
+    "Unstoppable Warriors": "unstoppable-warriors.png",
+    "Super Smashers": "super-smashers.png",
+    "Fearless Fighters": "fearless-fighters.png",
+    "Dynamic Daredevil": "dynamic-daredevil.png",
+    "Rampage Rhinos": "rampage-rhinos.png",
+    "Rising Stars": "rising-stars.png",
+    "Supreme Strikers": "supreme-strikers.png",
+    "Dominant DareDevils": "dominant-daredevils.png",
+    "Speedy Spartans": "speedy-spartans.png",
+    "Stellar Stunners": "stellar-stunners.png",
+    "Fierce Falcons": "fierce-falcons.png",
+    "Elite Lions": "elite-lions.png"
+  },
+  "venueMap": "https://share.google/MmQdVrLDSZqnkh1Ma"
 }

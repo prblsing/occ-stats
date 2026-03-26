@@ -43,6 +43,17 @@ function renderFixtureSchedule(schedule, meta) {
 
   let html = '';
 
+  // Venue info banner
+  if (meta && meta.venue) {
+    var mapLink = meta.venueMap
+      ? ' <a href="' + meta.venueMap + '" target="_blank" rel="noopener" style="color:var(--orange);text-decoration:none;font-weight:500">📍 View on Maps ↗</a>'
+      : '';
+    html += '<div style="background:var(--card-bg);border:1px solid var(--card-border);border-radius:8px;padding:10px 14px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;box-shadow:var(--shadow)">' +
+      '<div style="font-size:12px;color:var(--text-secondary)">🏟️ <strong style="color:var(--text-primary)">' + meta.venue + '</strong> &nbsp;·&nbsp; Slot 1: 7:00 AM &nbsp;·&nbsp; Slot 3: 3:00 PM</div>' +
+      '<div style="font-size:12px">' + mapLink + '</div>' +
+      '</div>';
+  }
+
   schedule.weeks.forEach(function(week) {
     const tc = typeColors[week.type] || typeColors['League'];
 
